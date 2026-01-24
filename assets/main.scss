@@ -2,154 +2,292 @@
 # Only the main Sass file needs front matter (the dashes are important)
 ---
 
-/* IMPORTS & FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+/* 1. IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 
-/* RESET & VARIABLES */
+/* 2. VARIABLES & THEME */
 :root {
-  --bg-color: #0a0a0a;       /* Noir profond mais pas absolu */
-  --card-bg: #111111;        /* Légèrement plus clair */
-  --text-main: #ffffff;      /* Blanc pur */
-  --text-muted: #a1a1a1;     /* Gris élégant */
-  --accent: #ffffff;         /* Accent blanc */
-  --border: #333333;         /* Bordures subtiles */
-  --font-stack: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --bg-dark: #050505;        /* Noir quasi absolu */
+  --glass-bg: rgba(255, 255, 255, 0.03); /* Verre fumé */
+  --glass-border: rgba(255, 255, 255, 0.08); /* Bordure subtile */
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent: #ffffff;
+  --blur: blur(12px);        /* Le flou d'arrière-plan */
+  --font-stack: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-/* BASE STYLES */
+/* 3. BASE & RESET */
 body {
-  background-color: var(--bg-color);
-  color: var(--text-main);
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
   font-family: var(--font-stack);
-  line-height: 1.6;
+  line-height: 1.7;
   margin: 0;
   padding: 0;
-  -webkit-font-smoothing: antialiased;
+  
+  /* LE FOND "ARCHITECTE" (DOT MATRIX) */
+  background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 30px 30px; /* Taille de la grille */
+  min-height: 100vh;
 }
 
 a {
-  color: var(--text-main);
+  color: var(--text-primary);
   text-decoration: none;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
-  transition: all 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 a:hover {
-  border-bottom: 1px solid white;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
-/* LAYOUT CONTAINER */
-.site-header, .site-footer, .page-content {
-  background-color: var(--bg-color) !important; /* Force le noir */
-  border: none !important;
-}
-
+/* 4. LAYOUT & GLASSMORPHISM */
 .wrapper {
-  max-width: 800px;
+  max-width: 800px; /* Plus étroit pour la lecture (Mobile First) */
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* TYPOGRAPHY */
-h1, h2, h3, h4 {
-  color: var(--text-main);
-  font-weight: 700;
-  letter-spacing: -0.03em; /* Le look "Tech" moderne */
+/* On applique l'effet verre au Header et au contenu pour qu'ils flottent */
+.site-header, .page-content, .site-footer {
+  background: transparent !important; /* On laisse voir la grille derrière */
+}
+
+/* 5. TYPOGRAPHY (HIERARCHY) */
+h1, h2, h3 {
+  font-weight: 800; /* Extra Bold */
+  letter-spacing: -0.04em; /* Le look "Tight" moderne */
   margin-top: 2em;
   margin-bottom: 0.5em;
+  line-height: 1.2;
 }
 
-h1 { font-size: 2.5rem; border: none; }
-h2 { font-size: 1.8rem; }
+h1 { 
+  font-size: 2.8rem; 
+  background: linear-gradient(180deg, #fff, #888); /* Dégradé sur le texte */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 { font-size: 1.8rem; color: white; }
+h3 { font-size: 1.3rem; color: white; border-bottom: 1px solid var(--glass-border); padding-bottom: 10px;}
 
 p, li {
-  color: var(--text-muted);
-  font-size: 1.1rem;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  font-weight: 400;
 }
 
-strong { color: white; font-weight: 600; }
+/* 6. COMPONENTS */
 
-hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 3em 0;
+/* La Photo de Profil "Glowing" */
+img[src*="profile"] {
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1); /* Lueur */
+  filter: grayscale(100%) contrast(1.1);
 }
 
-/* NAVIGATION (HEADER) */
+/* Les Cartes d'Articles (Bento Style) */
+.post-item {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: var(--blur);
+  padding: 25px;
+  border-radius: 12px; /* Coins arrondis modernes */
+  margin-bottom: 25px !important;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.post-item:hover {
+  transform: translateY(-2px); /* Léger soulèvement */
+  border-color: rgba(255,255,255,0.3);
+}
+
+.post-meta {
+  text-transform: uppercase;
+  font-size: 0.75rem !important;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #666;
+}
+
+/* Le Header (Navigation) */
 .site-header {
-  padding: 30px 0;
-  border-bottom: 1px solid var(--border) !important;
-  margin-bottom: 40px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--glass-border) !important;
+  position: sticky; /* Menu qui reste en haut */
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(20px); /* Flou fort derrière le menu */
+  background: rgba(5, 5, 5, 0.7) !important;
 }
 
 .site-title {
-  color: white !important;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -1px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 
 .site-nav .page-link {
-  color: var(--text-muted) !important;
-  font-size: 0.9rem;
-  margin-left: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #888 !important;
 }
 
 .site-nav .page-link:hover {
   color: white !important;
 }
 
-/* IMAGES */
-img {
-  border-radius: 4px;
-  max-width: 100%;
-}
-
-.profile-img {
-  filter: grayscale(100%);
-  border: 1px solid #333;
-}
-
-/* BUTTONS & CTAS */
-.btn, button[type="submit"] {
-  display: inline-block;
+/* Boutons */
+.btn, button {
   background: white;
   color: black !important;
+  font-weight: 700;
+  border-radius: 8px;
   padding: 12px 24px;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 0.9rem;
   border: none;
-  cursor: pointer;
-  border-bottom: none !important;
+  box-shadow: 0 4px 15px rgba(255,255,255,0.1);
 }
 
-.btn:hover, button[type="submit"]:hover {
-  background: #ddd;
-  transform: translateY(-1px);
-}
-
-/* FORMS */
+/* Formulaires */
 input, textarea {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--glass-border);
   color: white;
-  border-radius: 4px;
-  font-family: inherit;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box; /* Fixe les dépassements */
+  font-family: var(--font-stack);
 }
 
 input:focus, textarea:focus {
   outline: none;
   border-color: white;
+  background: rgba(255,255,255,0.1);
 }
 
-/* FOOTER */
-.site-footer {
-  border-top: 1px solid var(--border);
-  padding: 40px 0;
-  margin-top: 60px;
-  color: #444;
-  font-size: 0.8rem;
+/* 7. MOBILE OPTIMIZATIONS */
+@media (max-width: 600px) {
+  h1 { font-size: 2.2rem; }
+  .wrapper { padding: 0 15px; }
+  
+  /* Sur mobile, on empile le menu */
+  .site-nav {
+    margin-top: 10px;
+  }
+  .site-nav .page-link {
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
+}
+
+/* --- AJOUT : TECH TICKER (MARQUEE) --- */
+.ticker-wrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 40px;
+  background-color: var(--bg-dark); /* Fond noir */
+  border-top: 1px solid var(--glass-border);
+  padding-left: 100%; /* Démarre hors écran */
+  box-sizing: content-box;
+  z-index: 999;
+}
+
+.ticker {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 30s; /* Vitesse du défilement */
+}
+
+.ticker-item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 0.85rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.ticker-item strong { color: white; }
+
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+
+/* Ajustement pour que le footer ne soit pas caché par le ticker */
+body { padding-bottom: 50px; }
+
+
+/* --- NAVIGATION MOBILE (BOTTOM BAR) --- */
+.mobile-nav {
+  display: none; /* Caché par défaut sur PC */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(15px);
+  border-top: 1px solid var(--glass-border);
+  z-index: 1000;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: env(safe-area-inset-bottom); /* Pour les iPhone récents */
+}
+
+.mobile-nav-item {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  border: none;
+}
+
+.mobile-nav-item span {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.mobile-nav-item.active {
+  color: white;
+}
+
+/* RÈGLES MOBILE ONLY */
+@media (max-width: 600px) {
+  /* On affiche la barre mobile */
+  .mobile-nav { display: flex; }
+  
+  /* On cache le Ticker sur mobile (trop de bruit) */
+  .ticker-wrap { display: none; }
+  
+  /* On cache le menu du haut sur mobile (Header simplifié) */
+  .site-nav { display: none; }
+  
+  /* Ajustement pour que le contenu ne soit pas caché par la barre du bas */
+  body { padding-bottom: 80px; }
 }

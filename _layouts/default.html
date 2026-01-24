@@ -65,5 +65,37 @@
     </div>
   </footer>
 
+
+  <!-- BARRE DE NAVIGATION MOBILE (Apparaît seulement sur petit écran) -->
+  <nav class="mobile-nav">
+    <!-- Logique pour les liens selon la langue -->
+    {% if page.lang == "fr" %}
+      <a href="/fr/" class="mobile-nav-item">
+        <span>🏠</span> Accueil
+      </a>
+      <a href="/fr/blog" class="mobile-nav-item">
+        <span>💡</span> Analyses
+      </a>
+      <a href="/fr/bio" class="mobile-nav-item">
+        <span>👤</span> Bio
+      </a>
+      <a href="/fr/contact" class="mobile-nav-item">
+        <span>✉️</span> Contact
+      </a>
+    {% else %}
+      <a href="/en/" class="mobile-nav-item">
+        <span>🏠</span> Home
+      </a>
+      <a href="/en/blog" class="mobile-nav-item">
+        <span>💡</span> Insights
+      </a>
+      <a href="/en/bio" class="mobile-nav-item">
+        <span>👤</span> Bio
+      </a>
+      <a href="/en/contact" class="mobile-nav-item">
+        <span>✉️</span> Contact
+      </a>
+    {% endif %}
+  </nav>
 </body>
 </html>
