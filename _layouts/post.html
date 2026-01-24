@@ -10,6 +10,13 @@ layout: default
     
     <!-- META DATA (Date & Temps de lecture) -->
     <p class="post-meta" style="color: #666; font-size: 0.9rem; margin-bottom: 30px;">
+      <!-- LOGIQUE AUTEUR -->
+      <span class="post-author" style="font-weight: 600; color: #fff; margin-right: 10px;">
+        {% if page.lang == "fr" %}par{% else %}by{% endif %} 
+        {{ page.author | default: "Ahmed ASSALIH" }}
+      </span>
+      <span style="color: #666; margin-right: 10px;">|</span>
+      <!-- FIN LOGIQUE AUTEUR -->
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% if page.lang == "fr" %}
           <!-- Logique de date Française -->

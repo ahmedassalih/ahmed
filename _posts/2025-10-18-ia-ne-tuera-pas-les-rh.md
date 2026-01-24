@@ -6,6 +6,7 @@ categories: strategy ai leadership
 lang: fr
 description: "L'IA n'est pas le bourreau... C'est le miroir. Elle reflète si votre fonction RH est réellement stratégique ou simplement administrative."
 image: /assets/images/AI_Wont_Kill_HR_Bad_HR_Will.jpeg
+highlight: true
 ---
 
 Les RH paniquent à l'idée d'être remplacés par l'IA.

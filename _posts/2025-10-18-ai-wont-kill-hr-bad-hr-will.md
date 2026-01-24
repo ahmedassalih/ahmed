@@ -6,6 +6,7 @@ categories: strategy ai leadership
 lang: en
 description: "AI is not the executioner... It’s the mirror. It reflects whether your HR function is truly strategic or just administratively alive."
 image: /assets/images/AI_Wont_Kill_HR_Bad_HR_Will.jpeg
+highlight: true
 
 ---
 
