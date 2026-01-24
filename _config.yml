@@ -1,0 +1,21 @@
+title: Ahmed Assalih
+email: contact@ahmedassalih.com
+description: >-
+  Strategic HR & AI Architect. Bridging Deep Tech, Business Reality & Human Capital in EMEA.
+baseurl: ""
+url: "https://ahmedassalih.com"
+twitter_username: aassalih
+github_username: aassalih
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Configuration simple
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

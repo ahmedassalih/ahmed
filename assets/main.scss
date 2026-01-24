@@ -1,0 +1,155 @@
+---
+# Only the main Sass file needs front matter (the dashes are important)
+---
+
+/* IMPORTS & FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+/* RESET & VARIABLES */
+:root {
+  --bg-color: #0a0a0a;       /* Noir profond mais pas absolu */
+  --card-bg: #111111;        /* Légèrement plus clair */
+  --text-main: #ffffff;      /* Blanc pur */
+  --text-muted: #a1a1a1;     /* Gris élégant */
+  --accent: #ffffff;         /* Accent blanc */
+  --border: #333333;         /* Bordures subtiles */
+  --font-stack: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* BASE STYLES */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: var(--font-stack);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--text-main);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  border-bottom: 1px solid white;
+  opacity: 0.8;
+}
+
+/* LAYOUT CONTAINER */
+.site-header, .site-footer, .page-content {
+  background-color: var(--bg-color) !important; /* Force le noir */
+  border: none !important;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4 {
+  color: var(--text-main);
+  font-weight: 700;
+  letter-spacing: -0.03em; /* Le look "Tech" moderne */
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h1 { font-size: 2.5rem; border: none; }
+h2 { font-size: 1.8rem; }
+
+p, li {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+strong { color: white; font-weight: 600; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 3em 0;
+}
+
+/* NAVIGATION (HEADER) */
+.site-header {
+  padding: 30px 0;
+  border-bottom: 1px solid var(--border) !important;
+  margin-bottom: 40px;
+}
+
+.site-title {
+  color: white !important;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.site-nav .page-link {
+  color: var(--text-muted) !important;
+  font-size: 0.9rem;
+  margin-left: 20px;
+}
+
+.site-nav .page-link:hover {
+  color: white !important;
+}
+
+/* IMAGES */
+img {
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.profile-img {
+  filter: grayscale(100%);
+  border: 1px solid #333;
+}
+
+/* BUTTONS & CTAS */
+.btn, button[type="submit"] {
+  display: inline-block;
+  background: white;
+  color: black !important;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  border-bottom: none !important;
+}
+
+.btn:hover, button[type="submit"]:hover {
+  background: #ddd;
+  transform: translateY(-1px);
+}
+
+/* FORMS */
+input, textarea {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  color: white;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: white;
+}
+
+/* FOOTER */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 40px 0;
+  margin-top: 60px;
+  color: #444;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,72 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+    <!-- TITRE H1 -->
+    <h1 class="post-title" itemprop="name headline" style="margin-bottom: 10px;">{{ page.title | escape }}</h1>
+    
+    <!-- META DATA (Date & Temps de lecture) -->
+    <p class="post-meta" style="color: #666; font-size: 0.9rem; margin-bottom: 30px;">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% if page.lang == "fr" %}
+          <!-- Logique de date Française -->
+          {% assign m = page.date | date: "%-m" %}
+          {{ page.date | date: "%-d" }}
+          {% case m %}
+            {% when '1' %}janvier
+            {% when '2' %}février
+            {% when '3' %}mars
+            {% when '4' %}avril
+            {% when '5' %}mai
+            {% when '6' %}juin
+            {% when '7' %}juillet
+            {% when '8' %}août
+            {% when '9' %}septembre
+            {% when '10' %}octobre
+            {% when '11' %}novembre
+            {% when '12' %}décembre
+          {% endcase %}
+          {{ page.date | date: "%Y" }}
+        {% else %}
+          <!-- Logique de date Anglaise -->
+          {{ page.date | date: "%b %-d, %Y" }}
+        {% endif %}
+      </time>
+      
+      • 
+      
+      {% if page.lang == "fr" %}
+        {{ content | number_of_words | divided_by: 180 | plus: 1 }} min de lecture
+      {% else %}
+        {{ content | number_of_words | divided_by: 180 | plus: 1 }} min read
+      {% endif %}
+    </p>
+  </header>
+
+  <!-- HERO IMAGE (S'affiche seulement si définie dans l'article) -->
+  {% if page.image %}
+  <div class="post-hero" style="margin-bottom: 40px;">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width: 100%; height: auto; max-height: 500px; object-fit: cover; border-radius: 8px; border: 1px solid #333;">
+  </div>
+  {% endif %}
+
+  <!-- CONTENU DE L'ARTICLE -->
+  <div class="post-content" itemprop="articleBody" style="font-size: 1.1rem; line-height: 1.8; color: #ccc;">
+    {{ content }}
+  </div>
+
+  <!-- PIED D'ARTICLE (Navigation retour) -->
+  <hr style="margin-top: 50px; border-color: #333;">
+  
+  <div class="post-footer" style="margin-bottom: 50px;">
+    {% if page.lang == "fr" %}
+      <a href="/fr/blog" style="font-weight: bold;">← Retour aux analyses</a>
+    {% else %}
+      <a href="/en/blog" style="font-weight: bold;">← Back to Insights</a>
+    {% endif %}
+  </div>
+
+</article>
