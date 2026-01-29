@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "eNovDay 2025 : Faire passer la RH de Support Administratif à Architecte Business"
-date: "2025-01-30 09:00:00 +0100"
+date: "2025-11-30 09:00:00 +0100"
 categories: ['Strategic Advisory', 'HR Transformation', 'Event Debrief']
 lang: "fr"
 description: "Debrief stratégique de l'eNovDay 2025. Analyse du fossé entre stratégie RH et réalité opérationnelle avec les insights des leaders du secteur."
@@ -20,3 +20,4 @@ Bertrand Gaulandeau a élevé le débat vers les standards internationaux, insis
 La conclusion de nos débats est sans appel : l'ère de la RH comme fonction support est révolue. Nous entrons dans l'ère de la RH comme Architecte Business. Le "Mouvement" dont nous avons discuté est la transition de la gestion de la complexité administrative vers l'ingénierie de la création de valeur.
 
 Chez Sopra HR Software, c'est précisément là que nous positionnons notre proposition de valeur. Nous ne vendons pas simplement du logiciel ; nous sécurisons la trajectoire de cette transformation. Les analyses partagées par mes panélistes confirment que l'IA est le levier stratégique pour 2025, mais uniquement pour ceux qui sont prêts à structurer leurs données et à moderniser leurs architectures héritées. Pour les dirigeants présents, le temps de l'observation est passé. Il faut désormais passer en mode exécution.
+
