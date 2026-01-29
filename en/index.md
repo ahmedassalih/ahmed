@@ -5,23 +5,23 @@ lang: en
 ref: home
 ---
 
-<!-- 1. HERO SECTION IMMERSIVE (SHARP & REFINED) -->
+<!-- 1. HERO SECTION IMMERSIVE (CORRECTED) -->
 <div class="hero-container" style="border-radius: 0 !important; overflow: hidden;">
-  <!-- L'Image de fond -->
-  <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" class="hero-image" style="border-radius: 0 !important;">
+  <!-- L'Image de fond : Centrée parfaitement -->
+  <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" class="hero-image" style="border-radius: 0 !important; object-position: center center !important;">
   
-  <!-- Le Dégradé + Texte par dessus -->
+  <!-- Le Dégradé + Texte -->
   <div class="hero-overlay">
-    <!-- max-width réduit à 700px pour ne pas manger toute la photo -->
-    <div style="max-width: 700px; padding-bottom: 20px;">
+    <!-- Padding-bottom augmenté à 80px pour ne pas couper les boutons -->
+    <div style="max-width: 700px; padding-bottom: 80px;">
       
-      <!-- TITRE PLUS FIN ET PLUS PETIT -->
-      <h1 style="margin: 0 0 10px 0; line-height: 1.1; font-size: 2.8rem; color: white; text-shadow: 0 2px 20px rgba(0,0,0,0.9); letter-spacing: -1.5px;">
+      <!-- TITRE -->
+      <h1 style="margin: 0 0 15px 0; line-height: 1.1; font-size: 2.8rem; color: white; text-shadow: 0 2px 20px rgba(0,0,0,0.9); letter-spacing: -1.5px;">
         Strategic HR & AI<br>Architect
       </h1>
       
-      <!-- SOUS-TITRE PLUS DISCRET -->
-      <p style="font-size: 1.1rem; color: #ddd; margin-bottom: 25px; font-weight: 400; text-shadow: 0 1px 5px rgba(0,0,0,0.9);">
+      <!-- SOUS-TITRE -->
+      <p style="font-size: 1.1rem; color: #ddd; margin-bottom: 30px; font-weight: 400; text-shadow: 0 1px 5px rgba(0,0,0,0.9);">
         Bridging Deep Tech, Business Reality & Human Capital.
       </p>
 
@@ -32,7 +32,7 @@ ref: home
       </div>
     </div>
   </div>
-</div>  
+</div>
 <!-- 2. HIGHLIGHT GRID (Reste du contenu) -->
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; margin-bottom: 60px;">
   <!-- BOUCLE : Articles anglais avec highlight: true -->

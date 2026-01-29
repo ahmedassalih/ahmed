@@ -5,22 +5,23 @@ lang: fr
 ref: home
 ---
 
-<!-- 1. HERO SECTION IMMERSIVE (SHARP & REFINED) -->
+<!-- 1. HERO SECTION IMMERSIVE (CORRECTED) -->
 <div class="hero-container" style="border-radius: 0 !important; overflow: hidden;">
-  <!-- L'Image de fond -->
-  <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" class="hero-image" style="border-radius: 0 !important;">
+  <!-- L'Image de fond : Centrée parfaitement -->
+  <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" class="hero-image" style="border-radius: 0 !important; object-position: center center !important;">
   
-  <!-- Le Dégradé + Texte par dessus -->
+  <!-- Le Dégradé + Texte -->
   <div class="hero-overlay">
-    <div style="max-width: 700px; padding-bottom: 20px;">
+    <!-- Padding-bottom augmenté à 80px -->
+    <div style="max-width: 700px; padding-bottom: 80px;">
       
-      <!-- TITRE PLUS FIN -->
-      <h1 style="margin: 0 0 10px 0; line-height: 1.1; font-size: 2.8rem; color: white; text-shadow: 0 2px 20px rgba(0,0,0,0.9); letter-spacing: -1.5px;">
+      <!-- TITRE -->
+      <h1 style="margin: 0 0 15px 0; line-height: 1.1; font-size: 2.8rem; color: white; text-shadow: 0 2px 20px rgba(0,0,0,0.9); letter-spacing: -1.5px;">
         Architecte Stratégique<br>RH & IA
       </h1>
       
       <!-- SOUS-TITRE -->
-      <p style="font-size: 1.1rem; color: #ddd; margin-bottom: 25px; font-weight: 400; text-shadow: 0 1px 5px rgba(0,0,0,0.9);">
+      <p style="font-size: 1.1rem; color: #ddd; margin-bottom: 30px; font-weight: 400; text-shadow: 0 1px 5px rgba(0,0,0,0.9);">
         Allier Deep Tech, Réalité Business & Capital Humain.
       </p>
 
