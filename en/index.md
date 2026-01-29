@@ -5,36 +5,30 @@ lang: en
 ref: home
 ---
 
-<!-- 1. HERO SECTION -->
-
-<!-- 1. HERO SECTION CINEMATIC -->
-<div style="margin-top: 20px; margin-bottom: 60px;">
+<!-- 1. HERO SECTION IMMERSIVE -->
+<div class="hero-container">
+  <!-- L'Image de fond -->
+  <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" class="hero-image">
   
-  <!-- GRANDE IMAGE RECTANGLE -->
-  <div style="width: 100%; height: 350px; border-radius: 16px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 40px; position: relative;">
-    <!-- J'utilise object-position pour centrer sur le visage même si l'image est coupée -->
-    <img src="/assets/images/profile.jpg" alt="Ahmed Assalih Hero" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%; filter: grayscale(100%) contrast(1.1);">
-  </div>
+  <!-- Le Dégradé + Texte par dessus -->
+  <div class="hero-overlay">
+    <div style="max-width: 800px;">
+      <h1 style="margin: 0 0 10px 0; line-height: 1; font-size: 3.5rem; color: white; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+        Strategic HR & AI<br>Architect
+      </h1>
+      
+      <p style="font-size: 1.2rem; color: #ddd; margin-bottom: 25px; font-weight: 300;">
+        Bridging Deep Tech, Business Reality & Human Capital.
+      </p>
 
-  <!-- TEXTE D'INTRO (Aligné à gauche maintenant pour le style magazine) -->
-  <div style="max-width: 700px;">
-    <h1 style="margin-top: 0; line-height: 1.1; font-size: 3rem; margin-bottom: 20px;">
-      Strategic HR & AI<br>Architect
-    </h1>
-    
-    <p style="font-size: 1.3rem; color: #aaa; line-height: 1.6; margin-bottom: 30px;">
-      Bridging <strong style="color:white;">Deep Tech</strong>, <strong style="color:white;">Business Reality</strong> & <strong style="color:white;">Human Capital</strong> across EMEA.
-    </p>
-
-    <!-- BOUTONS -->
-    <div style="display: flex; gap: 15px;">
-      <a href="/en/manifesto" class="btn">The Method</a>
-      <a href="/en/contact" class="btn" style="background: transparent; color: white !important; border: 1px solid rgba(255,255,255,0.3);">Audit Request</a>
+      <!-- Boutons intégrés dans l'image -->
+      <div style="display: flex; gap: 15px;">
+        <a href="/en/manifesto" class="btn" style="background: white; color: black; border: none;">The Method</a>
+        <a href="/en/contact" class="btn" style="background: rgba(0,0,0,0.6); color: white !important; border: 1px solid rgba(255,255,255,0.4); backdrop-filter: blur(5px);">Audit Request</a>
+      </div>
     </div>
   </div>
-
 </div>
-
 <!-- 2. HIGHLIGHT GRID (3 articles par ligne) -->
 <!-- On utilise minmax(230px) pour faire tenir 3 colonnes dans ton wrapper de 800px -->
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 20px; margin-bottom: 60px;">
