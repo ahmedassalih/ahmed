@@ -81,9 +81,11 @@
 
 
   <!-- BARRE DE NAVIGATION MOBILE (Apparaît seulement sur petit écran) -->
+  <!-- BARRE DE NAVIGATION MOBILE (5 ICONES) -->
   <nav class="mobile-nav">
-    <!-- Logique pour les liens selon la langue -->
+    
     {% if page.lang == "fr" %}
+      <!-- MENU MOBILE FRANÇAIS -->
       <a href="/fr/" class="mobile-nav-item">
         <span>🏠</span> Accueil
       </a>
@@ -96,7 +98,13 @@
       <a href="/fr/contact" class="mobile-nav-item">
         <span>✉️</span> Contact
       </a>
+      <!-- BOUTON LANGUE (Vers l'Anglais) -->
+      <a href="/en/" class="mobile-nav-item" style="border-left: 1px solid rgba(255,255,255,0.1) !important; padding-left: 10px;">
+        <span style="font-size: 1rem; margin-top: 3px;">🇬🇧</span> EN
+      </a>
+
     {% else %}
+      <!-- MENU MOBILE ANGLAIS -->
       <a href="/en/" class="mobile-nav-item">
         <span>🏠</span> Home
       </a>
@@ -109,7 +117,12 @@
       <a href="/en/contact" class="mobile-nav-item">
         <span>✉️</span> Contact
       </a>
+      <!-- BOUTON LANGUE (Vers le Français) -->
+      <a href="/fr/" class="mobile-nav-item" style="border-left: 1px solid rgba(255,255,255,0.1) !important; padding-left: 10px;">
+        <span style="font-size: 1rem; margin-top: 3px;">🇫🇷</span> FR
+      </a>
     {% endif %}
+
   </nav>
 </body>
 </html>
