@@ -2,22 +2,34 @@
 # Only the main Sass file needs front matter (the dashes are important)
 ---
 
-/* 1. IMPORT FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+/* =========================================
+   1. IMPORTS & FONTS
+   ========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
 
-/* 2. VARIABLES & THEME */
+
+/* =========================================
+   2. VARIABLES & THEME
+   ========================================= */
 :root {
   --bg-dark: #050505;        /* Noir quasi absolu */
-  --glass-bg: rgba(255, 255, 255, 0.03); /* Verre fumé */
-  --glass-border: rgba(255, 255, 255, 0.08); /* Bordure subtile */
+  --glass-bg: rgba(255, 255, 255, 0.03); /* Fond subtil cartes */
+  --glass-border: rgba(255, 255, 255, 0.1); /* Bordure subtile */
   --text-primary: #ffffff;
   --text-secondary: #a0a0a0;
   --accent: #ffffff;
-  --blur: blur(12px);        /* Le flou d'arrière-plan */
   --font-stack: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-/* 3. BASE & RESET */
+
+/* =========================================
+   3. GLOBAL RESET & BASE STYLES
+   ========================================= */
+* {
+  box-sizing: border-box;
+  border-radius: 0 !important; /* FORCE LE LOOK "SHARP" (RECTANGLE PARTOUT) */
+}
+
 body {
   background-color: var(--bg-dark);
   color: var(--text-primary);
@@ -25,292 +37,69 @@ body {
   line-height: 1.7;
   margin: 0;
   padding: 0;
+  overflow-x: hidden; /* Empêche le scroll horizontal à cause du Hero */
   
-  /* LE FOND "ARCHITECTE" (DOT MATRIX) */
-  background-image: 
-    radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  background-size: 30px 30px; /* Taille de la grille */
+  /* Motif "Dot Matrix" subtil en fond */
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 40px 40px;
   min-height: 100vh;
 }
 
 a {
   color: var(--text-primary);
   text-decoration: none;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease, color 0.2s ease;
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
-/* 4. LAYOUT & GLASSMORPHISM */
+/* Conteneur principal */
 .wrapper {
-  max-width: 800px; /* Plus étroit pour la lecture (Mobile First) */
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* On applique l'effet verre au Header et au contenu pour qu'ils flottent */
-.site-header, .page-content, .site-footer {
-  background: transparent !important; /* On laisse voir la grille derrière */
-}
 
-/* 5. TYPOGRAPHY (HIERARCHY) */
-h1, h2, h3 {
-  font-weight: 800; /* Extra Bold */
-  letter-spacing: -0.04em; /* Le look "Tight" moderne */
-  margin-top: 2em;
-  margin-bottom: 0.5em;
-  line-height: 1.2;
-}
-
-h1 { 
-  font-size: 2.8rem; 
-  background: linear-gradient(180deg, #fff, #888); /* Dégradé sur le texte */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-h2 { font-size: 1.8rem; color: white; }
-h3 { font-size: 1.3rem; color: white; border-bottom: 1px solid var(--glass-border); padding-bottom: 10px;}
-
-p, li {
-  color: var(--text-secondary);
-  font-size: 1.05rem;
-  font-weight: 400;
-}
-
-/* 6. COMPONENTS */
-
-/* La Photo de Profil "Glowing" */
-img[src*="profile"] {
-  border-radius: 50%;
-  border: 2px solid rgba(255,255,255,0.1);
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1); /* Lueur */
-  filter: grayscale(100%) contrast(1.1);
-}
-
-/* Les Cartes d'Articles (Bento Style) */
-.post-item {
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  backdrop-filter: var(--blur);
-  padding: 25px;
-  border-radius: 12px; /* Coins arrondis modernes */
-  margin-bottom: 25px !important;
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.post-item:hover {
-  transform: translateY(-2px); /* Léger soulèvement */
-  border-color: rgba(255,255,255,0.3);
-}
-
-.post-meta {
-  text-transform: uppercase;
-  font-size: 0.75rem !important;
-  letter-spacing: 1px;
-  font-weight: 600;
-  color: #666;
-}
-
-/* Le Header (Navigation) */
+/* =========================================
+   4. HEADER COMPACT & STATIQUE
+   ========================================= */
 .site-header {
-  padding: 20px 0;
-  border-bottom: 1px solid var(--glass-border) !important;
-  position: sticky; /* Menu qui reste en haut */
-  top: 0;
+  position: relative !important; /* Pas de sticky */
+  background: var(--bg-dark) !important; /* Fond noir uni pour lisibilité */
+  padding: 10px 0 !important; /* Hauteur réduite (Compact) */
+  border-bottom: 1px solid var(--glass-border);
   z-index: 100;
-  backdrop-filter: blur(20px); /* Flou fort derrière le menu */
-  background: rgba(5, 5, 5, 0.7) !important;
 }
 
 .site-title {
   font-weight: 800;
-  letter-spacing: -1px;
-  font-size: 1.1rem;
+  letter-spacing: -0.5px;
+  font-size: 1rem;
   text-transform: uppercase;
-}
-
-.site-nav .page-link {
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: #888 !important;
-}
-
-.site-nav .page-link:hover {
-  color: white !important;
-}
-
-/* Boutons */
-.btn, button {
-  background: white;
-  color: black !important;
-  font-weight: 700;
-  border-radius: 8px;
-  padding: 12px 24px;
-  border: none;
-  box-shadow: 0 4px 15px rgba(255,255,255,0.1);
-}
-
-/* Formulaires */
-input, textarea {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid var(--glass-border);
-  color: white;
-  padding: 15px;
-  border-radius: 8px;
-  width: 100%;
-  box-sizing: border-box; /* Fixe les dépassements */
-  font-family: var(--font-stack);
-}
-
-input:focus, textarea:focus {
-  outline: none;
-  border-color: white;
-  background: rgba(255,255,255,0.1);
-}
-
-/* 7. MOBILE OPTIMIZATIONS */
-@media (max-width: 600px) {
-  h1 { font-size: 2.2rem; }
-  .wrapper { padding: 0 15px; }
-  
-  /* Sur mobile, on empile le menu */
-  .site-nav {
-    margin-top: 10px;
-  }
-  .site-nav .page-link {
-    margin-left: 10px;
-    font-size: 0.8rem;
-  }
-}
-
-/* --- AJOUT : TECH TICKER (MARQUEE) --- */
-.ticker-wrap {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  height: 40px;
-  background-color: var(--bg-dark); /* Fond noir */
-  border-top: 1px solid var(--glass-border);
-  padding-left: 100%; /* Démarre hors écran */
-  box-sizing: content-box;
-  z-index: 999;
-}
-
-.ticker {
-  display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  white-space: nowrap;
-  padding-right: 100%;
-  box-sizing: content-box;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-name: ticker;
-  animation-duration: 30s; /* Vitesse du défilement */
-}
-
-.ticker-item {
-  display: inline-block;
-  padding: 0 2rem;
-  font-size: 0.85rem;
-  color: #666;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-
-.ticker-item strong { color: white; }
-
-@keyframes ticker {
-  0% { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(-100%, 0, 0); }
-}
-
-/* Ajustement pour que le footer ne soit pas caché par le ticker */
-body { padding-bottom: 50px; }
-
-
-/* --- NAVIGATION MOBILE (BOTTOM BAR) --- */
-.mobile-nav {
-  display: none; /* Caché par défaut sur PC */
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background: rgba(10, 10, 10, 0.95);
-  backdrop-filter: blur(15px);
-  border-top: 1px solid var(--glass-border);
-  z-index: 1000;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: env(safe-area-inset-bottom); /* Pour les iPhone récents */
-}
-
-.mobile-nav-item {
-  text-align: center;
-  font-size: 0.7rem;
-  color: #888;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  border: none;
-}
-
-.mobile-nav-item span {
-  font-size: 1.2rem;
-  margin-bottom: 2px;
-  display: block;
-}
-
-.mobile-nav-item.active {
   color: white;
 }
 
-/* RÈGLES MOBILE ONLY */
-@media (max-width: 600px) {
-  /* On affiche la barre mobile */
-  .mobile-nav { display: flex; }
-  
-  /* On cache le Ticker sur mobile (trop de bruit) */
-  .ticker-wrap { display: none; }
-  
-  /* On cache le menu du haut sur mobile (Header simplifié) */
-  .site-nav { display: none; }
-  
-  /* Ajustement pour que le contenu ne soit pas caché par la barre du bas */
-  body { padding-bottom: 80px; }
-}
-
-/* --- AMÉLIORATION NAVIGATION V3.5 --- */
+/* Navigation du Header */
 .site-nav {
   display: flex;
   align-items: center;
 }
 
 .site-nav .page-link {
-  margin-left: 35px !important; /* Espacement large */
-  font-size: 0.8rem;
-  font-weight: 600;
+  margin-left: 35px !important; /* Espacement large demandé */
+  font-size: 0.75rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #888 !important; /* Gris par défaut */
-  transition: color 0.3s ease;
-  border-bottom: none !important;
+  color: #666 !important; /* Gris par défaut */
+  border: none !important;
 }
 
 .site-nav .page-link:hover {
-  color: white !important; /* Blanc au survol */
+  color: white !important;
 }
 
 .nav-separator {
@@ -320,64 +109,253 @@ body { padding-bottom: 50px; }
 
 .lang-switch {
   color: white !important;
-  font-weight: 800 !important;
   border: 1px solid rgba(255,255,255,0.2);
-  padding: 5px 10px;
-  border-radius: 4px;
+  padding: 4px 8px;
 }
 
-/* --- V4 DESIGN: SHARP & STATIC --- */
 
-/* 1. HEADER COMPACT & STATIQUE */
-.site-header {
-  position: relative !important; /* Plus de Sticky */
-  top: auto !important;
-  background: var(--bg-dark) !important; /* Fond noir uni pour la lisibilité */
-  padding: 10px 0 !important; /* Hauteur réduite */
-  border-bottom: 1px solid rgba(255,255,255,0.1) !important;
-  backdrop-filter: none !important;
-}
-
-/* 2. RESET DES ARRONDIS (SHARP LOOK) */
-.hero-box, .hero-img, .post-item, input, textarea, .btn {
-  border-radius: 0 !important; /* Angles droits partout */
-}
-
-/* 3. STYLE DU HERO (Texte dans l'image) */
+/* =========================================
+   5. HERO SECTION (IMMERSIVE & SHARP)
+   ========================================= */
 .hero-container {
+  width: 100vw; /* Prend toute la largeur de l'écran */
   position: relative;
-  width: 100%;
-  height: 500px; /* Grande hauteur immersive */
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 600px; /* Grande hauteur "Cinématique" */
+  border-bottom: 1px solid var(--glass-border);
   overflow: hidden;
   margin-bottom: 60px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  margin-top: -10px; /* Colle au header */
 }
 
 .hero-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 20%; /* Centre sur le haut du corps */
-  filter: grayscale(100%) contrast(1.1) brightness(0.8); /* Assombri pour le texte */
+  object-position: center 20%; /* Centre sur le haut du buste */
+  filter: grayscale(100%) brightness(0.7) contrast(1.1); /* Look sombre et contrasté */
 }
 
-/* Le dégradé noir en bas pour que le texte soit lisible */
 .hero-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 60%; /* Prend le bas de l'image */
-  background: linear-gradient(to top, rgba(0,0,0,1), transparent);
+  height: 100%;
+  /* Dégradé pour rendre le texte lisible en bas */
+  background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6) 30%, transparent 100%);
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 40px;
-  box-sizing: border-box;
+  align-items: flex-end; /* Pousse le texte en bas */
+  justify-content: center;
+  padding-bottom: 60px;
 }
 
-/* Ajustements Mobile */
+.hero-overlay > div {
+  width: 100%;
+  max-width: 900px; /* S'aligne avec le reste du contenu */
+  padding: 0 20px;
+}
+
+
+/* =========================================
+   6. TYPOGRAPHY
+   ========================================= */
+h1, h2, h3 {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.5rem; margin-top: 0; }
+h2 { font-size: 1.8rem; border-bottom: none; }
+h3 { font-size: 1.3rem; }
+
+p, li {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--glass-border);
+  margin: 3em 0;
+}
+
+
+/* =========================================
+   7. CARDS & POSTS (GRID)
+   ========================================= */
+.post-item {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  margin-bottom: 30px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.post-item:hover {
+  border-color: rgba(255,255,255,0.4);
+  transform: translateY(-2px);
+}
+
+.post-meta {
+  font-family: var(--font-stack);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* =========================================
+   8. BUTTONS & FORMS
+   ========================================= */
+.btn, button {
+  display: inline-block;
+  background: white;
+  color: black !important;
+  font-weight: 800;
+  padding: 14px 28px;
+  border: none;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ccc;
+}
+
+input, textarea {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--glass-border);
+  color: white;
+  padding: 15px;
+  width: 100%;
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: white;
+  background: rgba(255,255,255,0.1);
+}
+
+
+/* =========================================
+   9. TICKER (BANDEAU DÉFILANT)
+   ========================================= */
+.ticker-wrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 40px;
+  background-color: var(--bg-dark);
+  border-top: 1px solid var(--glass-border);
+  padding-left: 100%;
+  box-sizing: content-box;
+  z-index: 900;
+}
+
+.ticker {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  animation: ticker 40s linear infinite;
+}
+
+.ticker-item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 0.75rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.ticker-item strong { color: #aaa; }
+
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+
+
+/* =========================================
+   10. MOBILE NAV (BOTTOM BAR) & RESPONSIVE
+   ========================================= */
+.mobile-nav {
+  display: none; /* Caché sur PC */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  background: rgba(5, 5, 5, 0.95);
+  border-top: 1px solid var(--glass-border);
+  z-index: 1000;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.mobile-nav-item {
+  text-align: center;
+  font-size: 0.65rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  border: none !important;
+}
+
+.mobile-nav-item span {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.site-footer {
+  padding: 40px 0 100px 0; /* Marge en bas pour ne pas être caché par le ticker/mobile nav */
+  border-top: 1px solid var(--glass-border);
+  margin-top: 60px;
+  color: #444;
+  font-size: 0.8rem;
+  background: transparent !important;
+}
+
+/* RESPONSIVE RULES */
 @media (max-width: 600px) {
-  .hero-container { height: 400px; }
-  .hero-overlay { padding: 20px; }
+  h1 { font-size: 2.2rem; }
+  
+  .hero-container { height: 450px; } /* Hero moins haut sur mobile */
+  
+  /* Masquer le Ticker et le Menu Haut sur Mobile */
+  .ticker-wrap { display: none; }
+  .site-nav { display: none; }
+  
+  /* Afficher la barre du bas */
+  .mobile-nav { display: flex; }
+  
+  /* Ajustement de la grille Bento sur mobile */
+  .post-item { margin-bottom: 20px; }
 }
