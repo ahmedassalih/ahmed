@@ -6,23 +6,32 @@ ref: home
 ---
 
 <!-- 1. HERO SECTION -->
-<div style="text-align: center; margin: 40px 0 60px 0;">
-  <!-- Photo de profil avec effet lueur -->
-  <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 2px solid rgba(255,255,255,0.2); filter: grayscale(100%); margin-bottom: 20px;">
+<!-- 1. HERO SECTION CINEMATIC -->
+<div style="margin-top: 20px; margin-bottom: 60px;">
   
-  <h1 style="margin-top: 0; line-height: 1.1;">Architecte Stratégique<br>RH & IA</h1>
-  
-  <p style="font-size: 1.2rem; max-width: 600px; margin: 20px auto; color: #aaa;">
-    Allier <strong style="color:white;">Deep Tech</strong>, <strong style="color:white;">Réalité Business</strong> & <strong style="color:white;">Capital Humain</strong> en EMEA.
-  </p>
-
-  <!-- Boutons d'action -->
-  <div style="margin-top: 30px;">
-    <a href="/fr/manifesto" class="btn" style="margin-right: 10px;">La Méthode</a>
-    <a href="/fr/contact" class="btn" style="background: transparent; color: white !important; border: 1px solid white;">Demander un Audit</a>
+  <!-- GRANDE IMAGE RECTANGLE -->
+  <div style="width: 100%; height: 350px; border-radius: 16px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 40px; position: relative;">
+    <img src="/assets/images/profile.jpg" alt="Ahmed Assalih Hero" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%; filter: grayscale(100%) contrast(1.1);">
   </div>
-</div>
 
+  <!-- TEXTE D'INTRO -->
+  <div style="max-width: 700px;">
+    <h1 style="margin-top: 0; line-height: 1.1; font-size: 3rem; margin-bottom: 20px;">
+      Architecte Stratégique<br>RH & IA
+    </h1>
+    
+    <p style="font-size: 1.3rem; color: #aaa; line-height: 1.6; margin-bottom: 30px;">
+      Allier <strong style="color:white;">Deep Tech</strong>, <strong style="color:white;">Réalité Business</strong> & <strong style="color:white;">Capital Humain</strong> en EMEA.
+    </p>
+
+    <!-- BOUTONS -->
+    <div style="display: flex; gap: 15px;">
+      <a href="/fr/manifesto" class="btn">La Méthode</a>
+      <a href="/fr/contact" class="btn" style="background: transparent; color: white !important; border: 1px solid rgba(255,255,255,0.3);">Demander un Audit</a>
+    </div>
+  </div>
+
+</div>
 <!-- 2. HIGHLIGHT GRID (3 articles par ligne) -->
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 20px; margin-bottom: 60px;">
 

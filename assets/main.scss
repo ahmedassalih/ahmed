@@ -291,3 +291,37 @@ body { padding-bottom: 50px; }
   /* Ajustement pour que le contenu ne soit pas caché par la barre du bas */
   body { padding-bottom: 80px; }
 }
+
+/* --- AMÉLIORATION NAVIGATION V3.5 --- */
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav .page-link {
+  margin-left: 35px !important; /* Espacement large */
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888 !important; /* Gris par défaut */
+  transition: color 0.3s ease;
+  border-bottom: none !important;
+}
+
+.site-nav .page-link:hover {
+  color: white !important; /* Blanc au survol */
+}
+
+.nav-separator {
+  color: #333;
+  margin-left: 35px;
+}
+
+.lang-switch {
+  color: white !important;
+  font-weight: 800 !important;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 5px 10px;
+  border-radius: 4px;
+}

@@ -31,30 +31,30 @@
 
   <!-- EN-TÊTE DU SITE (HEADER) -->
   <header class="site-header">
-    <div class="wrapper" style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="wrapper" style="display: flex; justify-content: space-between; align-items: center; padding: 20px 0;">
       
-      <!-- LOGO / TITRE (Redirige vers la bonne langue) -->
-      <a class="site-title" href="/{{ page.lang | default: 'en' }}/">{{ site.title }}</a>
+      <!-- LOGO : Photo Miniature + Nom -->
+      <a class="site-title" href="/{{ page.lang | default: 'en' }}/" style="display: flex; align-items: center; gap: 15px; text-decoration: none; border: none;">
+        <img src="/assets/images/profile.jpg" alt="Profile" style="width: 42px; height: 42px; border-radius: 50%; filter: grayscale(100%); border: 1px solid rgba(255,255,255,0.2);">
+        <span style="font-weight: 800; font-size: 1.1rem; color: white; letter-spacing: -0.5px;">AHMED ASSALIH</span>
+      </a>
 
-      <!-- NAVIGATION INTELLIGENTE -->
+      <!-- NAVIGATION AÉRÉE -->
       <nav class="site-nav">
         {% if page.lang == "fr" %}
-          <!-- MENU FRANÇAIS -->
           <a href="/fr/manifesto" class="page-link">Manifeste</a>
           <a href="/fr/blog" class="page-link">Analyses</a>
           <a href="/fr/bio" class="page-link">Bio</a>
           <a href="/fr/contact" class="page-link">Contact</a>
-          <span style="color: #333; margin: 0 10px;">|</span>
-          <a href="/en/" class="page-link" style="color: white !important; font-weight: bold;">EN</a>
-        
+          <span class="nav-separator">|</span>
+          <a href="/en/" class="page-link lang-switch">EN</a>
         {% else %}
-          <!-- MENU ANGLAIS (Par défaut) -->
           <a href="/en/manifesto" class="page-link">Manifesto</a>
           <a href="/en/blog" class="page-link">Insights</a>
           <a href="/en/bio" class="page-link">Bio</a>
           <a href="/en/contact" class="page-link">Contact</a>
-          <span style="color: #333; margin: 0 10px;">|</span>
-          <a href="/fr/" class="page-link" style="color: white !important; font-weight: bold;">FR</a>
+          <span class="nav-separator">|</span>
+          <a href="/fr/" class="page-link lang-switch">FR</a>
         {% endif %}
       </nav>
 
@@ -111,5 +111,4 @@
     {% endif %}
   </nav>
 </body>
-
 </html>

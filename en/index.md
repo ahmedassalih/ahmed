@@ -6,21 +6,33 @@ ref: home
 ---
 
 <!-- 1. HERO SECTION -->
-<div style="text-align: center; margin: 40px 0 60px 0;">
-  <!-- Photo de profil avec effet lueur -->
-  <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 2px solid rgba(255,255,255,0.2); filter: grayscale(100%); margin-bottom: 20px;">
-  
-  <h1 style="margin-top: 0; line-height: 1.1;">Strategic HR & AI<br>Architect</h1>
-  
-  <p style="font-size: 1.2rem; max-width: 600px; margin: 20px auto; color: #aaa;">
-    Bridging <strong style="color:white;">Deep Tech</strong>, <strong style="color:white;">Business Reality</strong> & <strong style="color:white;">Human Capital</strong> across EMEA.
-  </p>
 
-  <!-- Boutons d'action -->
-  <div style="margin-top: 30px;">
-    <a href="/en/manifesto" class="btn" style="margin-right: 10px;">The Method</a>
-    <a href="/en/contact" class="btn" style="background: transparent; color: white !important; border: 1px solid white;">Audit Request</a>
+<!-- 1. HERO SECTION CINEMATIC -->
+<div style="margin-top: 20px; margin-bottom: 60px;">
+  
+  <!-- GRANDE IMAGE RECTANGLE -->
+  <div style="width: 100%; height: 350px; border-radius: 16px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 40px; position: relative;">
+    <!-- J'utilise object-position pour centrer sur le visage même si l'image est coupée -->
+    <img src="/assets/images/profile.jpg" alt="Ahmed Assalih Hero" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%; filter: grayscale(100%) contrast(1.1);">
   </div>
+
+  <!-- TEXTE D'INTRO (Aligné à gauche maintenant pour le style magazine) -->
+  <div style="max-width: 700px;">
+    <h1 style="margin-top: 0; line-height: 1.1; font-size: 3rem; margin-bottom: 20px;">
+      Strategic HR & AI<br>Architect
+    </h1>
+    
+    <p style="font-size: 1.3rem; color: #aaa; line-height: 1.6; margin-bottom: 30px;">
+      Bridging <strong style="color:white;">Deep Tech</strong>, <strong style="color:white;">Business Reality</strong> & <strong style="color:white;">Human Capital</strong> across EMEA.
+    </p>
+
+    <!-- BOUTONS -->
+    <div style="display: flex; gap: 15px;">
+      <a href="/en/manifesto" class="btn">The Method</a>
+      <a href="/en/contact" class="btn" style="background: transparent; color: white !important; border: 1px solid rgba(255,255,255,0.3);">Audit Request</a>
+    </div>
+  </div>
+
 </div>
 
 <!-- 2. HIGHLIGHT GRID (3 articles par ligne) -->
