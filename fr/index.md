@@ -5,33 +5,33 @@ lang: fr
 ref: home
 ---
 
-<!-- 1. HERO SECTION IMMERSIVE (RECTANGULAIRE & NET) -->
+<!-- 1. HERO SECTION IMMERSIVE (SHARP & REFINED) -->
 <div class="hero-container" style="border-radius: 0 !important; overflow: hidden;">
   <!-- L'Image de fond -->
   <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" class="hero-image" style="border-radius: 0 !important;">
   
   <!-- Le Dégradé + Texte par dessus -->
   <div class="hero-overlay">
-    <div style="max-width: 900px; padding-bottom: 20px;">
+    <div style="max-width: 700px; padding-bottom: 20px;">
       
-      <!-- TITRE EN BAS -->
-      <h1 style="margin: 0 0 15px 0; line-height: 1; font-size: 3.8rem; color: white; text-shadow: 0 2px 20px rgba(0,0,0,0.8); letter-spacing: -2px;">
+      <!-- TITRE PLUS FIN -->
+      <h1 style="margin: 0 0 10px 0; line-height: 1.1; font-size: 2.8rem; color: white; text-shadow: 0 2px 20px rgba(0,0,0,0.9); letter-spacing: -1.5px;">
         Architecte Stratégique<br>RH & IA
       </h1>
       
-      <p style="font-size: 1.3rem; color: #ddd; margin-bottom: 30px; font-weight: 300; text-shadow: 0 1px 5px rgba(0,0,0,0.8);">
+      <!-- SOUS-TITRE -->
+      <p style="font-size: 1.1rem; color: #ddd; margin-bottom: 25px; font-weight: 400; text-shadow: 0 1px 5px rgba(0,0,0,0.9);">
         Allier Deep Tech, Réalité Business & Capital Humain.
       </p>
 
       <!-- BOUTONS -->
       <div style="display: flex; gap: 15px;">
-        <a href="/fr/manifesto" class="btn" style="background: white; color: black; border: none; border-radius: 0 !important; text-transform: uppercase; letter-spacing: 1px; font-weight: 800;">La Méthode</a>
-        <a href="/fr/contact" class="btn" style="background: rgba(0,0,0,0.6); color: white !important; border: 1px solid rgba(255,255,255,0.4); backdrop-filter: blur(5px); border-radius: 0 !important;">Demander un Audit</a>
+        <a href="/fr/manifesto" class="btn" style="background: white; color: black; border: none; border-radius: 0 !important; text-transform: uppercase; letter-spacing: 1px; font-weight: 800; padding: 12px 24px; font-size: 0.8rem;">La Méthode</a>
+        <a href="/fr/contact" class="btn" style="background: rgba(0,0,0,0.6); color: white !important; border: 1px solid rgba(255,255,255,0.4); backdrop-filter: blur(5px); border-radius: 0 !important; padding: 12px 24px; font-size: 0.8rem;">Demander un Audit</a>
       </div>
     </div>
   </div>
 </div>
-
 <!-- 2. GRILLE D'ARTICLES (TAG: HIGHLIGHT) -->
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; margin-bottom: 60px;">
 
