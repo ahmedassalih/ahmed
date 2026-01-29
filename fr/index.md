@@ -5,30 +5,27 @@ lang: fr
 ref: home
 ---
 
-<!-- 1. HERO SECTION IMMERSIVE (CORRECTED) -->
+<!-- 1. HERO SECTION IMMERSIVE (RESPONSIVE) -->
 <div class="hero-container" style="border-radius: 0 !important; overflow: hidden;">
-  <!-- L'Image de fond : Centrée parfaitement -->
-  <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" class="hero-image" style="border-radius: 0 !important; object-position: center center !important;">
+  <!-- Image centrée sur le visage -->
+  <img src="/assets/images/profile.jpg" alt="Ahmed Assalih" class="hero-image" style="border-radius: 0 !important; object-position: 50% 20% !important;">
   
-  <!-- Le Dégradé + Texte -->
   <div class="hero-overlay">
-    <!-- Padding-bottom augmenté à 80px -->
-    <div style="max-width: 700px; padding-bottom: 80px;">
+    <!-- Utilisation de la nouvelle classe CSS -->
+    <div class="hero-content">
       
-      <!-- TITRE -->
-      <h1 style="margin: 0 0 15px 0; line-height: 1.1; font-size: 2.8rem; color: white; text-shadow: 0 2px 20px rgba(0,0,0,0.9); letter-spacing: -1.5px;">
+      <h1 class="hero-title">
         Architecte Stratégique<br>RH & IA
       </h1>
       
-      <!-- SOUS-TITRE -->
-      <p style="font-size: 1.1rem; color: #ddd; margin-bottom: 30px; font-weight: 400; text-shadow: 0 1px 5px rgba(0,0,0,0.9);">
+      <p class="hero-subtitle">
         Allier Deep Tech, Réalité Business & Capital Humain.
       </p>
 
       <!-- BOUTONS -->
-      <div style="display: flex; gap: 15px;">
-        <a href="/fr/manifesto" class="btn" style="background: white; color: black; border: none; border-radius: 0 !important; text-transform: uppercase; letter-spacing: 1px; font-weight: 800; padding: 12px 24px; font-size: 0.8rem;">La Méthode</a>
-        <a href="/fr/contact" class="btn" style="background: rgba(0,0,0,0.6); color: white !important; border: 1px solid rgba(255,255,255,0.4); backdrop-filter: blur(5px); border-radius: 0 !important; padding: 12px 24px; font-size: 0.8rem;">Demander un Audit</a>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="/fr/manifesto" class="btn" style="background: white; color: black; border: none; border-radius: 0 !important; text-transform: uppercase; letter-spacing: 1px; font-weight: 800;">La Méthode</a>
+        <a href="/fr/contact" class="btn" style="background: rgba(0,0,0,0.6); color: white !important; border: 1px solid rgba(255,255,255,0.4); backdrop-filter: blur(5px); border-radius: 0 !important;">Demander un Audit</a>
       </div>
     </div>
   </div>

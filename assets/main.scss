@@ -156,7 +156,7 @@ a:hover {
 .hero-overlay > div {
   width: 100%;
   max-width: 900px; /* S'aligne avec le reste du contenu */
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 
@@ -358,4 +358,72 @@ input:focus, textarea:focus {
   
   /* Ajustement de la grille Bento sur mobile */
   .post-item { margin-bottom: 20px; }
+}
+
+/* --- V4.2 FIX: RESPONSIVE TEXT & POSITION --- */
+
+/* 1. CONTENEUR DU TEXTE (Desktop par défaut) */
+.hero-content {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+  /* C'est ici qu'on remonte le texte sur PC */
+  padding-bottom: 120px; 
+}
+
+/* 2. TITRE HERO (Desktop) */
+.hero-title {
+  margin: 0 0 15px 0;
+  line-height: 1;
+  font-size: 3.5rem; /* Grand sur PC */
+  color: white;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.9);
+  letter-spacing: -2px;
+}
+
+/* 3. SOUS-TITRE (Desktop) */
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #ddd;
+  margin-bottom: 30px;
+  font-weight: 300;
+  text-shadow: 0 1px 5px rgba(0,0,0,0.9);
+}
+
+/* --- VERSION MOBILE (Écrans < 600px) --- */
+@media (max-width: 600px) {
+  
+  /* On réduit la hauteur du Hero pour qu'il tienne sur un écran de tél */
+  .hero-container {
+    height: 100vh; /* Prend tout l'écran */
+    max-height: 600px;
+  }
+
+  /* On remonte moins le texte sur mobile pour garder de la place */
+  .hero-content {
+    padding-bottom: 80px; 
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* On réduit drastiquement la taille du titre */
+  .hero-title {
+    font-size: 2.2rem !important; /* Beaucoup plus petit */
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+  }
+
+  /* On réduit le sous-titre */
+  .hero-subtitle {
+    font-size: 1rem !important;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+
+  /* On ajuste les boutons pour qu'ils tiennent côte à côte */
+  .btn {
+    padding: 12px 15px !important; /* Moins de marge interne */
+    font-size: 0.75rem !important; /* Texte plus petit */
+    width: auto;
+  }
 }
