@@ -19,7 +19,7 @@ Je suis disponible pour des missions à fort impact :
 ### Envoyer un message direct
 
 <!-- Remplace YOUR_FORM_ID par ton code Formspree (le même que pour la version anglaise) -->
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<form action="https://formspree.io/f/mbdgwvnl" method="POST">
   
   <label style="display: block; margin-bottom: 20px;">
     <span style="display: block; margin-bottom: 8px; font-weight: 600; color: #ccc;">Votre Email professionnel :</span>

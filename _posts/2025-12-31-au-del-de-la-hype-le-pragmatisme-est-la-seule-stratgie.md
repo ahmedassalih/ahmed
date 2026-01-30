@@ -7,6 +7,7 @@ lang: "fr"
 description: "Alors que nous clôturons 2025, le bruit autour de l'IA a été assourdissant. J'ai passé l'année à auditer des projets RH Tech en détresse et à..."
 image: "/assets/images/beyond-the-hype-pragmatism-is-the-only-strategy.jpeg"
 author: "Ahmed Assalih"
+highlight: true
 ---
 
 Alors que nous clôturons 2025, le bruit autour de l'IA a été assourdissant. J'ai passé l'année à auditer des projets RH Tech en détresse et à sauver des implémentations bloquées. S'il y a une leçon à retenir pour 2026, c'est celle-ci : le pragmatisme gagne toujours. Le "cycle de la hype" est dangereux. Il convainc les dirigeants d'acheter des outils qu'ils ne comprennent pas pour résoudre des problèmes qu'ils n'ont pas définis.

@@ -7,6 +7,7 @@ lang: "en"
 description: "As we close 2025, the noise around AI has been deafening. I have spent the year auditing distressed HR tech projects and rescuing stalled..."
 image: "/assets/images/beyond-the-hype-pragmatism-is-the-only-strategy.jpeg"
 author: "Ahmed Assalih"
+highlight: true
 ---
 
 As we close 2025, the noise around AI has been deafening. I have spent the year auditing distressed HR tech projects and rescuing stalled implementations. If there is one lesson to take into 2026, it is this: Pragmatism wins. The "hype cycle" is dangerous. It convinces leaders to buy tools they don't understand to solve problems they haven't defined.

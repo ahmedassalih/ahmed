@@ -21,4 +21,3 @@ Bertrand Gaulandeau elevated the debate to the international standard, emphasizi
 The conclusion of our debate was unambiguous: The era of HR as a support function is over. We are entering the era of HR as a Business Architect. The "Motion" we discussed is the transition from managing administrative complexity to engineering value creation.
 
 At Sopra HR Software, this is precisely where we position our value proposition. We do not just sell software; we secure the trajectory of this transformation. The insights shared by my panelists confirm that AI is the strategic lever for 2025, but only for those who are ready to structure their data and modernize their legacy architectures. For the leaders present, the time for observation has passed. We must now move into execution mode.
-
