@@ -33,8 +33,8 @@ breadcrumbs:
   la gouvernance et l’adoption n’avancent pas ensemble, la complexité se déplace plus qu’elle ne
   disparaît.</p>
   <p>Le choix du produit n’est qu’une partie de l’explication. La difficulté est le plus souvent
-  structurelle : cinq éléments qui doivent tenir ensemble — la stratégie, l’architecture, les
-  données, les processus et l’adoption — relèvent de cinq responsables différents. Chacun est
+  structurelle : cinq éléments qui doivent tenir ensemble (la stratégie, l’architecture, les
+  données, les processus et l’adoption) relèvent de cinq responsables différents. Chacun est
   défendable isolément. Ensemble, ils ne composent pas toujours.</p>
 </div>
 
@@ -62,7 +62,7 @@ breadcrumbs:
   </div>
 </div>
 
-<h2>01 — Diagnostiquer</h2>
+<h2>01. Diagnostiquer</h2>
 
 <div class="measure">
   <p><strong>Qu’est-ce qui est réellement cassé ?</strong></p>
@@ -89,7 +89,7 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Organisation</p>
     <div class="deflist__desc"><p>Rôles, compétences et localisation réelle de la
-    responsabilité — par opposition à ce que dit l’organigramme.</p></div>
+    responsabilité, par opposition à ce que dit l’organigramme.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Technologie</p>
@@ -103,11 +103,11 @@ breadcrumbs:
   </div>
 </div>
 
-<h2>02 — Architecturer</h2>
+<h2>02. Architecturer</h2>
 
 <div class="measure">
   <p><strong>Quel modèle cible construire ?</strong></p>
-  <p>La conception est l’une des étapes décisives d’une transformation — et l’une des plus
+  <p>La conception est l’une des étapes décisives d’une transformation, et l’une des plus
   faciles à comprimer sous la pression du calendrier. Le modèle cible doit être assez précis pour
   être chiffré et refusé. « Une RH centrée
   collaborateur » n’est pas un modèle cible. Un modèle de service défini, avec des droits de
@@ -142,7 +142,7 @@ breadcrumbs:
   </div>
 </div>
 
-<h2>03 — Faire vivre</h2>
+<h2>03. Faire vivre</h2>
 
 <div class="measure">
   <p><strong>Comment l’organisation va-t-elle réellement l’adopter ?</strong></p>
@@ -169,8 +169,8 @@ breadcrumbs:
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Compétences</p>
-    <div class="deflist__desc"><p>Les compétences que l’état de régime présuppose — côté RH,
-    côté DSI et côté management — construites avant d’en avoir besoin.</p></div>
+    <div class="deflist__desc"><p>Les compétences que l’état de régime présuppose (côté RH,
+    côté DSI et côté management), construites avant d’en avoir besoin.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Mesure</p>

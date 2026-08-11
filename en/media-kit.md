@@ -4,7 +4,7 @@ permalink: /en/media-kit/
 lang: en
 translation_key: media-kit
 title: Media Kit
-seo_title: "Media Kit | Ahmed Assalih — bios, photography and speaker positioning"
+seo_title: "Media Kit | Ahmed Assalih: bios, photography and speaker positioning"
 eyebrow: Media Kit
 heading: Media kit
 lead: >-
@@ -80,7 +80,7 @@ breadcrumbs:
   Advyteam Academy. Since 2017 he has led HR Transformation for Sopra HR Software in the MEA
   region, launching and developing the HR Transformation Business Unit across business
   development, advisory and delivery, with business and P&amp;L leadership, C-level
-  relationships and regional transformation programmes — including a unified Talent Management
+  relationships and regional transformation programmes, including a unified Talent Management
   transformation spanning more than 50 entities in 22 countries.</p>
   <p>He holds a post-graduate degree (DESS) in Airline Management from Aix-Marseille, was twice
   selected to represent Morocco at the International Mathematical Olympiads, and represented
@@ -100,8 +100,8 @@ breadcrumbs:
   <p>Core themes: AI and the future of work; <em>The Death of Skills</em>; Fortress, Front Line,
   Laboratory; Time-to-Skill; Pay-for-Agility; rethinking skills architectures; HR
   transformation; HRIS in the AI era; responsible AI for HR.</p>
-  <p>Formats: keynote (45–90 min), masterclass (approx. 3 hours), workshop (half day), round
-  table (60–90 min). Full detail on the <a href="/en/speaking/">Speaking &amp; Teaching</a>
+  <p>Formats: keynote (45 to 90 min), masterclass (approx. 3 hours), workshop (half day), round
+  table (60 to 90 min). Full detail on the <a href="/en/speaking/">Speaking &amp; Teaching</a>
   page.</p>
 </div>
 
@@ -110,11 +110,11 @@ breadcrumbs:
 <div class="deflist">
   <div class="deflist__row">
     <p class="deflist__term">Title (EN)</p>
-    <div class="deflist__desc"><p><em>The Death of Skills</em> — 2026</p></div>
+    <div class="deflist__desc"><p><em>The Death of Skills</em>, 2026</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Title (FR)</p>
-    <div class="deflist__desc"><p><em>La Mort des Skills</em> — 2026</p></div>
+    <div class="deflist__desc"><p><em>La Mort des Skills</em>, 2026</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Book website</p>
@@ -132,11 +132,11 @@ breadcrumbs:
 <div class="stack stack--2">
   <figure class="panel">
     {% include picture.html src=site.profile.photo alt="Portrait of Ahmed Assalih" width="1600" height="942" %}
-    <figcaption class="deflist__meta">Stage portrait, landscape orientation — suitable for print and web.</figcaption>
+    <figcaption class="deflist__meta">Stage portrait, landscape orientation, suitable for print and web.</figcaption>
   </figure>
   <figure class="panel">
     {% include picture.html src=site.profile.avatar alt="Ahmed Assalih profile picture" width="512" height="560" %}
-    <figcaption class="deflist__meta">Square profile image — suitable for programmes and social cards.</figcaption>
+    <figcaption class="deflist__meta">Square profile image, suitable for programmes and social cards.</figcaption>
   </figure>
 </div>
 

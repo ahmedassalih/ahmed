@@ -68,7 +68,7 @@ breadcrumbs:
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Adoption</p>
-    <div class="deflist__desc"><p>Capability, roles, incentives and measurement — the part that
+    <div class="deflist__desc"><p>Capability, roles, incentives and measurement, the part that
     decides whether any of the above produces value.</p></div>
   </div>
 </div>
@@ -81,7 +81,7 @@ breadcrumbs:
   leadership, entrepreneurship and business leadership.</p>
   <p>I am not a full-time engineer today, and I would not claim to be. What that period gives
   me is different and harder to acquire later: the ability to sit in an executive committee and
-  know, concretely, what the technical answer implies — and to sit with an architect and know
+  know, concretely, what the technical answer implies, and to sit with an architect and know
   what the business answer costs.</p>
 </div>
 

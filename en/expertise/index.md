@@ -6,7 +6,7 @@ translation_key: expertise
 title: Expertise
 seo_title: "Expertise | Executive leadership, HR transformation, HR Tech & AI"
 eyebrow: Expertise
-heading: Three pillars, one operating logic
+heading: Three pillars, one way of working
 lead: >-
   Executive leadership, strategic HR transformation and HR technology are often bought from
   three different providers. Treating them as one problem is what allows complex programmes to
@@ -32,7 +32,7 @@ breadcrumbs:
 <div class="deflist">
 
   <div class="deflist__row">
-    <p class="deflist__term">01 — Executive Leadership</p>
+    <p class="deflist__term">01. Executive Leadership</p>
     <div class="deflist__desc">
       <p>Building and running a transformation business: offer strategy, go-to-market,
       enterprise business development, P&amp;L discipline, multicultural teams and the
@@ -43,7 +43,7 @@ breadcrumbs:
   </div>
 
   <div class="deflist__row">
-    <p class="deflist__term">02 — Strategic HR Transformation</p>
+    <p class="deflist__term">02. Strategic HR Transformation</p>
     <div class="deflist__desc">
       <p>De-risking complex HR transformations: target operating model, business case,
       technology selection, programme governance and recovery, multi-country deployment,
@@ -54,7 +54,7 @@ breadcrumbs:
   </div>
 
   <div class="deflist__row">
-    <p class="deflist__term">03 — HR Tech &amp; AI Architecture</p>
+    <p class="deflist__term">03. HR Tech &amp; AI Architecture</p>
     <div class="deflist__desc">
       <p>What sits beneath the interface: HRIS architecture, data and integration, AI and
       automation, generative AI and agents, people analytics, AI governance, process design
@@ -72,7 +72,7 @@ breadcrumbs:
   <p>A target operating model that ignores the data model is a slide. An architecture that
   ignores the business case does not survive its first budget review. A programme that ignores
   adoption produces a system nobody uses and a benefits case nobody can defend.</p>
-  <p>The working sequence — diagnose, architect, make it live — is described in
+  <p>The working sequence (diagnose, architect, make it live) is described in
   <a href="/en/ideas/logician-engineer-method/">the Logician-Engineer Method</a>.</p>
 </div>
 

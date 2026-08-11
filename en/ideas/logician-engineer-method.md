@@ -32,7 +32,7 @@ breadcrumbs:
   better operating outcomes: unless process, data, governance and adoption move together,
   complexity tends to relocate rather than disappear.</p>
   <p>The product decision is only one part of the explanation. The harder part is usually
-  structural — five things that have to hold together are owned by five different people: the
+  structural: five things that have to hold together are owned by five different people: the
   strategy, the architecture, the data, the processes and the adoption. Each is defensible on
   its own. Together they do not always compose.</p>
 </div>
@@ -59,7 +59,7 @@ breadcrumbs:
   </div>
 </div>
 
-<h2>01 — Diagnose</h2>
+<h2>01. Diagnose</h2>
 
 <div class="measure">
   <p><strong>What is really broken?</strong></p>
@@ -84,7 +84,7 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Organisation</p>
     <div class="deflist__desc"><p>Roles, capabilities and where accountability actually
-    sits — as opposed to where the org chart says it sits.</p></div>
+    sits, as opposed to where the org chart says it sits.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Technology</p>
@@ -98,11 +98,11 @@ breadcrumbs:
   </div>
 </div>
 
-<h2>02 — Architect</h2>
+<h2>02. Architect</h2>
 
 <div class="measure">
   <p><strong>What should the target model become?</strong></p>
-  <p>Design is one of the decisive stages of a transformation — and one of the easiest to
+  <p>Design is one of the decisive stages of a transformation, and one of the easiest to
   compress under delivery pressure. The target model has to be specific enough to be costed and
   refused. "Employee-centric HR" is not a
   target model. A defined service model with named decision rights, a data model and an
@@ -137,7 +137,7 @@ breadcrumbs:
   </div>
 </div>
 
-<h2>03 — Make it live</h2>
+<h2>03. Make it live</h2>
 
 <div class="measure">
   <p><strong>How will the organisation actually adopt it?</strong></p>
@@ -164,8 +164,8 @@ breadcrumbs:
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Capabilities</p>
-    <div class="deflist__desc"><p>The skills the run-state assumes — in HR, in IT and in
-    management — built before they are needed.</p></div>
+    <div class="deflist__desc"><p>The skills the run-state assumes (in HR, in IT and in
+    management), built before they are needed.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Measurement</p>

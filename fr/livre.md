@@ -8,7 +8,7 @@ seo_title: "La Mort des Skills | Le livre 2026 d’Ahmed Assalih"
 eyebrow: Nouveau livre · 2026
 heading: La Mort des Skills
 lead: >-
-  Ce que l’IA révèle de vos talents — et ce que vos compétences vous cachent.
+  Ce que l’IA révèle de vos talents, et ce que vos compétences vous cachent.
 description: >-
   La Mort des Skills (2026), par Ahmed Assalih. Pourquoi l’IA révèle les limites des modèles de
   talent fondés sur les compétences, et ce que les organisations devraient mesurer à la place.
@@ -34,7 +34,7 @@ breadcrumbs:
       <p>Les modèles de talent fondés sur les skills ont été conçus quand la durée de vie
       d’une compétence était assez longue pour qu’un référentiel reste utile. La thèse du livre
       est que l’IA raccourcit cette durée et modifie l’économie de l’acquisition de compétences :
-      le référentiel devient la photographie d’un objet en mouvement — exacte, et trompeuse.</p>
+      le référentiel devient la photographie d’un objet en mouvement: exacte, et trompeuse.</p>
       <p>Ce qui reste utile à la décision est ailleurs : potentiel, adaptabilité, vitesse
       d’apprentissage et trajectoire. Le livre cherche à rendre ces dimensions suffisamment
       mesurables pour être pilotées.</p>
@@ -52,7 +52,7 @@ breadcrumbs:
   <p>Mon parcours entre direction RH, technologie et transformations multi-pays m’a
   progressivement ramené à une même question de structure. Un référentiel de compétences décrit
   ce qu’une personne sait faire aujourd’hui. Il dit beaucoup moins ce qu’elle peut devenir, à
-  quelle vitesse et dans quelles conditions — et ce sont ces questions-là qui déterminent la
+  quelle vitesse et dans quelles conditions, et ce sont ces questions-là qui déterminent la
   capacité d’une organisation à bouger.</p>
   <p>Cet écart n’est pas un problème de qualité de données. C’est un problème de modèle : celui
   dont nous disposons répond à une question devenue moins décisive. Expliquer pourquoi, et sur
@@ -69,7 +69,7 @@ breadcrumbs:
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Time-to-Skill</p>
-    <div class="deflist__desc"><p>La compétence comme durée plutôt que comme état — et ce que
+    <div class="deflist__desc"><p>La compétence comme durée plutôt que comme état, et ce que
     cela change aux arbitrages construire / acheter / s’associer.</p></div>
   </div>
   <div class="deflist__row">
@@ -117,7 +117,7 @@ breadcrumbs:
 
 <div class="measure">
   <p>Ce n’est pas un livre écrit de l’extérieur. Il s’appuie sur 25 ans passés entre les
-  systèmes RH, la direction RH et les transformations multi-pays — dont un programme unifié de
+  systèmes RH, la direction RH et les transformations multi-pays, dont un programme unifié de
   Talent Management couvrant plus de 50 entités dans 22 pays. De là vient un intérêt durable
   pour la manière dont les organisations décrivent, développent et mobilisent leurs talents à
   grande échelle.</p>

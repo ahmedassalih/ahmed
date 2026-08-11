@@ -6,7 +6,7 @@ translation_key: expertise
 title: Expertise
 seo_title: "Expertise | Leadership exécutif, transformation RH, HR Tech & IA"
 eyebrow: Expertise
-heading: Trois piliers, une même logique
+heading: Trois piliers, une même façon de travailler
 lead: >-
   Leadership exécutif, transformation RH stratégique et technologie RH s’achètent souvent
   auprès de trois prestataires différents. Les traiter comme un seul problème est ce qui permet
@@ -33,7 +33,7 @@ breadcrumbs:
 <div class="deflist">
 
   <div class="deflist__row">
-    <p class="deflist__term">01 — Leadership exécutif</p>
+    <p class="deflist__term">01. Leadership exécutif</p>
     <div class="deflist__desc">
       <p>Construire et diriger une activité de transformation : stratégie d’offre, go-to-market,
       développement grands comptes, discipline P&amp;L, équipes multiculturelles et orchestration
@@ -44,7 +44,7 @@ breadcrumbs:
   </div>
 
   <div class="deflist__row">
-    <p class="deflist__term">02 — Transformation RH stratégique</p>
+    <p class="deflist__term">02. Transformation RH stratégique</p>
     <div class="deflist__desc">
       <p>Sécuriser les transformations RH complexes : modèle opérationnel cible, business case,
       choix de solution, gouvernance et redressement de programme, déploiement multi-pays,
@@ -55,7 +55,7 @@ breadcrumbs:
   </div>
 
   <div class="deflist__row">
-    <p class="deflist__term">03 — Architecture HR Tech &amp; IA</p>
+    <p class="deflist__term">03. Architecture HR Tech &amp; IA</p>
     <div class="deflist__desc">
       <p>Ce qui se joue sous l’interface : architecture SIRH, données et intégration, IA et
       automatisation, IA générative et agents, people analytics, gouvernance de l’IA, design des
@@ -74,7 +74,7 @@ breadcrumbs:
   qui ignore le business case ne survit pas à sa première revue budgétaire. Un programme qui
   ignore l’adoption produit un système que personne n’utilise et des bénéfices que personne ne
   peut défendre.</p>
-  <p>La séquence de travail — diagnostiquer, architecturer, faire vivre — est décrite dans
+  <p>La séquence de travail (diagnostiquer, architecturer, faire vivre) est décrite dans
   <a href="/fr/idees/methode-ingenieur-logicien/">la Méthode Ingénieur-Logicien</a>.</p>
 </div>
 

@@ -9,7 +9,7 @@ eyebrow: Expertise · 01
 heading: Construire et développer des activités de transformation
 lead: >-
   Créer une activité est un métier différent de celui qui consiste à la gérer. Il faut décider
-  quoi vendre, à qui, avec quelle équipe, à quelle marge — puis le démontrer trimestre après
+  quoi vendre, à qui, avec quelle équipe, à quelle marge, puis le démontrer trimestre après
   trimestre.
 description: >-
   Création de Business Unit, discipline P&L, go-to-market, développement grands comptes et
@@ -26,7 +26,7 @@ breadcrumbs:
 <div class="measure">
   <p>Depuis 2017, je dirige la transformation RH de Sopra HR Software sur la zone MEA. Le mandat
   n’était pas de gérer une activité existante mais d’en lancer une : définir l’offre, construire
-  le go-to-market, gagner les premières références, recruter et développer l’équipe — et tenir
+  le go-to-market, gagner les premières références, recruter et développer l’équipe, et tenir
   la performance opérationnelle pendant que tout cela se met en place.</p>
 </div>
 
@@ -52,7 +52,7 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Création de Business Unit</p>
     <div class="deflist__desc"><p>Stratégie d’offre, positionnement, logique de prix, modèle de
-    delivery — et l’argumentaire interne nécessaire pour financer l’ensemble.</p></div>
+    delivery, et l’argumentaire interne nécessaire pour financer l’ensemble.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Discipline P&amp;L</p>
@@ -72,7 +72,7 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Relations dirigeants</p>
     <div class="deflist__desc"><p>Travailler avec les sponsors exécutifs sur toute la durée du
-    programme — y compris après la signature.</p></div>
+    programme, y compris après la signature.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Commerce → conseil → delivery</p>
@@ -106,7 +106,7 @@ breadcrumbs:
 
 <div class="callout">
   <p class="callout__label">Pas un consultant générique</p>
-  <p>Je conseille avec le regard d’un opérationnel — avec l’expérience directe de la
+  <p>Je conseille avec le regard d’un opérationnel, avec l’expérience directe de la
   construction, de la direction et de la delivery des organisations qui portent la stratégie. La
   <a href="/fr/idees/methode-ingenieur-logicien/">méthode</a> est conçue pour ceux qui devront
   vivre avec les conséquences de la décision.</p>

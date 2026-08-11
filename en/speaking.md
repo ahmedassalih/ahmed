@@ -8,7 +8,7 @@ seo_title: "Speaking & Teaching | Keynotes, masterclasses and university program
 eyebrow: Speaking & Teaching
 heading: I teach what I have practised
 lead: >-
-  Speaking grounded in operating experience rather than trend commentary — on AI, skills,
+  Speaking grounded in operating experience rather than trend commentary: on AI, skills,
   HR transformation and the future of work.
 description: >-
   Keynotes, masterclasses, workshops and university teaching by Ahmed Assalih on AI, the future
@@ -44,7 +44,7 @@ breadcrumbs:
 <div class="stack stack--2">
   <div class="panel">
     <h3 class="panel__title">AI and the future of work</h3>
-    <p>What changes in an organisation when the half-life of a skill collapses — and which of
+    <p>What changes in an organisation when the half-life of a skill collapses, and which of
     today's talent practices stop working.</p>
   </div>
   <div class="panel">
@@ -86,7 +86,7 @@ breadcrumbs:
 <div class="deflist">
   <div class="deflist__row">
     <p class="deflist__term">Keynote</p>
-    <div class="deflist__desc"><p>45–90 minutes. Conference or executive event, with the
+    <div class="deflist__desc"><p>45 to 90 minutes. Conference or executive event, with the
     argument adapted to the audience's sector and maturity.</p></div>
   </div>
   <div class="deflist__row">
@@ -97,11 +97,11 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Workshop</p>
     <div class="deflist__desc"><p>Half day. A leadership team working through a specific
-    decision — a target model, a technology choice, a talent architecture.</p></div>
+    decision: a target model, a technology choice, a talent architecture.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Round table</p>
-    <div class="deflist__desc"><p>60–90 minutes. Moderated executive discussion, useful when
+    <div class="deflist__desc"><p>60 to 90 minutes. Moderated executive discussion, useful when
     the value is in what the participants say to each other.</p></div>
   </div>
 </div>
@@ -112,7 +112,7 @@ breadcrumbs:
   <p>I teach as a guest professor on several HR Master's programmes, on HR technology, AI and
   digital transformation, and mentor students and younger professionals moving between HR and
   technology.</p>
-  <p>Academic collaborations — course design, guest lectures, jury participation — are welcome
+  <p>Academic collaborations (course design, guest lectures, jury participation) are welcome
   and can be discussed directly.</p>
 </div>
 

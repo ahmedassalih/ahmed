@@ -8,9 +8,8 @@
       <span class="wordmark__name">Ahmed Assalih</span>
     </a>
 
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="{{ ui.open_menu }}">
-      <span class="nav-toggle__bars" aria-hidden="true"></span>
-      <span class="nav-toggle__text">{{ ui.menu }}</span>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="{{ ui.menu }}">
+      <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span></span>
     </button>
 
     <nav class="site-nav" id="site-nav" aria-label="{% if t_lang == 'fr' %}Navigation principale{% else %}Main navigation{% endif %}">
@@ -23,7 +22,10 @@
         {%- endfor %}
         <li class="site-nav__lang">
           <a class="lang-switch" href="{{ translation_url }}" lang="{{ other_lang }}" hreflang="{{ other_lang }}"
-             title="{{ ui.switch_to }}">{{ ui.switch_label }}</a>
+             title="{{ ui.switch_to }}">
+            <span class="lang-switch__code">{{ ui.switch_label }}</span>
+            <span class="lang-switch__label">{{ ui.switch_to }}</span>
+          </a>
         </li>
       </ul>
     </nav>

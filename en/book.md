@@ -8,7 +8,7 @@ seo_title: "The Death of Skills | A 2026 book by Ahmed Assalih"
 eyebrow: New book · 2026
 heading: The Death of Skills
 lead: >-
-  What AI reveals about your talent — and what your skills are hiding from you.
+  What AI reveals about your talent, and what your skills are hiding from you.
 description: >-
   The Death of Skills (2026) by Ahmed Assalih. Why AI exposes the limits of skills-based talent
   models, and what organisations should measure instead.
@@ -33,7 +33,7 @@ breadcrumbs:
       <p>Skills-based talent models were built when the half-life of a skill was long enough
       for an inventory to stay useful. The book argues that AI is shortening that half-life and
       changing the economics of acquiring capability, which turns the inventory into a
-      photograph of a moving object — accurate, and misleading.</p>
+      photograph of a moving object: accurate, and misleading.</p>
       <p>What remains decision-useful is different: potential, adaptability, learning velocity
       and trajectory. The book is an attempt to make those measurable enough to manage.</p>
     </div>
@@ -50,7 +50,7 @@ breadcrumbs:
   <p>Working across HR leadership, HR technology and multi-country transformation kept
   returning me to the same structural question. A skills inventory describes what someone can
   do today. It says much less about what that person can become, how quickly, and under what
-  conditions — and those are the questions that decide whether an organisation can move.</p>
+  conditions, and those are the questions that decide whether an organisation can move.</p>
   <p>That gap is not a data quality problem. It is a modelling problem: the model answers a
   question that matters less than it used to. Setting out why, and what a talent model can rest
   on instead, needs more space than a keynote allows.</p>
@@ -66,7 +66,7 @@ breadcrumbs:
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Time-to-Skill</p>
-    <div class="deflist__desc"><p>Capability as a duration rather than a state — and what that
+    <div class="deflist__desc"><p>Capability as a duration rather than a state, and what that
     changes about build, buy and partner decisions.</p></div>
   </div>
   <div class="deflist__row">
@@ -114,7 +114,7 @@ breadcrumbs:
 
 <div class="measure">
   <p>This is not a book written from the outside. It is informed by 25 years across HR systems,
-  HR leadership and multi-country transformation — including a unified Talent Management
+  HR leadership and multi-country transformation, including a unified Talent Management
   programme spanning more than 50 entities in 22 countries. That experience shaped a long
   interest in how organisations describe, develop and mobilise talent at scale.</p>
   <p>The professional background behind it is described in <a href="/en/about/">About</a>, and

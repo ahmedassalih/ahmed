@@ -8,8 +8,8 @@ seo_title: "Ideas | How Ahmed Assalih thinks about transformation, AI and skills
 eyebrow: Ideas
 heading: How I think about the problem
 lead: >-
-  Expertise is what I have done. Ideas is how I reason about it — the working method, the
-  frameworks, and the writing that tests both against what is actually happening.
+  Expertise is what I have done. This is how I think about it: the method I work with, the
+  frameworks behind the book, and the writing where I test both against what I see.
 description: >-
   The Logician-Engineer Method, the frameworks from The Death of Skills, and current writing on
   HR transformation, AI and the future of work.
@@ -26,7 +26,7 @@ breadcrumbs:
     <p class="deflist__term">The Logician-Engineer Method</p>
     <div class="deflist__desc">
       <p>Why complex transformation fails when strategy, architecture, data, processes and
-      adoption are treated as separate projects — and the three-stage sequence I use instead:
+      adoption are treated as separate projects, and the three-stage sequence I use instead:
       diagnose, architect, make it live.</p>
       <p><a class="link-arrow" href="/en/ideas/logician-engineer-method/">Read the method<span aria-hidden="true"> &rarr;</span></a></p>
     </div>

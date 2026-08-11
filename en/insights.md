@@ -8,7 +8,7 @@ seo_title: "Insights | Writing on HR transformation, AI and the future of work"
 eyebrow: Insights
 heading: Field notes on transformation, AI and work
 lead: >-
-  Analysis written from inside programmes rather than from the outside looking in — on HR
+  Analysis written from inside programmes rather than from the outside looking in: on HR
   transformation, HR technology architecture, artificial intelligence and skills.
 description: >-
   All articles by Ahmed Assalih on HR transformation, AI and HR, HR Tech architecture, the

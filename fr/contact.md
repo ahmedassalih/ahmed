@@ -22,14 +22,14 @@ breadcrumbs:
 <div class="stack stack--2">
   <div>
     <div class="measure">
-      <p>Plus le contexte est précis — organisation, situation, calendrier — plus la première
+      <p>Plus le contexte est précis (organisation, situation, calendrier), plus la première
       réponse sera utile. Les messages me parviennent directement.</p>
     </div>
 
     <form class="form" action="{{ site.forms.contact_action }}" method="POST">
       <input type="hidden" name="_language" value="fr">
       <input type="hidden" name="_source_page" value="{{ page.url }}">
-      <input type="hidden" name="_subject" value="ahmedassalih.com — nouveau message (FR)">
+      <input type="hidden" name="_subject" value="ahmedassalih.com: nouveau message (FR)">
 
       <div class="field">
         <label class="field__label" for="name">Nom <span class="field__req" aria-hidden="true">*</span></label>
@@ -95,9 +95,9 @@ breadcrumbs:
     <h2>Ailleurs</h2>
     <div class="measure">
       <ul>
-        <li><a href="{{ site.profile.linkedin }}" rel="noopener">LinkedIn</a> — le moyen le plus
+        <li><a href="{{ site.profile.linkedin }}" rel="noopener">LinkedIn</a>, le moyen le plus
         simple d’engager une conversation professionnelle.</li>
-        <li><a href="/fr/media-kit/">Media kit</a> — biographies, photographies et positionnement
+        <li><a href="/fr/media-kit/">Media kit</a>, biographies, photographies et positionnement
         pour organisateurs et journalistes.</li>
       </ul>
       <p>Basé à Casablanca. Actif sur la zone MEA et en Europe.</p>

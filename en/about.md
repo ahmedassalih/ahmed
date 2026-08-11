@@ -8,9 +8,9 @@ seo_title: "About Ahmed Assalih | Engineer, HR leader, Business Unit builder"
 eyebrow: About Ahmed
 heading: The engineer in the boardroom
 lead: >-
-  Twenty-five years spent moving between three worlds that rarely meet: technology,
-  human resources and business leadership. The value is not in any one of them —
-  it is in the translation between them.
+  I have spent twenty-five years moving between three worlds that rarely meet: technology,
+  human resources and business leadership. What I do best sits in the translation between
+  them.
 description: >-
   Ahmed Assalih is an Executive HR Transformation & AI Strategist. Engineer from ENSEEIHT,
   former Head of HR of an airline group, entrepreneur, regional business leader at Sopra HR,
@@ -26,7 +26,7 @@ breadcrumbs:
 
 <div class="measure">
   <p>I trained as an engineer and started my career in 2001 in HR technology at Royal Air
-  Maroc, deploying HR systems and leading a mixed team of developers and HR experts — two groups
+  Maroc, deploying HR systems and leading a mixed team of developers and HR experts, two groups
   that do not naturally share a vocabulary. That position between them never really changed.
   Only the scale did.</p>
   <p>Since then I have deployed HR systems across a group and its subsidiaries, led talent and
@@ -40,7 +40,7 @@ breadcrumbs:
 <div class="stack stack--3">
   <div class="panel">
     <h3 class="panel__title">Technology first</h3>
-    <p>HRIS architecture, integrations and data models — learned by building and running
+    <p>HRIS architecture, integrations and data models, learned by building and running
     them.</p>
   </div>
   <div class="panel">
@@ -59,17 +59,17 @@ breadcrumbs:
 
 <div class="timeline">
   <div class="timeline__row">
-    <p class="timeline__period">2001 – 2006</p>
+    <p class="timeline__period">2001-2006</p>
     <div>
       <p class="timeline__role">HRIS Specialist &amp; Project Manager</p>
       <p class="timeline__org">Royal Air Maroc Group</p>
       <p class="timeline__detail">HR Access deployment for the group and around ten subsidiaries.
       Led a mixed team of roughly 5 developers and 20 HR experts across multiple HR modules and
-      integrations — the point where technology and HR had to agree.</p>
+      integrations, the point where technology and HR had to agree.</p>
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2006 – 2009</p>
+    <p class="timeline__period">2006-2009</p>
     <div>
       <p class="timeline__role">Talent &amp; Recruiting Senior Manager</p>
       <p class="timeline__org">Royal Air Maroc Group</p>
@@ -78,7 +78,7 @@ breadcrumbs:
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2009 – 2013</p>
+    <p class="timeline__period">2009-2013</p>
     <div>
       <p class="timeline__role">Head of HR Department</p>
       <p class="timeline__org">Royal Air Maroc Group</p>
@@ -88,7 +88,7 @@ breadcrumbs:
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2013 – 2015</p>
+    <p class="timeline__period">2013-2015</p>
     <div>
       <p class="timeline__role">Founder &amp; General Manager</p>
       <p class="timeline__org">Créative RH Consulting</p>
@@ -97,7 +97,7 @@ breadcrumbs:
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2015 – 2017</p>
+    <p class="timeline__period">2015-2017</p>
     <div>
       <p class="timeline__role">Partner &amp; General Manager, Morocco</p>
       <p class="timeline__org">Advyteam Group</p>
@@ -106,7 +106,7 @@ breadcrumbs:
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2017 – Today</p>
+    <p class="timeline__period">2017-Today</p>
     <div>
       <p class="timeline__role">HR Transformation leadership, MEA</p>
       <p class="timeline__org">Sopra HR Software</p>
@@ -131,7 +131,7 @@ breadcrumbs:
 
 <div class="measure">
   <p>Each move was a translation problem. From technology to people. From people to business.
-  From business to transformation. And now from transformation to transmission — teaching and
+  From business to transformation. And now from transformation to transmission: teaching and
   writing what the field has taught me.</p>
 </div>
 
@@ -145,7 +145,7 @@ breadcrumbs:
 
 <div class="measure">
   <p>It is why a CEO, a CHRO and a CIO can each recognise something of their own problem in the
-  same conversation. Complex transformation lives in the space between their three agendas —
+  same conversation. Complex transformation lives in the space between their three agendas,
   and that space is where programmes are most exposed.</p>
 </div>
 
@@ -161,7 +161,7 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Post-graduate degree (DESS), Airline Management</p>
     <div class="deflist__desc">
-      <p>Aix-Marseille, 2004 — taken while working inside the airline industry.</p>
+      <p>Aix-Marseille, 2004, taken while working inside the airline industry.</p>
     </div>
   </div>
   <div class="deflist__row">
@@ -188,7 +188,7 @@ breadcrumbs:
 
 <div class="measure">
   <p><em>The Death of Skills</em> (2026) argues that AI is exposing the limits of skills-based
-  talent models — and that organisations relying only on visible, current skills cannot see
+  talent models, and that organisations relying only on visible, current skills cannot see
   potential, adaptability, trajectory or learning velocity.</p>
   <p>I teach on HR Master's programmes and in executive settings, and speak at conferences on
   AI, HR transformation and the future of work. The material is grounded in the systems and
@@ -198,7 +198,7 @@ breadcrumbs:
 <div class="stack stack--3">
   <div class="panel">
     <h3 class="panel__title">The book</h3>
-    <p><a href="/en/book/">The Death of Skills</a> — thesis, frameworks and who it is for.</p>
+    <p><a href="/en/book/">The Death of Skills</a>: thesis, frameworks and who it is for.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Speaking &amp; teaching</h3>

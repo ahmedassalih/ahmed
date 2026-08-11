@@ -57,7 +57,7 @@ breadcrumbs:
     <div class="deflist__desc">
       <p>Traite la compétence comme une durée plutôt que comme un état. Si une compétence
       s’acquiert en six semaines, c’est une question de planification. Si elle demande trois ans,
-      c’est une question stratégique — et recruter, acheter ou s’associer deviennent des
+      c’est une question stratégique, et recruter, acheter ou s’associer deviennent des
       décisions différentes.</p>
       <span class="deflist__meta">Question de management : dans combien de temps, réellement, disposerons-nous de cette capacité ?</span>
     </div>
@@ -80,7 +80,7 @@ breadcrumbs:
     <p class="deflist__term">Trajectory Radar</p>
     <div class="deflist__desc">
       <p>Lit la direction plutôt que la position. Deux personnes au profil identique peuvent
-      aller dans des directions opposées — l’une accumulant une capacité qui se capitalise,
+      aller dans des directions opposées: l’une accumulant une capacité qui se capitalise,
       l’autre une capacité qui se déprécie. La direction est une question différente de la
       position, et ce n’est pas celle que les évaluations de performance sont conçues pour
       traiter.</p>
@@ -94,7 +94,7 @@ breadcrumbs:
       <p>Les systèmes de rémunération sont généralement construits autour d’un poste défini,
       dans un contexte où le travail peut évoluer plus vite que la classification. Pay-for-Agility pose la question de ce qui
       se passerait si la rémunération reconnaissait la redéployabilité et la vitesse
-      d’apprentissage à côté du périmètre actuel — et quels effets de second ordre cela
+      d’apprentissage à côté du périmètre actuel, et quels effets de second ordre cela
       produirait.</p>
       <span class="deflist__meta">Question de management : quel comportement notre système de rémunération achète-t-il réellement ?</span>
     </div>

@@ -8,7 +8,7 @@ seo_title: "Analyses | Transformation RH, IA et futur du travail"
 eyebrow: Analyses
 heading: Notes de terrain sur la transformation, l’IA et le travail
 lead: >-
-  Des analyses écrites depuis l’intérieur des programmes plutôt que depuis l’extérieur — sur la
+  Des analyses écrites depuis l’intérieur des programmes plutôt que depuis l’extérieur: sur la
   transformation RH, l’architecture HR Tech, l’intelligence artificielle et les compétences.
 description: >-
   Toutes les analyses d’Ahmed Assalih sur la transformation RH, l’IA et les RH, l’architecture

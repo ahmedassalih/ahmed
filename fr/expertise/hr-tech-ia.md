@@ -68,7 +68,7 @@ breadcrumbs:
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Adoption</p>
-    <div class="deflist__desc"><p>Compétences, rôles, incitations et mesure — la partie qui
+    <div class="deflist__desc"><p>Compétences, rôles, incitations et mesure, la partie qui
     décide si tout ce qui précède produit de la valeur.</p></div>
   </div>
 </div>
@@ -82,7 +82,7 @@ breadcrumbs:
   d’activité.</p>
   <p>Je ne suis pas ingénieur à temps plein aujourd’hui, et je ne le prétends pas. Ce que cette
   période me donne est différent et difficile à acquérir plus tard : la capacité de siéger dans
-  un comité exécutif en sachant concrètement ce que la réponse technique implique — et de
+  un comité exécutif en sachant concrètement ce que la réponse technique implique, et de
   m’asseoir avec un architecte en sachant ce que la réponse business coûte.</p>
 </div>
 

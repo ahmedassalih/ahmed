@@ -13,7 +13,7 @@ redirect_from:
   - "/2026/01/26/2025-07-23-la-scurit-nest-pas-une-option-cest-la-colonne-vertbrale.html"
 ---
 
-On m'engage souvent pour "dérisquer" des investissements majeurs. Habituellement, cela signifie que j'interviens quand un projet perd de l'argent. Mais de plus en plus, j'interviens quand un projet perd des données. L'annonce de l'autorisation FedRAMP obtenue par Cornerstone est significative, non pas parce que nous travaillons tous pour le gouvernement fédéral américain, mais parce qu'elle fixe un standard. Dans la région MEA, la souveraineté des données et la sécurité sont souvent traitées comme des détails—des cases à cocher sur un appel d'offres et à oublier aussitôt.
+On m'engage souvent pour "dérisquer" des investissements majeurs. Habituellement, cela signifie que j'interviens quand un projet perd de l'argent. Mais de plus en plus, j'interviens quand un projet perd des données. L'annonce de l'autorisation FedRAMP obtenue par Cornerstone est significative, non pas parce que nous travaillons tous pour le gouvernement fédéral américain, mais parce qu'elle fixe un standard. Dans la région MEA, la souveraineté des données et la sécurité sont souvent traitées comme des détails: de simples cases à cocher sur un appel d'offres et à oublier aussitôt.
 
 C'est de la négligence. Avec l'IA qui ingère des téraoctets de données employés pour construire des "Skills Graphs", la surface d'attaque a explosé. Quand j'architecte une transition d'un ERP monolithique vers un écosystème Cloud, ma première conversation ne porte jamais sur les fonctionnalités. Elle porte sur le protocole de sécurité. Le chiffrement FIPS 140-2 n'est pas du jargon technique ; c'est la différence entre une entreprise sécurisée et une fuite de données catastrophique.
 

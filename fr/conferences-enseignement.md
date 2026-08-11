@@ -9,7 +9,7 @@ eyebrow: Conférences & Enseignement
 heading: J’enseigne ce que j’ai pratiqué
 lead: >-
   Des interventions ancrées dans l’expérience opérationnelle plutôt que dans le commentaire de
-  tendances — sur l’IA, les compétences, la transformation RH et le futur du travail.
+  tendances: sur l’IA, les compétences, la transformation RH et le futur du travail.
 description: >-
   Keynotes, masterclasses, ateliers et enseignement universitaire par Ahmed Assalih sur l’IA, le
   futur du travail, les compétences, la transformation RH et la technologie RH.
@@ -45,7 +45,7 @@ breadcrumbs:
 <div class="stack stack--2">
   <div class="panel">
     <h3 class="panel__title">L’IA et le futur du travail</h3>
-    <p>Ce qui change dans une organisation quand la durée de vie d’une compétence s’effondre —
+    <p>Ce qui change dans une organisation quand la durée de vie d’une compétence s’effondre,
     et quelles pratiques talent cessent de fonctionner.</p>
   </div>
   <div class="panel">
@@ -114,8 +114,8 @@ breadcrumbs:
   <p>J’interviens comme professeur invité dans plusieurs Masters RH, sur la technologie RH,
   l’IA et la transformation digitale, et j’accompagne des étudiants et de jeunes professionnels
   qui circulent entre les RH et la technologie.</p>
-  <p>Les collaborations académiques — conception de cours, interventions, participation à des
-  jurys — sont bienvenues et peuvent être discutées directement.</p>
+  <p>Les collaborations académiques (conception de cours, interventions, participation à des
+  jurys) sont bienvenues et peuvent être discutées directement.</p>
 </div>
 
 <h2>Langues</h2>

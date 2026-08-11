@@ -17,7 +17,7 @@ redirect_from:
 
 The success of eNovDay 2025 signals a maturity shift in the Moroccan market. Seeing the HR community gathered in Casablanca, it became evident that we have moved past the phase of "digital awareness" into the phase of "strategic requirement." The energy in the room was not just enthusiasm; it was a demand for concrete solutions to complex structural problems.
 
-My role in moderating the flagship panel, "HR in Motion," was to steer the conversation away from polite consensus and toward the operational friction points that stifle transformation. I challenged my panelists—Abdelkerim Guergachi, El Maaroufi Aziza, Bertrand Gaulandeau, and Wahid SAKHI—to peel back the layers of their daily reality.
+My role in moderating the flagship panel, "HR in Motion," was to steer the conversation away from polite consensus and toward the operational friction points that stifle transformation. I challenged my panelists (Abdelkerim Guergachi, El Maaroufi Aziza, Bertrand Gaulandeau, and Wahid SAKHI) to peel back the layers of their daily reality.
 
 The exchanges were revealing. When I pressed Abdelkerim Guergachi on the concept of agility, he rightly argued that agility is often blocked not by technology, but by rigid organizational mindsets. He highlighted that an HRIS is useless if the culture doesn't support decentralized decision-making. El Maaroufi Aziza countered with the operational reality, detailing the difficulty of maintaining "Business as Usual" while deploying disruptive innovation. Her insights on the gap between boardroom strategy and field adoption were particularly sharp.
 

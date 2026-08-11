@@ -11,7 +11,7 @@ lead: >-
   Each one frames a management question that a skills inventory is not built to answer.
   They are working tools, not a taxonomy.
 description: >-
-  An overview of the five frameworks from The Death of Skills — Potential Stack, Time-to-Skill,
+  An overview of the five frameworks from The Death of Skills: Potential Stack, Time-to-Skill,
   Fortress · Front Line · Laboratory, Trajectory Radar and Pay-for-Agility.
 wide: true
 contact_cta: true
@@ -32,7 +32,7 @@ breadcrumbs:
   <div class="callout">
     <p class="callout__label">How to read these</p>
     <p>They are conceptual models, developed from practice and set out in the book. Each exists
-    to frame a management question more usefully — none of them is a validated measurement
+    to frame a management question more usefully. None of them is a validated measurement
     instrument, and none should be treated as one.</p>
   </div>
 </div>
@@ -54,7 +54,7 @@ breadcrumbs:
     <div class="deflist__desc">
       <p>Treats capability as a duration rather than a state. If a needed skill can be acquired
       in six weeks, it is a scheduling question. If it takes three years, it is a strategic
-      one — and hiring, buying or partnering become different decisions.</p>
+      one, and hiring, buying or partnering become different decisions.</p>
       <span class="deflist__meta">Management question: how long, realistically, until we have this capability?</span>
     </div>
   </div>
@@ -75,7 +75,7 @@ breadcrumbs:
     <p class="deflist__term">Trajectory Radar</p>
     <div class="deflist__desc">
       <p>Reads direction rather than position. Two people with identical current profiles can be
-      moving in opposite directions — one accumulating capability that is compounding, the other
+      moving in opposite directions: one accumulating capability that is compounding, the other
       accumulating capability that is depreciating. Direction is a different question from
       position, and not one that performance ratings are designed to answer.</p>
       <span class="deflist__meta">Management question: where is this person, team or capability heading?</span>
@@ -87,7 +87,7 @@ breadcrumbs:
     <div class="deflist__desc">
       <p>Reward systems are typically built around a defined job, in a context where the work
       can change faster than the grade. Pay-for-Agility asks what happens when reward recognises
-      redeployability and learning velocity alongside current scope — and what the second-order
+      redeployability and learning velocity alongside current scope, and what the second-order
       effects of that would be.</p>
       <span class="deflist__meta">Management question: what behaviour is our reward system actually buying?</span>
     </div>
@@ -102,7 +102,7 @@ breadcrumbs:
   puts pressure on an assumption sitting underneath many talent architectures: that a current
   inventory of skills is a reasonable proxy for future capability.</p>
   <p>The frameworks are attempts to build a talent model on things that stay useful when that
-  assumption weakens — potential, duration, posture, direction and adaptability.</p>
+  assumption weakens: potential, duration, posture, direction and adaptability.</p>
 </div>
 
 <div class="stack stack--2">

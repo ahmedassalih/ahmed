@@ -9,7 +9,7 @@ eyebrow: Expertise · 02
 heading: Sécuriser les transformations RH complexes
 lead: >-
   Le risque d’une transformation n’est pas réparti uniformément. Il se concentre sur cinq
-  moments précis — et chacun appelle un type d’appui différent.
+  moments précis, et chacun appelle un type d’appui différent.
 description: >-
   Stratégie, modèle opérationnel cible, choix de solution, redressement de programme,
   alignement des dirigeants et adoption pour les transformations RH multi-pays.
@@ -52,7 +52,7 @@ breadcrumbs:
   <p>Diagnostic, gouvernance et redressement. La dérive se voit souvent avant d’être reconnue :
   périmètre rouvert, décisions renvoyées en comité, chantiers data qui glissent, phase de tests
   comprimée. Le diagnostic sépare un problème de delivery d’un problème de conception et
-  d’un problème de sponsoring — parce que les trois n’ont pas le même remède.</p>
+  d’un problème de sponsoring, parce que les trois n’ont pas le même remède.</p>
 </div>
 
 <h2>Quand les sponsors ne s’accordent pas</h2>

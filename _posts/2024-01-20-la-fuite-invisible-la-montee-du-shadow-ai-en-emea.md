@@ -30,5 +30,5 @@ Vous ne pouvez pas l'interdire. Si vous bloquez les adresses IP, les employés p
 
 **La Solution : Le Port Sécurisé**
 
-La seule solution est la Gouvernance, pas l'Interdiction. Vous devez construire un "Bac à sable sécurisé" — une instance interne de ces outils où les données n'entraînent pas le modèle public.
+La seule solution est la Gouvernance, pas l'Interdiction. Vous devez construire un "Bac à sable sécurisé": une instance interne de ces outils où les données n'entraînent pas le modèle public.
 Si vous ne fournissez pas un outil sûr, vos équipes utiliseront l'outil dangereux. Et votre Propriété Intellectuelle fuite en ce moment même.

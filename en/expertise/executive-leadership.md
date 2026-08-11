@@ -9,11 +9,11 @@ eyebrow: Expertise · 01
 heading: Building and scaling transformation businesses
 lead: >-
   Creating a business unit is a different discipline from running one. It means deciding
-  what to sell, to whom, with which team, at what margin — and then proving it quarter
+  what to sell, to whom, with which team, at what margin, and then proving it quarter
   after quarter.
 description: >-
   Business Unit creation, P&L discipline, go-to-market, enterprise business development and
-  multicultural leadership across MEA and Europe — Ahmed Assalih's executive track record.
+  multicultural leadership across MEA and Europe. Ahmed Assalih's executive track record.
 wide: true
 contact_cta: true
 breadcrumbs:
@@ -70,7 +70,7 @@ breadcrumbs:
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Executive relationships</p>
-    <div class="deflist__desc"><p>Working with C-level sponsors over the life of a programme —
+    <div class="deflist__desc"><p>Working with C-level sponsors over the life of a programme,
     including the part after the contract is signed.</p></div>
   </div>
   <div class="deflist__row">
@@ -105,7 +105,7 @@ breadcrumbs:
 
 <div class="callout">
   <p class="callout__label">Not a generic consultant</p>
-  <p>I advise from an operator's perspective — with direct experience of building, leading and
+  <p>I advise from an operator's perspective, with direct experience of building, leading and
   delivering the organisations behind the strategy. The
   <a href="/en/ideas/logician-engineer-method/">method</a> is built for people who have to live
   with the consequences of the decision.</p>

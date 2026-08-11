@@ -4,7 +4,7 @@ permalink: /fr/media-kit/
 lang: fr
 translation_key: media-kit
 title: Media Kit
-seo_title: "Media Kit | Ahmed Assalih — biographies, photos et positionnement"
+seo_title: "Media Kit | Ahmed Assalih: biographies, photos et positionnement"
 eyebrow: Media Kit
 heading: Media kit
 lead: >-
@@ -79,8 +79,8 @@ breadcrumbs:
   <p>En 2013, il fonde Créative RH Consulting, puis rejoint Advyteam Group de 2015 à 2017 comme
   Partner et Directeur Général Maroc, où il construit l’activité conseil et fonde Advyteam
   Academy. Depuis 2017, il dirige la transformation RH de Sopra HR Software sur la région MEA, où
-  il a lancé et développé la Business Unit Transformation RH — développement commercial, conseil
-  et delivery — avec une responsabilité d’activité et de P&amp;L, des relations au niveau des
+  il a lancé et développé la Business Unit Transformation RH (développement commercial, conseil
+  et delivery), avec une responsabilité d’activité et de P&amp;L, des relations au niveau des
   directions générales et des programmes régionaux de transformation, dont une transformation
   unifiée du Talent Management sur plus de 50 entités dans 22 pays.</p>
   <p>Il est titulaire d’un DESS en management du transport aérien d’Aix-Marseille, a été
@@ -102,8 +102,8 @@ breadcrumbs:
   <p>Thèmes principaux : l’IA et le futur du travail ; <em>La Mort des Skills</em> ; Fortress,
   Front Line, Laboratory ; Time-to-Skill ; Pay-for-Agility ; repenser les architectures de
   compétences ; transformation RH ; le SIRH à l’ère de l’IA ; IA responsable pour les RH.</p>
-  <p>Formats : keynote (45–90 min), masterclass (env. 3 heures), atelier (demi-journée), table
-  ronde (60–90 min). Détail complet sur la page
+  <p>Formats : keynote (45 à 90 min), masterclass (env. 3 heures), atelier (demi-journée), table
+  ronde (60 à 90 min). Détail complet sur la page
   <a href="/fr/conferences-enseignement/">Conférences &amp; Enseignement</a>.</p>
 </div>
 
@@ -112,11 +112,11 @@ breadcrumbs:
 <div class="deflist">
   <div class="deflist__row">
     <p class="deflist__term">Titre (FR)</p>
-    <div class="deflist__desc"><p><em>La Mort des Skills</em> — 2026</p></div>
+    <div class="deflist__desc"><p><em>La Mort des Skills</em>, 2026</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Titre (EN)</p>
-    <div class="deflist__desc"><p><em>The Death of Skills</em> — 2026</p></div>
+    <div class="deflist__desc"><p><em>The Death of Skills</em>, 2026</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Site du livre</p>
@@ -134,11 +134,11 @@ breadcrumbs:
 <div class="stack stack--2">
   <figure class="panel">
     {% include picture.html src=site.profile.photo alt="Portrait d’Ahmed Assalih" width="1600" height="942" %}
-    <figcaption class="deflist__meta">Portrait sur scène, format paysage — adapté au print et au web.</figcaption>
+    <figcaption class="deflist__meta">Portrait sur scène, format paysage, adapté au print et au web.</figcaption>
   </figure>
   <figure class="panel">
     {% include picture.html src=site.profile.avatar alt="Photo de profil d’Ahmed Assalih" width="512" height="560" %}
-    <figcaption class="deflist__meta">Image carrée — adaptée aux programmes et aux réseaux
+    <figcaption class="deflist__meta">Image carrée, adaptée aux programmes et aux réseaux
     sociaux.</figcaption>
   </figure>
 </div>

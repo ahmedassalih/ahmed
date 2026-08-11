@@ -29,5 +29,5 @@ You cannot ban it. If you block the IP addresses, employees will just switch to 
 
 **The Solution: Safe Harbors**
 
-The only solution is Governance, not Prohibition. You need to build a "Safe Sandbox" — an internal instance of these tools where data does not train the public model.
+The only solution is Governance, not Prohibition. You need to build a "Safe Sandbox": an internal instance of these tools where data does not train the public model.
 If you don't provide a safe tool, your people will use the unsafe one. And your Intellectual Property is leaking right now.

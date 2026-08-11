@@ -13,7 +13,7 @@ redirect_from:
   - "/2026/01/26/2025-07-23-security-is-not-a-feature-it-is-the-backbone.html"
 ---
 
-I am often hired to "de-risk" high-stakes investments. Usually, this means I come in when a project is bleeding money. But increasingly, it means I come in when a project is leaking data. The announcement that Cornerstone achieved FedRAMP authorization is significant, not because we all work for the US Federal government, but because it sets a standard. In the MEA region, data sovereignty and security are often treated as afterthoughts—items to be checked off on an RFP and forgotten.
+I am often hired to "de-risk" high-stakes investments. Usually, this means I come in when a project is bleeding money. But increasingly, it means I come in when a project is leaking data. The announcement that Cornerstone achieved FedRAMP authorization is significant, not because we all work for the US Federal government, but because it sets a standard. In the MEA region, data sovereignty and security are often treated as afterthoughts: items to be checked off on an RFP and forgotten.
 
 This is negligent. With AI ingesting terabytes of employee data to build "Skills Graphs" and "Talent Intelligence," the attack surface has expanded exponentially. When I architect a transition from a monolithic on-premise ERP to a cloud ecosystem, my first conversation is never about features. It is about the security protocol. FIPS 140-2 encryption isn't just jargon; it is the difference between a secure enterprise and a headline-making data breach.
 

@@ -8,9 +8,9 @@ seo_title: "À propos d’Ahmed Assalih | Ingénieur, dirigeant RH, bâtisseur d
 eyebrow: À propos d’Ahmed
 heading: L’ingénieur dans le comité exécutif
 lead: >-
-  Vingt-cinq ans passés à circuler entre trois mondes qui se croisent rarement : la
-  technologie, les ressources humaines et la direction d’entreprise. La valeur n’est dans
-  aucun des trois — elle est dans la traduction entre les trois.
+  J’ai passé vingt-cinq ans à circuler entre trois mondes qui se croisent rarement : la
+  technologie, les ressources humaines et la direction d’entreprise. Ce que je fais de mieux
+  se joue dans la traduction entre les trois.
 description: >-
   Ahmed Assalih, dirigeant de la transformation RH et de l’IA. Ingénieur ENSEEIHT, ancien
   responsable RH d’un groupe aérien, entrepreneur, dirigeant régional chez Sopra HR, auteur
@@ -27,7 +27,7 @@ breadcrumbs:
 <div class="measure">
   <p>Ingénieur de formation, j’ai commencé ma carrière en 2001 dans les technologies RH à
   Royal Air Maroc, en déployant des systèmes RH et en pilotant une équipe mixte de développeurs
-  et d’experts RH — deux populations qui ne partagent pas spontanément le même vocabulaire.
+  et d’experts RH, deux populations qui ne partagent pas spontanément le même vocabulaire.
   Cette position entre les deux n’a jamais vraiment changé. Seule l’échelle a changé.</p>
   <p>Depuis, j’ai déployé des systèmes RH pour un groupe et ses filiales, dirigé le Talent puis
   la fonction RH d’un groupe aérien de plus de 6 000 collaborateurs, fondé et dirigé des
@@ -41,7 +41,7 @@ breadcrumbs:
 <div class="stack stack--3">
   <div class="panel">
     <h3 class="panel__title">La technologie d’abord</h3>
-    <p>Architecture SIRH, intégrations et modèles de données — appris en les construisant et
+    <p>Architecture SIRH, intégrations et modèles de données, appris en les construisant et
     en les exploitant.</p>
   </div>
   <div class="panel">
@@ -60,18 +60,18 @@ breadcrumbs:
 
 <div class="timeline">
   <div class="timeline__row">
-    <p class="timeline__period">2001 – 2006</p>
+    <p class="timeline__period">2001-2006</p>
     <div>
       <p class="timeline__role">Spécialiste SIRH &amp; chef de projet</p>
       <p class="timeline__org">Groupe Royal Air Maroc</p>
       <p class="timeline__detail">Déploiement de HR Access pour le groupe et une dizaine de
       filiales. Direction d’une équipe mixte d’environ 5 développeurs et 20 experts RH sur
-      plusieurs modules et intégrations — exactement là où la technologie et les RH doivent se
+      plusieurs modules et intégrations, exactement là où la technologie et les RH doivent se
       mettre d’accord.</p>
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2006 – 2009</p>
+    <p class="timeline__period">2006-2009</p>
     <div>
       <p class="timeline__role">Senior Manager Talent &amp; Recrutement</p>
       <p class="timeline__org">Groupe Royal Air Maroc</p>
@@ -80,7 +80,7 @@ breadcrumbs:
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2009 – 2013</p>
+    <p class="timeline__period">2009-2013</p>
     <div>
       <p class="timeline__role">Responsable du département RH</p>
       <p class="timeline__org">Groupe Royal Air Maroc</p>
@@ -90,7 +90,7 @@ breadcrumbs:
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2013 – 2015</p>
+    <p class="timeline__period">2013-2015</p>
     <div>
       <p class="timeline__role">Fondateur &amp; Directeur Général</p>
       <p class="timeline__org">Créative RH Consulting</p>
@@ -99,7 +99,7 @@ breadcrumbs:
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2015 – 2017</p>
+    <p class="timeline__period">2015-2017</p>
     <div>
       <p class="timeline__role">Partner &amp; Directeur Général Maroc</p>
       <p class="timeline__org">Advyteam Group</p>
@@ -108,7 +108,7 @@ breadcrumbs:
     </div>
   </div>
   <div class="timeline__row">
-    <p class="timeline__period">2017 – Aujourd’hui</p>
+    <p class="timeline__period">2017-Aujourd’hui</p>
     <div>
       <p class="timeline__role">Direction de la transformation RH, MEA</p>
       <p class="timeline__org">Sopra HR Software</p>
@@ -134,7 +134,7 @@ breadcrumbs:
 <div class="measure">
   <p>Chaque étape a été un problème de traduction. De la technologie vers les personnes. Des
   personnes vers le business. Du business vers la transformation. Et aujourd’hui de la
-  transformation vers la transmission — enseigner et écrire ce que le terrain m’a appris.</p>
+  transformation vers la transmission: enseigner et écrire ce que le terrain m’a appris.</p>
 </div>
 
 <ul class="chain">
@@ -148,7 +148,7 @@ breadcrumbs:
 <div class="measure">
   <p>C’est ce qui permet à un directeur général, à un DRH et à un DSI de reconnaître chacun une
   part de son propre problème dans la même conversation. Une transformation complexe vit dans
-  l’espace entre leurs trois agendas — et c’est là que les programmes sont les plus exposés.</p>
+  l’espace entre leurs trois agendas, et c’est là que les programmes sont les plus exposés.</p>
 </div>
 
 <h2>Formation &amp; parcours singulier</h2>
@@ -163,7 +163,7 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">DESS Management du transport aérien</p>
     <div class="deflist__desc">
-      <p>Aix-Marseille, 2004 — préparé en parallèle d’une carrière dans le secteur aérien.</p>
+      <p>Aix-Marseille, 2004, préparé en parallèle d’une carrière dans le secteur aérien.</p>
     </div>
   </div>
   <div class="deflist__row">
@@ -201,7 +201,7 @@ breadcrumbs:
 <div class="stack stack--3">
   <div class="panel">
     <h3 class="panel__title">Le livre</h3>
-    <p><a href="/fr/livre/">La Mort des Skills</a> — thèse, frameworks et publics visés.</p>
+    <p><a href="/fr/livre/">La Mort des Skills</a>: thèse, frameworks et publics visés.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Conférences &amp; enseignement</h3>

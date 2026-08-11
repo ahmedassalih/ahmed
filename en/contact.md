@@ -22,14 +22,14 @@ breadcrumbs:
 <div class="stack stack--2">
   <div>
     <div class="measure">
-      <p>The more context you can give — organisation, situation, timing — the more useful the
+      <p>The more context you can give (organisation, situation, timing), the more useful the
       first reply will be. Messages go directly to me.</p>
     </div>
 
     <form class="form" action="{{ site.forms.contact_action }}" method="POST">
       <input type="hidden" name="_language" value="en">
       <input type="hidden" name="_source_page" value="{{ page.url }}">
-      <input type="hidden" name="_subject" value="ahmedassalih.com — new message (EN)">
+      <input type="hidden" name="_subject" value="ahmedassalih.com: new message (EN)">
 
       <div class="field">
         <label class="field__label" for="name">Name <span class="field__req" aria-hidden="true">*</span></label>
@@ -95,9 +95,9 @@ breadcrumbs:
     <h2>Elsewhere</h2>
     <div class="measure">
       <ul>
-        <li><a href="{{ site.profile.linkedin }}" rel="noopener">LinkedIn</a> — the simplest
+        <li><a href="{{ site.profile.linkedin }}" rel="noopener">LinkedIn</a>, the simplest
         place to open a professional conversation.</li>
-        <li><a href="/en/media-kit/">Media kit</a> — bios, photography and speaker positioning
+        <li><a href="/en/media-kit/">Media kit</a>, bios, photography and speaker positioning
         for organisers and journalists.</li>
       </ul>
       <p>Based in Casablanca. Working across MEA and Europe.</p>

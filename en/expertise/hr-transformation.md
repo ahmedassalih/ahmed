@@ -8,7 +8,7 @@ seo_title: "Strategic HR Transformation | De-risking complex HR programmes"
 eyebrow: Expertise · 02
 heading: De-risking complex HR transformations
 lead: >-
-  Transformation risk is not evenly distributed. It concentrates at five specific moments —
+  Transformation risk is not evenly distributed. It concentrates at five specific moments,
   and each one needs a different kind of help.
 description: >-
   Strategy, target operating model, technology selection, programme recovery, executive
@@ -51,7 +51,7 @@ breadcrumbs:
 <div class="measure">
   <p>Diagnostic, governance and recovery. Drift often shows before it is acknowledged: scope
   reopening, decisions returning to committee, data workstreams sliding, testing compressed. The
-  diagnostic separates a delivery problem from a design problem from a sponsorship problem —
+  diagnostic separates a delivery problem from a design problem from a sponsorship problem,
   because the three have different remedies.</p>
 </div>
 

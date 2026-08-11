@@ -319,34 +319,48 @@ strong { color: var(--text); font-weight: 600; }
   line-height: 1.4;
 }
 .lang-switch:hover { background: var(--surface-hover); }
+.lang-switch__label { display: none; }
 
+/* Icon-only trigger: a 44px touch target with no visible chrome. */
 .nav-toggle {
   display: none;
   align-items: center;
-  gap: 10px;
-  min-height: 44px;
-  padding: 8px 12px;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-right: -10px;
+  padding: 0;
   background: transparent;
-  border: 1px solid var(--border-strong);
+  border: 0;
   color: var(--text);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
   cursor: pointer;
 }
-.nav-toggle__bars,
-.nav-toggle__bars::before,
-.nav-toggle__bars::after {
+.nav-toggle__icon {
+  position: relative;
   display: block;
-  width: 18px;
+  width: 22px;
+  height: 13px;
+}
+.nav-toggle__icon span {
+  position: absolute;
+  left: 0;
+  width: 100%;
   height: 1.5px;
   background: currentColor;
-  content: "";
+  transition: transform 0.22s var(--ease);
 }
-.nav-toggle__bars { position: relative; }
-.nav-toggle__bars::before { position: absolute; top: -6px; }
-.nav-toggle__bars::after  { position: absolute; top: 6px; }
+.nav-toggle__icon span:first-child { top: 0; }
+.nav-toggle__icon span:last-child { bottom: 0; }
+.nav-toggle[aria-expanded="true"] .nav-toggle__icon span:first-child {
+  transform: translateY(5.75px) rotate(45deg);
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle__icon span:last-child {
+  transform: translateY(-5.75px) rotate(-45deg);
+}
+
+/* While the overlay is open the page behind it must not scroll. */
+html.nav-open,
+html.nav-open body { overflow: hidden; }
 
 
 /* ==========================================================================
@@ -416,8 +430,9 @@ strong { color: var(--text); font-weight: 600; }
 }
 
 .hero__title {
-  font-size: clamp(2.1rem, 1.1rem + 3.4vw, 3.75rem);
-  line-height: 1.08;
+  font-size: clamp(1.95rem, 1.35rem + 2.4vw, 3.15rem);
+  line-height: 1.04;
+  max-width: 18ch;
   margin-bottom: var(--s-4);
 }
 
@@ -1070,37 +1085,84 @@ input:focus, select:focus, textarea:focus {
 }
 
 @media (max-width: 900px) {
+  /* Full-height editorial overlay rather than a dropdown under the header. */
   .js .site-nav {
-    display: none;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: var(--header-h);
     left: 0;
     right: 0;
+    bottom: 0;
+    height: calc(100dvh - var(--header-h));
     background: var(--bg);
-    border-bottom: 1px solid var(--border);
-    padding: var(--s-3) clamp(20px, 5vw, 40px) var(--s-5);
+    padding: var(--s-5) clamp(20px, 5vw, 40px) var(--s-6);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity 0.18s var(--ease), transform 0.18s var(--ease), visibility 0.18s;
+    z-index: 90;
   }
-  .js .site-nav.is-open { display: block; }
+  .js .site-nav.is-open { opacity: 1; visibility: visible; transform: none; }
   .js .nav-toggle { display: inline-flex; }
 
-  .site-header__inner { position: relative; flex-wrap: wrap; }
-  .site-nav__list { flex-direction: column; align-items: flex-start; gap: 0; width: 100%; }
-  .site-nav__list li { width: 100%; border-bottom: 1px solid var(--border); }
-  .site-nav__list li:last-child { border-bottom: 0; }
-  .site-nav__link { display: block; width: 100%; padding: 0.95rem 0; font-size: 0.85rem; }
-  .site-nav__lang { padding-top: var(--s-3); }
+  .site-nav__list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    width: 100%;
+    max-width: var(--w-shell);
+    margin: 0 auto;
+  }
+  .site-nav__list li { border-bottom: 1px solid var(--border); }
+
+  /* Editorial sizing: no uppercase, no interface letter-spacing. */
+  .site-nav__link {
+    display: block;
+    padding: 0.95rem 0;
+    font-size: clamp(1.25rem, 4.4vw, 1.55rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    text-transform: none;
+    color: var(--text);
+    border-bottom: 0;
+  }
+  .site-nav__link.is-current { color: var(--accent); border-bottom: 0; }
+
+  .site-nav__lang { border-bottom: 0; margin-top: var(--s-5); }
+  .lang-switch {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--border);
+    font-size: 0.95rem;
+    letter-spacing: 0;
+    min-height: 48px;
+  }
+  .lang-switch__code {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+  }
+  .lang-switch__label { display: inline; color: var(--text-2); font-weight: 500; }
 
   .hero__inner { grid-template-columns: 1fr; }
-  .hero__portrait { order: -1; max-width: 380px; }
-  .hero__portrait img { aspect-ratio: 4 / 3; object-position: 55% 50%; }
   .hero__lead { max-width: none; }
 
   .impact__case { grid-template-columns: 1fr; }
   .method { grid-template-columns: 1fr; }
   .method__step { border-left: 0; border-top: 1px solid var(--border); }
   .method__step:first-child { border-top: 0; }
+  /* Landscape source photograph: keep close to its natural composition. */
+  .hero__portrait { max-width: 520px; margin-top: var(--s-4); }
+  .hero__portrait img { aspect-ratio: 16 / 10; object-position: 60% 50%; }
+
   .book { grid-template-columns: 1fr; }
-  .book__cover { max-width: 300px; }
+  .book__cover { width: min(70vw, 270px); margin-inline: auto; }
+  .book__cover img { width: 100%; height: auto; object-fit: contain; }
   .contact-cta { grid-template-columns: 1fr; }
   .about-home { grid-template-columns: 1fr; }
   .archive__item { grid-template-columns: 1fr; }
@@ -1110,19 +1172,74 @@ input:focus, select:focus, textarea:focus {
 }
 
 @media (max-width: 640px) {
-  :root { --header-h: 60px; }
+  :root {
+    --header-h: 60px;
+    /* A dedicated mobile rhythm: roughly 25% tighter than desktop, so the
+       page scrolls less without feeling cramped. */
+    --section-y: 2.75rem;
+  }
+
   .grid--3, .grid--4, .grid--2 { grid-template-columns: 1fr; }
   .stack--2, .stack--3 { grid-template-columns: 1fr; }
+
+  /* Hero: compact first screen, text before photograph. */
+  .hero { padding: 1.9rem 0 2.5rem; }
+  .hero__inner { gap: var(--s-4); }
+  /* The measure cap is a desktop device: on a phone it only adds line breaks. */
+  .hero__title { font-size: clamp(1.8rem, 1.2rem + 2.4vw, 2.25rem); max-width: none; }
+  .hero__portrait { max-width: none; }
+
+  /* Five items over two columns: the last one spans the full width. */
   .proof__list { grid-template-columns: repeat(2, 1fr); }
-  .proof__item { border-left: 1px solid var(--border); padding-left: clamp(0.75rem, 3vw, 1.5rem); }
+  .proof__item { border-left: 1px solid var(--border); padding-left: clamp(0.75rem, 3vw, 1.25rem); }
   .proof__item:nth-child(odd) { border-left: 0; padding-left: 0; }
+  .proof__item:last-child { grid-column: 1 / -1; border-left: 0; padding-left: 0; border-top: 1px solid var(--border); }
+  .proof__stat { letter-spacing: 0.02em; }
+
   .impact__metrics { grid-template-columns: 1fr; }
   .impact__metrics li { border-left: 0; border-top: 1px solid var(--border); padding-left: 0; padding-top: var(--s-2); }
-  .site-footer__grid { grid-template-columns: 1fr; }
-  .btn { width: 100%; }
-  .hero__actions .btn, .section__action .btn, .book__actions .btn { width: 100%; }
-  .wordmark__name { font-size: 0.74rem; letter-spacing: 0.1em; }
+  .impact__case { padding: var(--s-5) 0; }
+
+  .site-footer__grid { grid-template-columns: 1fr; gap: var(--s-5); padding-bottom: var(--s-5); }
+
+  /* Full width is for the two hero calls to action, not for every control. */
+  .hero__actions { gap: var(--s-2); }
+  .hero__actions .btn, .book__actions .btn { width: 100%; }
+  .section__action { gap: var(--s-2); }
+
+  /* Keep body copy at a comfortable reading size. */
+  .card__summary, .archive__summary { font-size: 1rem; }
+  .section__head { margin-bottom: var(--s-5); }
+
+  .article__hero img { aspect-ratio: auto; height: auto; }
   .article__author { flex-direction: column; gap: var(--s-3); }
+  .wordmark__name { font-size: 0.76rem; letter-spacing: 0.1em; }
+}
+
+/* Narrow phones: give the controls the full width, and drop the avatar so the
+   wordmark and the menu icon have room to breathe. */
+/* Narrow phones: two columns leave the longer proof labels no room, so the
+   bar becomes a single compact list. */
+@media (max-width: 480px) {
+  .proof__list { grid-template-columns: 1fr; }
+  .proof__item {
+    border-left: 0;
+    padding: var(--s-3) 0;
+    border-top: 1px solid var(--border);
+  }
+  .proof__item:first-child { border-top: 0; }
+  .proof__item:last-child { border-top: 1px solid var(--border); }
+}
+
+/* The header is tight before the avatar has room to sit next to the wordmark. */
+@media (max-width: 400px) {
+  .wordmark > picture { display: none; }   /* the avatar sits inside <picture> */
+  .wordmark { gap: 0; }
+}
+
+/* Only the smallest phones need every control to span the full width. */
+@media (max-width: 380px) {
+  .btn { width: 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
