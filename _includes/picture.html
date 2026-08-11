@@ -1,0 +1,10 @@
+{%- comment -%}
+Serves WebP with a JPEG fallback. Every file in assets/images has a .webp sibling.
+Params: src, alt, width, height, class, loading, fetchpriority.
+Pass alt="" for decorative images.
+{%- endcomment -%}
+{%- assign _webp = include.src | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' -%}
+<picture>
+  <source type="image/webp" srcset="{{ _webp }}">
+  <img src="{{ include.src }}" alt="{{ include.alt }}" width="{{ include.width }}" height="{{ include.height }}"{% if include.class %} class="{{ include.class }}"{% endif %} loading="{{ include.loading | default: 'lazy' }}" decoding="async"{% if include.fetchpriority %} fetchpriority="{{ include.fetchpriority }}"{% endif %}>
+</picture>

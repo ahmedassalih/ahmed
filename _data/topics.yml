@@ -1,0 +1,17 @@
+# Stable editorial taxonomy. Posts carry a `topic:` key; legacy `categories:`
+# are untouched because they define the published article URLs.
+hr-transformation:
+  en: HR Transformation
+  fr: Transformation RH
+ai-hr:
+  en: AI & HR
+  fr: IA & RH
+hr-tech-architecture:
+  en: HR Tech Architecture
+  fr: Architecture HR Tech
+future-of-work-skills:
+  en: Future of Work & Skills
+  fr: Futur du travail & Skills
+leadership-change:
+  en: Leadership & Change
+  fr: Leadership & Change

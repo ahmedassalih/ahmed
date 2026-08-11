@@ -1,0 +1,29 @@
+{%- assign post = include.post -%}
+{%- assign l = include.lang -%}
+{%- assign ui = site.data.i18n[l] -%}
+{%- assign topic = site.data.topics[post.topic][l] -%}
+{%- assign words = post.content | number_of_words -%}
+{%- assign minutes = words | divided_by: 200 | plus: 1 -%}
+<article class="card card--article">
+  {%- if include.image and post.image %}
+  <a class="card__media" href="{{ post.url }}" tabindex="-1" aria-hidden="true">
+    {% include picture.html src=post.image alt="" width="1408" height="768" %}
+  </a>
+  {%- endif %}
+  <div class="card__body">
+    <p class="card__meta">
+      {%- if topic %}<span class="tag">{{ topic }}</span>{% endif -%}
+      <span class="card__date">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html d=post.date lang=l %}</time>
+        <span aria-hidden="true">·</span> {{ minutes }} {{ ui.min_read }}
+      </span>
+    </p>
+    <h3 class="card__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    {%- if post.description %}
+    <p class="card__summary">{{ post.description | strip_html | truncate: 165 }}</p>
+    {%- else %}
+    <p class="card__summary">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 165 }}</p>
+    {%- endif %}
+    <p class="card__cta"><a class="link-arrow" href="{{ post.url }}">{{ ui.read_insight }}<span aria-hidden="true"> &rarr;</span></a></p>
+  </div>
+</article>

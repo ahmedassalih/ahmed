@@ -1,12 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "Agentic Workforces: When the 'Employee' is Code"
-date: "2025-06-07 00:00:00 +0100"
-categories: ['AI Agents', 'Workflow Automation']
-lang: "en"
-description: "The buzz at Cornerstone Spark in Las Vegas wasn't just about AI helping people. It was about AI *replacing* tasks entirely through "Agentic"..."
-image: "/assets/images/agentic-workforces-when-the-employee-is-code.jpeg"
+date: 2025-06-07 00:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["AI Agents", "Workflow Automation"]
+topic: ai-hr
+translation_key: agentic-workforces
+description: "The buzz at Cornerstone Spark in Las Vegas wasn't just about AI helping people. It was about AI *replacing* tasks entirely through \"Agentic\"..."
+image: /assets/images/agentic-workforces-when-the-employee-is-code.jpeg
+permalink: "/ai-agents/workflow-automation/2025/06/07/agentic-workforces-when-the-employee-is-code.html"
+redirect_from:
+  - "/ai agents/workflow automation/2025/06/07/agentic-workforces-when-the-employee-is-code.html"
+  - "/2026/01/26/2025-06-07-agentic-workforces-when-the-employee-is-code.html"
 ---
 
 The buzz at Cornerstone Spark in Las Vegas wasn't just about AI helping people. It was about AI *replacing* tasks entirely through "Agentic" workflows. The integration with Microsoft 365 Copilot and Salesforce isn't a feature update; it's a fundamental shift in the definition of an employee. As a Technical Architect, I am now designing systems where the "user" might not be a human at all, but an autonomous agent executing a learning pathway or a compliance check.

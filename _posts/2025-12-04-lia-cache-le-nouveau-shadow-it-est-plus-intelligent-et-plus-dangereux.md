@@ -1,12 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "L'IA cachée : Le nouveau Shadow IT est plus intelligent et plus dangereux"
-date: "2025-12-04 00:00:00 +0100"
-categories: ['Shadow IT', 'Risk Management']
-lang: "fr"
-description: "Les statistiques de la récente enquête "Hidden AI" sont alarmantes mais pas surprenantes. 80 % des travailleurs utilisent l'IA, et la plupart le..."
-image: "/assets/images/hidden-ai-the-new-shadow-it-is-smarter-and-more-dangerous.jpeg"
+date: 2025-12-04 00:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["Shadow IT", "Risk Management"]
+topic: ai-hr
+translation_key: hidden-ai
+description: "Les statistiques de la récente enquête \"Hidden AI\" sont alarmantes mais pas surprenantes. 80 % des travailleurs utilisent l'IA, et la plupart le..."
+image: /assets/images/hidden-ai-the-new-shadow-it-is-smarter-and-more-dangerous.jpeg
+permalink: "/shadow-it/risk-management/2025/12/04/lia-cache-le-nouveau-shadow-it-est-plus-intelligent-et-plus-dangereux.html"
+redirect_from:
+  - "/shadow it/risk management/2025/12/04/lia-cache-le-nouveau-shadow-it-est-plus-intelligent-et-plus-dangereux.html"
+  - "/2026/01/26/2025-12-04-lia-cache-le-nouveau-shadow-it-est-plus-intelligent-et-plus-dangereux.html"
 ---
 
 Les statistiques de la récente enquête "Hidden AI" sont alarmantes mais pas surprenantes. 80 % des travailleurs utilisent l'IA, et la plupart le cachent à leurs patrons. Nous appelions cela le "Shadow IT"—des employés installant des logiciels non autorisés pour faire leur travail. Mais c'est différent. C'est de la "Shadow Intelligence".

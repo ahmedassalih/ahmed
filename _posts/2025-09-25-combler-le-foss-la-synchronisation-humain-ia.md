@@ -1,12 +1,17 @@
 ---
-layout: "post"
+layout: post
 title: "Combler le fossé : La synchronisation Humain-IA"
-date: "2025-09-25 00:00:00 +0100"
-categories: ['HR Architecture', 'Integration']
-lang: "fr"
-description: "Lors de la conférence HR Tech de ce mois-ci, le discours a changé. Il ne s'agissait plus de l'Humain *contre* la Machine. Il s'agissait de la..."
-image: "/assets/images/bridging-the-gap-the-human-ai-synchronization.jpeg"
+date: 2025-09-25 00:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["HR Architecture", "Integration"]
+topic: ai-hr
+translation_key: human-ai-synchronization
+description: "Lors de la conférence HR Tech de ce mois-ci, le discours a changé. Il ne s'agissait plus de l'Humain *contre* la Machine. Il s'agissait de la..."
+image: /assets/images/bridging-the-gap-the-human-ai-synchronization.jpeg
+permalink: "/hr-architecture/integration/2025/09/25/combler-le-foss-la-synchronisation-humain-ia.html"
+redirect_from:
+  - "/hr architecture/integration/2025/09/25/combler-le-foss-la-synchronisation-humain-ia.html"
 ---
 
 Lors de la conférence HR Tech de ce mois-ci, le discours a changé. Il ne s'agissait plus de l'Humain *contre* la Machine. Il s'agissait de la synchronisation des deux. L'évolution de la plateforme Galaxy de Cornerstone pour soutenir à la fois les personnes et les "travailleurs numériques" est la validation d'un concept que je défends depuis des années : l'Écosystème Unifié.

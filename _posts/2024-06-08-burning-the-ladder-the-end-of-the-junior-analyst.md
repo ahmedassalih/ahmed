@@ -2,8 +2,11 @@
 layout: post
 title: "Burning the Ladder: The End of the Junior Analyst"
 date: 2024-06-08 09:00:00 +0100
-categories: future-of-work
 lang: en
+author: "Ahmed Assalih"
+categories: ["future-of-work"]
+topic: future-of-work-skills
+translation_key: burning-the-ladder
 description: "AI is killing entry-level jobs. Who will train the seniors of tomorrow? We are facing a competence crisis."
 image: /assets/images/burning-the-ladder-the-end-of-the-junior-analyst.jpeg
 ---

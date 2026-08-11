@@ -2,8 +2,11 @@
 layout: post
 title: "The Broken Marriage: Why CTOs and CHROs Don't Speak the Same Language"
 date: 2023-09-10 09:00:00 +0100
-categories: strategy
 lang: en
+author: "Ahmed Assalih"
+categories: ["strategy"]
+topic: hr-transformation
+translation_key: broken-marriage
 description: "Why HR projects fail? Because IT thinks HR is 'fluffy' and HR thinks IT is 'rigid'. Bridging the gap requires a new glossary."
 image: /assets/images/the-broken-marriage-why-ctos-and-chros-dont-speak-the-same-language.jpeg
 ---

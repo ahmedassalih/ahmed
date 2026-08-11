@@ -1,13 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "Beyond the Hype: Pragmatism is the Only Strategy"
-date: "2026-01-01 00:00:00 +0100"
-categories: ['Strategic Advisory', 'Leadership']
-lang: "en"
-description: "As we close 2025, the noise around AI has been deafening. I have spent the year auditing distressed HR tech projects and rescuing stalled..."
-image: "/assets/images/beyond-the-hype-pragmatism-is-the-only-strategy.jpeg"
+date: 2026-01-01 00:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["Strategic Advisory", "Leadership"]
+topic: leadership-change
+translation_key: beyond-the-hype
+description: "As we close 2025, the noise around AI has been deafening. I have spent the year auditing distressed HR tech projects and rescuing stalled..."
+image: /assets/images/beyond-the-hype-pragmatism-is-the-only-strategy.jpeg
 highlight: true
+permalink: "/strategic-advisory/leadership/2026/01/01/beyond-the-hype-pragmatism-is-the-only-strategy.html"
+redirect_from:
+  - "/strategic advisory/leadership/2026/01/01/beyond-the-hype-pragmatism-is-the-only-strategy.html"
 ---
 
 As we close 2025, the noise around AI has been deafening. I have spent the year auditing distressed HR tech projects and rescuing stalled implementations. If there is one lesson to take into 2026, it is this: Pragmatism wins. The "hype cycle" is dangerous. It convinces leaders to buy tools they don't understand to solve problems they haven't defined.

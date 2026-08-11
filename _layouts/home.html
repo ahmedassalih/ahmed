@@ -1,0 +1,211 @@
+---
+layout: default
+---
+{%- assign l = page.lang | default: 'en' -%}
+{%- assign ui = site.data.i18n[l] -%}
+{%- assign d = site.data.home[l] -%}
+
+{%- comment -%} ============ 1. HERO ============ {%- endcomment -%}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="shell hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow">{{ d.hero.eyebrow }}</p>
+      <p class="hero__position">{{ d.hero.position }}</p>
+      <h1 class="hero__title" id="hero-title">{{ d.hero.title }}</h1>
+      <p class="hero__lead">{{ d.hero.lead }}</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="{{ d.hero.primary.url }}">{{ d.hero.primary.label }}</a>
+        <a class="btn btn--ghost" href="{{ d.hero.secondary.url }}">{{ d.hero.secondary.label }}</a>
+      </div>
+      <p class="hero__tertiary">
+        <a class="link-arrow" href="{{ d.hero.tertiary.url }}">{{ d.hero.tertiary.label }}<span aria-hidden="true"> &rarr;</span></a>
+      </p>
+    </div>
+    <div class="hero__portrait">
+      {% include picture.html src=site.profile.photo alt=d.hero.image_alt width="1600" height="942" loading="eager" fetchpriority="high" %}
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ============ 2. PROOF BAR ============ {%- endcomment -%}
+<section class="proof" aria-label="{% if l == 'fr' %}Repères{% else %}Key facts{% endif %}">
+  <div class="shell">
+    <ul class="proof__list">
+      {%- for item in d.proof %}
+      <li class="proof__item">
+        <span class="proof__stat">{{ item.stat }}</span>
+        <span class="proof__label">{{ item.label }}</span>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+{%- comment -%} ============ 3. FOUR LENSES ============ {%- endcomment -%}
+<section class="section" aria-labelledby="lenses-title">
+  <div class="shell">
+    <div class="section__head">
+      <h2 class="section__title" id="lenses-title">{{ d.lenses.heading }}</h2>
+      <p class="section__lead">{{ d.lenses.intro }}</p>
+    </div>
+    <div class="grid grid--4 lenses">
+      {%- for item in d.lenses.items %}
+      <article class="card card--lens">
+        <p class="card__num">{{ item.num }}</p>
+        <h3 class="card__title">{{ item.title }}</h3>
+        <p class="card__tagline">{{ item.tagline }}</p>
+        <p class="card__summary">{{ item.body }}</p>
+        <p class="card__cta"><a class="link-arrow" href="{{ item.url }}">{{ item.cta }}<span aria-hidden="true"> &rarr;</span></a></p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ============ 4. SELECTED IMPACT ============ {%- endcomment -%}
+<section class="section section--alt" aria-labelledby="impact-title">
+  <div class="shell">
+    <div class="section__head">
+      <h2 class="section__title" id="impact-title">{{ d.impact.heading }}</h2>
+      <p class="section__lead">{{ d.impact.intro }}</p>
+    </div>
+    <div class="impact">
+      {%- for c in d.impact.cases %}
+      <article class="impact__case">
+        <div class="impact__narrative">
+          <p class="impact__index" aria-hidden="true">{{ forloop.index | prepend: '0' }}</p>
+          <h3 class="impact__title">{{ c.title }}</h3>
+          <p class="impact__body">{{ c.body }}</p>
+        </div>
+        <ul class="impact__metrics">
+          {%- for m in c.metrics %}
+          <li>
+            <span class="metric__value">{{ m.value }}</span>
+            <span class="metric__label">{{ m.label }}</span>
+          </li>
+          {%- endfor %}
+        </ul>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ============ 5. THE METHOD ============ {%- endcomment -%}
+<section class="section" aria-labelledby="method-title">
+  <div class="shell">
+    <div class="section__head">
+      <p class="eyebrow">{{ d.method.eyebrow }}</p>
+      <h2 class="section__title" id="method-title">{{ d.method.heading }}</h2>
+      <p class="section__lead section__lead--wide">{{ d.method.lead }}</p>
+    </div>
+    <ol class="method">
+      {%- for s in d.method.steps %}
+      <li class="method__step">
+        <p class="method__num">{{ s.num }}</p>
+        <h3 class="method__title">{{ s.title }}</h3>
+        <p class="method__question">{{ s.question }}</p>
+        <ul class="method__items">
+          {%- for i in s.items %}<li>{{ i }}</li>{% endfor %}
+        </ul>
+      </li>
+      {%- endfor %}
+    </ol>
+    <p class="section__action">
+      <a class="btn btn--ghost" href="{{ d.method.cta.url }}">{{ d.method.cta.label }}</a>
+    </p>
+  </div>
+</section>
+
+{%- comment -%} ============ 6. BOOK ============ {%- endcomment -%}
+{%- if l == 'fr' %}{% assign cover = site.book.cover_fr %}{% else %}{% assign cover = site.book.cover_en %}{% endif -%}
+<section class="section section--book" aria-labelledby="book-title">
+  <div class="shell book">
+    <div class="book__cover">
+      {% include picture.html src=cover alt=d.book.title width="720" height="1080" %}
+    </div>
+    <div class="book__text">
+      <p class="eyebrow">{{ d.book.label }}</p>
+      <h2 class="book__title" id="book-title">{{ d.book.title }}</h2>
+      <p class="book__subtitle">{{ d.book.subtitle }}</p>
+      {%- for p in d.book.body %}
+      <p class="book__body">{{ p }}</p>
+      {%- endfor %}
+      <h3 class="book__frameworks-label">{{ d.book.frameworks_label }}</h3>
+      <ul class="book__frameworks">
+        {%- for f in d.book.frameworks %}<li>{{ f }}</li>{% endfor %}
+      </ul>
+      <div class="book__actions">
+        <a class="btn btn--primary" href="{{ site.book.url }}" rel="noopener">{{ d.book.primary.label }}</a>
+        <a class="btn btn--ghost" href="{{ d.book.secondary.url }}">{{ d.book.secondary.label }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ============ 7. IDEAS & INSIGHTS ============ {%- endcomment -%}
+{%- assign lang_posts = site.posts | where: "lang", l -%}
+{%- assign hi = lang_posts | where: "highlight", true -%}
+{%- assign rest = lang_posts | where_exp: "p", "p.highlight != true" -%}
+{%- assign pool = hi | concat: rest -%}
+{%- assign selected = pool | slice: 0, 3 -%}
+<section class="section section--alt" aria-labelledby="insights-title">
+  <div class="shell">
+    <div class="section__head">
+      <h2 class="section__title" id="insights-title">{{ d.insights.heading }}</h2>
+      <p class="section__lead">{{ d.insights.intro }}</p>
+    </div>
+    <div class="grid grid--3">
+      {%- for post in selected %}
+        {% include article-card.html post=post lang=l image=true %}
+      {%- endfor %}
+    </div>
+    <p class="section__action">
+      <a class="link-arrow" href="{{ d.insights.cta.url }}">{{ d.insights.cta.label }}<span aria-hidden="true"> &rarr;</span></a>
+    </p>
+  </div>
+</section>
+
+{%- comment -%} ============ 8. SPEAKING & TEACHING ============ {%- endcomment -%}
+<section class="section" aria-labelledby="speaking-title">
+  <div class="shell">
+    <div class="section__head">
+      <h2 class="section__title" id="speaking-title">{{ d.speaking.heading }}</h2>
+      <p class="section__lead">{{ d.speaking.sub }}</p>
+    </div>
+    <div class="grid grid--3">
+      {%- for a in d.speaking.areas %}
+      <div class="card card--plain">
+        <h3 class="card__title card__title--sm">{{ a.title }}</h3>
+        <p class="card__summary">{{ a.body }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+    <p class="section__action">
+      <a class="btn btn--primary" href="{{ d.speaking.primary.url }}">{{ d.speaking.primary.label }}</a>
+      <a class="btn btn--ghost" href="{{ d.speaking.secondary.url }}">{{ d.speaking.secondary.label }}</a>
+    </p>
+  </div>
+</section>
+
+{%- comment -%} ============ 9. ABOUT ============ {%- endcomment -%}
+<section class="section section--about" aria-labelledby="about-title">
+  <div class="shell about-home">
+    <div class="about-home__head">
+      <p class="eyebrow">{{ d.about.eyebrow }}</p>
+      <h2 class="section__title" id="about-title">{{ d.about.heading }}</h2>
+    </div>
+    <div class="about-home__body">
+      {%- for p in d.about.body %}
+      <p>{{ p }}</p>
+      {%- endfor %}
+      <p class="about-home__actions">
+        <a class="link-arrow" href="{{ d.about.cta.url }}">{{ d.about.cta.label }}<span aria-hidden="true"> &rarr;</span></a>
+        <a class="link-arrow" href="{{ site.profile.linkedin }}" rel="noopener">{{ ui.connect_linkedin }}<span aria-hidden="true"> &rarr;</span></a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ============ 10. CONTACT ============ {%- endcomment -%}
+{% include contact-cta.html lang=l %}

@@ -2,8 +2,11 @@
 layout: post
 title: "Adaptability over Transformation: Why 'Projects' are Dead"
 date: 2024-08-30 09:00:00 +0100
-categories: leadership
 lang: en
+author: "Ahmed Assalih"
+categories: ["leadership"]
+topic: leadership-change
+translation_key: adaptability-over-projects
 description: "The word 'Transformation' implies an end state. There isn't one. We are in permanent beta."
 image: /assets/images/adaptability-over-transformation-why-projects-are-dead.jpeg
 ---

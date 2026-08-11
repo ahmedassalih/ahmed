@@ -1,0 +1,82 @@
+# Primary navigation. Home is reached through the wordmark, not a nav item.
+en:
+  main:
+    - label: About
+      url: /en/about/
+    - label: Expertise
+      url: /en/expertise/
+    - label: Ideas
+      url: /en/ideas/
+    - label: Book
+      url: /en/book/
+    - label: Speaking
+      url: /en/speaking/
+    - label: Contact
+      url: /en/contact/
+  footer:
+    - title: Navigate
+      items:
+        - label: About
+          url: /en/about/
+        - label: Expertise
+          url: /en/expertise/
+        - label: Ideas
+          url: /en/ideas/
+        - label: Book
+          url: /en/book/
+        - label: Speaking
+          url: /en/speaking/
+        - label: Contact
+          url: /en/contact/
+    - title: Resources
+      items:
+        - label: Insights
+          url: /en/insights/
+        - label: Frameworks
+          url: /en/ideas/frameworks/
+        - label: Media Kit
+          url: /en/media-kit/
+        - label: LinkedIn
+          url: "https://www.linkedin.com/in/aassalih/"
+          external: true
+
+fr:
+  main:
+    - label: À propos
+      url: /fr/a-propos/
+    - label: Expertise
+      url: /fr/expertise/
+    - label: Idées
+      url: /fr/idees/
+    - label: Livre
+      url: /fr/livre/
+    - label: Conférences
+      url: /fr/conferences-enseignement/
+    - label: Contact
+      url: /fr/contact/
+  footer:
+    - title: Navigation
+      items:
+        - label: À propos
+          url: /fr/a-propos/
+        - label: Expertise
+          url: /fr/expertise/
+        - label: Idées
+          url: /fr/idees/
+        - label: Livre
+          url: /fr/livre/
+        - label: Conférences & Enseignement
+          url: /fr/conferences-enseignement/
+        - label: Contact
+          url: /fr/contact/
+    - title: Ressources
+      items:
+        - label: Analyses
+          url: /fr/analyses/
+        - label: Frameworks
+          url: /fr/idees/frameworks/
+        - label: Media Kit
+          url: /fr/media-kit/
+        - label: LinkedIn
+          url: "https://www.linkedin.com/in/aassalih/"
+          external: true

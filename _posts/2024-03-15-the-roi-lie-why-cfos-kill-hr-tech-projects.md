@@ -2,8 +2,11 @@
 layout: post
 title: "The ROI Lie: Why CFOs Kill HR Tech Projects"
 date: 2024-03-15 09:00:00 +0100
-categories: roi
 lang: en
+author: "Ahmed Assalih"
+categories: ["roi"]
+topic: hr-transformation
+translation_key: roi-lie
 description: "Stop measuring 'Time Saved'. Start measuring 'Profit Generated'. How to speak the language of the Board."
 image: /assets/images/the-roi-lie-why-cfos-kill-hr-tech-projects.jpeg
 ---

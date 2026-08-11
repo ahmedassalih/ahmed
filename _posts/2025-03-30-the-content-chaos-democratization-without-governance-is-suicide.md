@@ -1,12 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "The Content Chaos: Democratization Without Governance is Suicide"
-date: "2025-03-30 00:00:00 +0100"
-categories: ['Content Strategy', 'AI Governance']
-lang: "en"
-description: "A client recently asked me to "turn on" content creation for all their managers. They wanted speed. They wanted agility. I told them they were..."
-image: "/assets/images/the-content-chaos-democratization-without-governance-is-suicide.jpeg"
+date: 2025-03-30 00:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["Content Strategy", "AI Governance"]
+topic: ai-hr
+translation_key: content-governance
+description: "A client recently asked me to \"turn on\" content creation for all their managers. They wanted speed. They wanted agility. I told them they were..."
+image: /assets/images/the-content-chaos-democratization-without-governance-is-suicide.jpeg
+permalink: "/content-strategy/ai-governance/2025/03/30/the-content-chaos-democratization-without-governance-is-suicide.html"
+redirect_from:
+  - "/content strategy/ai governance/2025/03/30/the-content-chaos-democratization-without-governance-is-suicide.html"
+  - "/2026/01/26/2025-03-30-the-content-chaos-democratization-without-governance-is-suicide.html"
 ---
 
 A client recently asked me to "turn on" content creation for all their managers. They wanted speed. They wanted agility. I told them they were asking for digital pollution. The integration of tools like Easygenerator into the Cornerstone Galaxy platform is a double-edged sword. On one side, it empowers subject matter experts to create training without needing an instructional design degree. This is the "speed" side of the equation.

@@ -2,8 +2,11 @@
 layout: post
 title: "Le Mensonge du ROI : Pourquoi les DAF tuent les projets HR Tech"
 date: 2024-03-15 09:00:00 +0100
-categories: roi
 lang: fr
+author: "Ahmed Assalih"
+categories: ["roi"]
+topic: hr-transformation
+translation_key: roi-lie
 description: "Arrêtez de mesurer le 'Temps gagné'. Commencez à mesurer le 'Profit généré'. Comment parler la langue du Conseil."
 image: /assets/images/the-roi-lie-why-cfos-kill-hr-tech-projects.jpeg
 ---

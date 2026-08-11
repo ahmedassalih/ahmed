@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "AI Won’t Kill HR - Bad HR Will"
-date:   2025-10-18 09:00:00 +0100
-categories: strategy ai leadership
+title: "AI Won’t Kill HR - Bad HR Will"
+date: 2025-10-18 09:00:00 +0100
 lang: en
+author: "Ahmed Assalih"
+categories: ["strategy", "ai", "leadership"]
+topic: ai-hr
+translation_key: ai-wont-kill-hr
 description: "AI is not the executioner... It’s the mirror. It reflects whether your HR function is truly strategic or just administratively alive."
 image: /assets/images/AI_Wont_Kill_HR_Bad_HR_Will.jpeg
 highlight: true
-
 ---
 
 HR is panicking about being replaced by AI. 

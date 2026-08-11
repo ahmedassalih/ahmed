@@ -1,0 +1,20 @@
+{%- assign l = include.lang | default: t_lang -%}
+{%- assign c = site.data.home[l].contact -%}
+<section class="section section--contact" aria-labelledby="contact-cta-heading">
+  <div class="shell">
+    <div class="contact-cta">
+      <div class="contact-cta__intro">
+        <h2 class="section__title" id="contact-cta-heading">{{ c.heading }}</h2>
+        <p class="section__lead">{{ c.intro }}</p>
+        <p class="contact-cta__action">
+          <a class="btn btn--primary" href="{{ c.cta.url }}">{{ c.cta.label }}</a>
+        </p>
+      </div>
+      <ul class="contact-cta__list">
+        {%- for intent in c.intentions %}
+        <li>{{ intent }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

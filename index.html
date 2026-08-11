@@ -1,25 +1,53 @@
+---
+permalink: /
+layout: null
+sitemap: false
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Ahmed Assalih | Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmed Assalih — Choose your language / Choisissez votre langue</title>
+
+  <!-- This gateway exists only to route visitors to a language homepage.
+       It is deliberately excluded from search indexes so that /en/ and /fr/
+       remain the canonical entry points and no duplicate content is created. -->
+  <meta name="description" content="Ahmed Assalih — Executive HR Transformation & AI Strategist. Choose English or French.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://ahmedassalih.com/en/">
+  <link rel="alternate" hreflang="en" href="https://ahmedassalih.com/en/">
+  <link rel="alternate" hreflang="fr" href="https://ahmedassalih.com/fr/">
+  <link rel="alternate" hreflang="x-default" href="https://ahmedassalih.com/en/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0a0a0b">
+
   <script>
-    // Détection de la langue du navigateur
-    var lang = navigator.language || navigator.userLanguage;
-    
-    // Si la langue commence par "fr" (fr-FR, fr-CA, etc.), on envoie vers le dossier FR
-    if (lang.indexOf('fr') === 0) {
-      window.location.href = '/fr/';
-    } 
-    // Sinon, on envoie vers le dossier EN (Anglais par défaut pour le business)
-    else {
-      window.location.href = '/en/';
-    }
+    // Route to the visitor's language. Falls back to the visible choice below.
+    (function () {
+      try {
+        var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+        window.location.replace(lang.indexOf('fr') === 0 ? '/fr/' : '/en/');
+      } catch (e) { /* the gateway below remains fully usable */ }
+    })();
   </script>
-  <!-- Sécurité : Si le JavaScript est désactivé, on renvoie vers l'Anglais après 0 seconde -->
-  <meta http-equiv="refresh" content="0; url=/en/">
 </head>
 <body>
-  <p>Redirecting to <a href="/en/">English version</a>...</p>
+  <main class="gateway">
+    <div class="shell">
+      <p class="eyebrow">Ahmed Assalih</p>
+      <h1>Executive HR Transformation &amp; AI Strategist</h1>
+      <p class="gateway__lead">Dirigeant de la Transformation RH et de l’IA</p>
+      <div class="gateway__links">
+        <a class="btn btn--primary" href="/en/" hreflang="en" lang="en">English</a>
+        <a class="btn btn--ghost" href="/fr/" hreflang="fr" lang="fr">Français</a>
+      </div>
+    </div>
+  </main>
 </body>
 </html>

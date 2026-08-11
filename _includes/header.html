@@ -1,0 +1,32 @@
+{%- assign nav = site.data.navigation[t_lang] -%}
+{%- assign ui = site.data.i18n[t_lang] -%}
+<header class="site-header">
+  <div class="shell site-header__inner">
+
+    <a class="wordmark" href="/{{ t_lang }}/">
+      {% include picture.html src=site.profile.avatar alt="" width="512" height="560" class="wordmark__mark" loading="eager" %}
+      <span class="wordmark__name">Ahmed Assalih</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="{{ ui.open_menu }}">
+      <span class="nav-toggle__bars" aria-hidden="true"></span>
+      <span class="nav-toggle__text">{{ ui.menu }}</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="{% if t_lang == 'fr' %}Navigation principale{% else %}Main navigation{% endif %}">
+      <ul class="site-nav__list">
+        {%- for item in nav.main %}
+        <li>
+          <a class="site-nav__link{% if page.url contains item.url %} is-current{% endif %}"
+             href="{{ item.url }}"{% if page.url contains item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        </li>
+        {%- endfor %}
+        <li class="site-nav__lang">
+          <a class="lang-switch" href="{{ translation_url }}" lang="{{ other_lang }}" hreflang="{{ other_lang }}"
+             title="{{ ui.switch_to }}">{{ ui.switch_label }}</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>

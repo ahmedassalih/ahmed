@@ -1,12 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "La grande fusion des compétences : L'Ingénieur et l'Empathique"
-date: "2025-12-13 00:00:00 +0100"
-categories: ['Future of Work', 'Skills Economy']
-lang: "fr"
-description: "Pendant des décennies, nous avons séparé "Compétences Techniques" et "Soft Skills" dans des compartiments distincts. Budgets différents, catégories..."
-image: "/assets/images/the-great-skills-merge-the-engineer-and-the-empath.jpeg"
+date: 2025-12-13 00:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["Future of Work", "Skills Economy"]
+topic: future-of-work-skills
+translation_key: great-skills-merge
+description: "Pendant des décennies, nous avons séparé \"Compétences Techniques\" et \"Soft Skills\" dans des compartiments distincts. Budgets différents, catégories..."
+image: /assets/images/the-great-skills-merge-the-engineer-and-the-empath.jpeg
+permalink: "/future-of-work/skills-economy/2025/12/13/la-grande-fusion-des-comptences-lingnieur-et-lempathique.html"
+redirect_from:
+  - "/future of work/skills economy/2025/12/13/la-grande-fusion-des-comptences-lingnieur-et-lempathique.html"
+  - "/2026/01/26/2025-12-13-la-grande-fusion-des-comptences-lingnieur-et-lempathique.html"
 ---
 
 Pendant des décennies, nous avons séparé "Compétences Techniques" et "Soft Skills" dans des compartiments distincts. Budgets différents, catégories LMS différentes, propositions de valeur différentes. Le rapport "Great Skills Merge" de Cornerstone confirme ce que je vois sur le terrain : ce mur s'est effondré. La demande pour un équilibre 50-50 est la nouvelle réalité.

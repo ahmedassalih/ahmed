@@ -1,0 +1,60 @@
+# Interface strings. Content strings live in the page or in _data/home.yml.
+en:
+  skip_to_content: Skip to content
+  menu: Menu
+  close: Close
+  open_menu: Open navigation menu
+  language: Language
+  switch_to: Lire en français
+  switch_label: FR
+  read_insight: Read insight
+  all_insights: View all insights
+  back_to_insights: Back to Insights
+  related_insights: Related insights
+  min_read: min read
+  by: by
+  published: Published
+  sources: Sources & references
+  about_author: About Ahmed
+  about_author_body: >-
+    Executive HR Transformation & AI Strategist. 25 years across EMEA as a regional
+    business leader, HR executive, technology architect, advisor, author and professor.
+  about_author_cta: Read the full story
+  connect_linkedin: Connect on LinkedIn
+  contact_cta: Contact Ahmed
+  location: Casablanca · EMEA
+  role: Executive HR Transformation & AI Strategist
+  footer_language: Language
+  breadcrumb_home: Home
+  book_cta: Discover the book
+  no_translation: This page is not available in French.
+
+fr:
+  skip_to_content: Aller au contenu
+  menu: Menu
+  close: Fermer
+  open_menu: Ouvrir le menu de navigation
+  language: Langue
+  switch_to: Read in English
+  switch_label: EN
+  read_insight: Lire l’analyse
+  all_insights: Voir toutes les analyses
+  back_to_insights: Retour aux analyses
+  related_insights: Analyses liées
+  min_read: min de lecture
+  by: par
+  published: Publié le
+  sources: Sources & références
+  about_author: À propos d’Ahmed
+  about_author_body: >-
+    Dirigeant de la Transformation RH et de l’IA. 25 ans d’expérience EMEA comme dirigeant
+    régional, responsable RH, architecte technologique, conseiller, auteur et professeur.
+  about_author_cta: Lire le parcours complet
+  connect_linkedin: Suivre sur LinkedIn
+  contact_cta: Contacter Ahmed
+  location: Casablanca · EMEA
+  role: Dirigeant de la Transformation RH et de l’IA
+  footer_language: Langue
+  breadcrumb_home: Accueil
+  book_cta: Découvrir le livre
+  no_translation: Cette page n’est pas disponible en anglais.

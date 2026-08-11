@@ -1,12 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "The Great Skills Merge: The Engineer and the Empath"
-date: "2025-12-14 00:00:00 +0100"
-categories: ['Future of Work', 'Skills Economy']
-lang: "en"
-description: "For decades, we have segregated "Technical Skills" and "Soft Skills" into different buckets. Different training budgets, different LMS categories,..."
-image: "/assets/images/the-great-skills-merge-the-engineer-and-the-empath.jpeg"
+date: 2025-12-14 00:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["Future of Work", "Skills Economy"]
+topic: future-of-work-skills
+translation_key: great-skills-merge
+description: "For decades, we have segregated \"Technical Skills\" and \"Soft Skills\" into different buckets. Different training budgets, different LMS categories,..."
+image: /assets/images/the-great-skills-merge-the-engineer-and-the-empath.jpeg
+permalink: "/future-of-work/skills-economy/2025/12/14/the-great-skills-merge-the-engineer-and-the-empath.html"
+redirect_from:
+  - "/future of work/skills economy/2025/12/14/the-great-skills-merge-the-engineer-and-the-empath.html"
+  - "/2026/01/26/2025-12-14-the-great-skills-merge-the-engineer-and-the-empath.html"
 ---
 
 For decades, we have segregated "Technical Skills" and "Soft Skills" into different buckets. Different training budgets, different LMS categories, different value propositions. Cornerstone's "Great Skills Merge" report confirms what I have seen in the field: that wall has collapsed. The demand for a 50-50 balance is the new reality.

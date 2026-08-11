@@ -2,8 +2,11 @@
 layout: post
 title: "The Mirage of Speed: Stop Buying Chatbots, Clean Your Data First"
 date: 2023-02-14 09:00:00 +0100
-categories: architecture
 lang: en
+author: "Ahmed Assalih"
+categories: ["architecture"]
+topic: hr-tech-architecture
+translation_key: mirage-of-speed
 description: "I audited a major bank in Dubai yesterday. They wanted Generative AI. They needed a data sanitation strategy."
 image: /assets/images/the-mirage-of-speed-stop-buying-chatbots-clean-your-data-first.jpeg
 ---

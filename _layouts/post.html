@@ -1,79 +1,111 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+{%- assign l = page.lang | default: 'en' -%}
+{%- assign ui = site.data.i18n[l] -%}
+{%- assign topic = site.data.topics[page.topic][l] -%}
+{%- assign words = content | number_of_words -%}
+{%- assign minutes = words | divided_by: 200 | plus: 1 -%}
+{%- if l == 'fr' %}{% assign archive = '/fr/analyses/' %}{% else %}{% assign archive = '/en/insights/' %}{% endif -%}
 
-  <header class="post-header">
-    
-    <!-- TITRE H1 -->
-    <h1 class="post-title" itemprop="name headline" style="margin-bottom: 10px;">{{ page.title | escape }}</h1>
-    
-    <!-- META DATA (Date & Temps de lecture) -->
-    <p class="post-meta" style="color: #666; font-size: 0.9rem; margin-bottom: 30px;">
-      <!-- LOGIQUE AUTEUR -->
-      <span class="post-author" style="font-weight: 600; color: #fff; margin-right: 10px;">
-        {% if page.lang == "fr" %}par{% else %}by{% endif %} 
-        {{ page.author | default: "Ahmed ASSALIH" }}
-      </span>
-      <span style="color: #666; margin-right: 10px;">|</span>
-      <!-- FIN LOGIQUE AUTEUR -->
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% if page.lang == "fr" %}
-          <!-- Logique de date Française -->
-          {% assign m = page.date | date: "%-m" %}
-          {{ page.date | date: "%-d" }}
-          {% case m %}
-            {% when '1' %}janvier
-            {% when '2' %}février
-            {% when '3' %}mars
-            {% when '4' %}avril
-            {% when '5' %}mai
-            {% when '6' %}juin
-            {% when '7' %}juillet
-            {% when '8' %}août
-            {% when '9' %}septembre
-            {% when '10' %}octobre
-            {% when '11' %}novembre
-            {% when '12' %}décembre
-          {% endcase %}
-          {{ page.date | date: "%Y" }}
-        {% else %}
-          <!-- Logique de date Anglaise -->
-          {{ page.date | date: "%b %-d, %Y" }}
-        {% endif %}
-      </time>
-      
-      • 
-      
-      {% if page.lang == "fr" %}
-        {{ content | number_of_words | divided_by: 180 | plus: 1 }} min de lecture
-      {% else %}
-        {{ content | number_of_words | divided_by: 180 | plus: 1 }} min read
-      {% endif %}
-    </p>
+<article class="article">
+
+  <header class="article__header">
+    <div class="shell">
+      <nav class="breadcrumbs" aria-label="{% if l == 'fr' %}Fil d’Ariane{% else %}Breadcrumb{% endif %}">
+        <ol>
+          <li><a href="/{{ l }}/">{{ ui.breadcrumb_home }}</a></li>
+          <li><a href="{{ archive }}">{% if l == 'fr' %}Analyses{% else %}Insights{% endif %}</a></li>
+          <li aria-current="page">{{ page.title | truncate: 48 }}</li>
+        </ol>
+      </nav>
+      <div class="article__headline">
+        {%- if topic %}<p class="eyebrow">{{ topic }}</p>{% endif %}
+        <h1 class="article__title">{{ page.title }}</h1>
+        {%- if page.description %}
+        <p class="article__standfirst">{{ page.description }}</p>
+        {%- endif %}
+        <p class="article__meta">
+          <span>{{ ui.by }} {{ page.author | default: 'Ahmed Assalih' }}</span>
+          <span aria-hidden="true">·</span>
+          <time datetime="{{ page.date | date_to_xmlschema }}">{% include date.html d=page.date lang=l %}</time>
+          <span aria-hidden="true">·</span>
+          <span>{{ minutes }} {{ ui.min_read }}</span>
+        </p>
+      </div>
+    </div>
   </header>
 
-  <!-- HERO IMAGE (S'affiche seulement si définie dans l'article) -->
-  {% if page.image %}
-  <div class="post-hero" style="margin-bottom: 40px;">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width: 100%; height: auto; max-height: 500px; object-fit: cover; border-radius: 8px; border: 1px solid #333;">
-  </div>
-  {% endif %}
+  {%- if page.image %}
+  <figure class="article__hero">
+    <div class="shell">
+      {% include picture.html src=page.image alt="" width="1408" height="768" loading="eager" fetchpriority="high" %}
+    </div>
+  </figure>
+  {%- endif %}
 
-  <!-- CONTENU DE L'ARTICLE -->
-  <div class="post-content" itemprop="articleBody" style="font-size: 1.1rem; line-height: 1.8; color: #ccc;">
-    {{ content }}
+  <div class="page-body">
+    <div class="shell">
+      <div class="prose article__body">
+        {{ content }}
+      </div>
+
+      {%- if page.sources %}
+      <section class="article__sources prose" aria-labelledby="sources-title">
+        <h2 id="sources-title">{{ ui.sources }}</h2>
+        <ol>
+          {%- for s in page.sources %}
+          <li>{% if s.url %}<a href="{{ s.url }}" rel="noopener">{{ s.label }}</a>{% else %}{{ s.label }}{% endif %}</li>
+          {%- endfor %}
+        </ol>
+      </section>
+      {%- endif %}
+
+      <div class="article__author prose">
+        {% include picture.html src=site.profile.avatar alt="" width="512" height="560" class="article__author-photo" %}
+        <div>
+          <h2 class="article__author-name">{{ ui.about_author }}</h2>
+          <p>{{ ui.about_author_body }}</p>
+          <p class="article__author-links">
+            <a class="link-arrow" href="/{{ l }}/{% if l == 'fr' %}a-propos{% else %}about{% endif %}/">{{ ui.about_author_cta }}<span aria-hidden="true"> &rarr;</span></a>
+            <a class="link-arrow" href="{{ site.profile.linkedin }}" rel="noopener">{{ ui.connect_linkedin }}<span aria-hidden="true"> &rarr;</span></a>
+          </p>
+        </div>
+      </div>
+
+      <p class="article__back">
+        <a class="link-arrow" href="{{ archive }}"><span aria-hidden="true">&larr; </span>{{ ui.back_to_insights }}</a>
+      </p>
+    </div>
   </div>
 
-  <!-- PIED D'ARTICLE (Navigation retour) -->
-  <hr style="margin-top: 50px; border-color: #333;">
-  
-  <div class="post-footer" style="margin-bottom: 50px;">
-    {% if page.lang == "fr" %}
-      <a href="/fr/blog" style="font-weight: bold;">← Retour aux analyses</a>
-    {% else %}
-      <a href="/en/blog" style="font-weight: bold;">← Back to Insights</a>
-    {% endif %}
-  </div>
+  {%- comment -%} Related: same topic first, then most recent in the same language. {%- endcomment -%}
+  {%- assign lang_posts = site.posts | where: "lang", l -%}
+  {%- assign same_topic = lang_posts | where: "topic", page.topic -%}
+  {%- assign others = lang_posts | where_exp: "p", "p.topic != page.topic" -%}
+  {%- assign pool = same_topic | concat: others -%}
+  {%- assign related = "" | split: "" -%}
+  {%- for p in pool -%}
+    {%- if p.url != page.url and related.size < 3 -%}
+      {%- assign related = related | push: p -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if related.size > 0 %}
+  <section class="section section--alt" aria-labelledby="related-title">
+    <div class="shell">
+      <div class="section__head">
+        <h2 class="section__title section__title--sm" id="related-title">{{ ui.related_insights }}</h2>
+      </div>
+      <div class="grid grid--3">
+        {%- for p in related %}
+          {% include article-card.html post=p lang=l %}
+        {%- endfor %}
+      </div>
+      <p class="section__action">
+        <a class="link-arrow" href="{{ archive }}">{{ ui.all_insights }}<span aria-hidden="true"> &rarr;</span></a>
+      </p>
+    </div>
+  </section>
+  {%- endif %}
 
 </article>

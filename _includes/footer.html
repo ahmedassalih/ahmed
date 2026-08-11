@@ -1,0 +1,41 @@
+{%- assign nav = site.data.navigation[t_lang] -%}
+{%- assign ui = site.data.i18n[t_lang] -%}
+<footer class="site-footer">
+  <div class="shell">
+
+    <div class="site-footer__grid">
+
+      <div class="site-footer__identity">
+        <p class="site-footer__name">Ahmed Assalih</p>
+        <p class="site-footer__role">{{ ui.role }}</p>
+        <p class="site-footer__location">{{ ui.location }}</p>
+      </div>
+
+      {%- for group in nav.footer %}
+      <nav class="site-footer__group" aria-label="{{ group.title }}">
+        <h2 class="site-footer__heading">{{ group.title }}</h2>
+        <ul class="site-footer__list">
+          {%- for item in group.items %}
+          <li><a href="{{ item.url }}"{% if item.external %} rel="noopener"{% endif %}>{{ item.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+      {%- endfor %}
+
+      <div class="site-footer__group">
+        <h2 class="site-footer__heading">{{ ui.footer_language }}</h2>
+        <ul class="site-footer__list site-footer__list--inline">
+          <li><a href="{% if t_lang == 'en' %}{{ page.url }}{% else %}{{ url_en }}{% endif %}" hreflang="en" lang="en">EN</a></li>
+          <li><a href="{% if t_lang == 'fr' %}{{ page.url }}{% else %}{{ url_fr }}{% endif %}" hreflang="fr" lang="fr">FR</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="site-footer__base">
+      <p>&copy; {{ site.time | date: "%Y" }} Ahmed Assalih</p>
+      <p><a href="{{ site.profile.linkedin }}" rel="noopener">LinkedIn</a></p>
+    </div>
+
+  </div>
+</footer>

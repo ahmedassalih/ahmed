@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "HR AI 2025: The Year Reality Hit Hard"
-date:   2026-01-15 09:00:00 +0100
-categories: strategy ai retrospectives
+title: "HR AI 2025: The Year Reality Hit Hard"
+date: 2026-01-15 09:00:00 +0100
 lang: en
+author: "Ahmed Assalih"
+categories: ["strategy", "ai", "retrospectives"]
+topic: ai-hr
+translation_key: hr-ai-2025-reality-check
 description: "The hype party of 2024 is over. 2025 was the year we had to clean up the mess. Here is the true story of our industry last year."
 image: /assets/images/hr-ai-2025-reality-check.jpeg
 highlight: true

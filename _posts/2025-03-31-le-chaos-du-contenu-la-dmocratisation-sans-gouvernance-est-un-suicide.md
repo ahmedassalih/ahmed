@@ -1,12 +1,17 @@
 ---
-layout: "post"
+layout: post
 title: "Le chaos du contenu : La démocratisation sans gouvernance est un suicide"
-date: "2025-03-31 00:00:00 +0100"
-categories: ['Content Strategy', 'AI Governance']
-lang: "fr"
-description: "Un client m'a récemment demandé d'activer la création de contenu pour l'ensemble de ses managers. Il voulait de la vitesse. Il voulait de..."
-image: "/assets/images/the-content-chaos-democratization-without-governance-is-suicide.jpeg"
+date: 2025-03-31 00:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["Content Strategy", "AI Governance"]
+topic: ai-hr
+translation_key: content-governance
+description: "Un client m'a récemment demandé d'activer la création de contenu pour l'ensemble de ses managers. Il voulait de la vitesse. Il voulait de..."
+image: /assets/images/the-content-chaos-democratization-without-governance-is-suicide.jpeg
+permalink: "/content-strategy/ai-governance/2025/03/31/le-chaos-du-contenu-la-dmocratisation-sans-gouvernance-est-un-suicide.html"
+redirect_from:
+  - "/content strategy/ai governance/2025/03/31/le-chaos-du-contenu-la-dmocratisation-sans-gouvernance-est-un-suicide.html"
 ---
 
 Un client m'a récemment demandé d'activer la création de contenu pour l'ensemble de ses managers. Il voulait de la vitesse. Il voulait de l'agilité. Je lui ai répondu qu'il s'apprêtait à créer une pollution numérique massive. L'intégration d'outils comme Easygenerator dans la plateforme Cornerstone Galaxy est une arme à double tranchant. D'un côté, cela permet aux experts métiers de créer des formations sans avoir besoin d'un diplôme en ingénierie pédagogique. C'est l'équation de la vitesse.

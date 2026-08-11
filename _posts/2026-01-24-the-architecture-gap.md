@@ -4,6 +4,8 @@ title:  "The Architecture Gap: Why AI Fails in HR"
 date:   2026-01-24 09:00:00 +0100
 categories: architecture ai
 lang: en
+topic: hr-tech-architecture
+translation_key: architecture-gap
 description: "We don't have an AI problem. We have a data structure problem. Here is how to fix it."
 ---
 

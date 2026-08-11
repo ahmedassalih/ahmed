@@ -1,0 +1,386 @@
+# Homepage content, single source for both language homepages.
+# Rendered by _layouts/home.html via site.data.home[page.lang].
+
+en:
+  hero:
+    eyebrow: Ahmed Assalih
+    position: Executive HR Transformation & AI Strategist
+    title: Bridging business, HR and technology to make transformation deliver.
+    lead: >-
+      25 years across EMEA as a regional business leader, HR executive, technology
+      architect, advisor, author and professor.
+    primary: { label: Explore my work, url: /en/expertise/ }
+    secondary: { label: Discover The Death of Skills, url: /en/book/ }
+    tertiary: { label: Speaking & Teaching, url: /en/speaking/ }
+    image_alt: Ahmed Assalih
+
+  proof:
+    - stat: 25 years
+      label: HR · Technology · Business
+    - stat: MEA + Europe
+      label: International leadership
+    - stat: 22 countries · 50+ entities
+      label: Multi-country transformation
+    - stat: Business Unit builder
+      label: Strategy to delivery
+    - stat: Author & Professor
+      label: The Death of Skills · 2026
+
+  lenses:
+    heading: One career. Four lenses.
+    intro: >-
+      Executive leadership, HR, engineering and teaching rarely sit inside a single career.
+      Here they do — and that combination is the point. Each lens changes what a transformation
+      looks like, and what it takes to make it work.
+    items:
+      - num: "01"
+        title: Executive Leadership
+        tagline: Build. Scale. Deliver.
+        body: >-
+          Business Unit creation, business leadership, go-to-market, enterprise
+          relationships, P&L discipline, multicultural teams and operational delivery.
+        cta: Explore Executive Leadership
+        url: /en/expertise/executive-leadership/
+      - num: "02"
+        title: Strategic Transformation
+        tagline: Make complex transformation safer.
+        body: >-
+          HR transformation strategy, governance, programme recovery, solution selection,
+          multi-country deployment and executive alignment.
+        cta: Explore Strategic Transformation
+        url: /en/expertise/hr-transformation/
+      - num: "03"
+        title: HR Tech & AI
+        tagline: Understand what sits beneath the technology.
+        body: >-
+          HRIS architecture, data, AI, automation, integration, processes, governance
+          and adoption.
+        cta: Explore HR Tech & AI
+        url: /en/expertise/hr-tech-ai/
+      - num: "04"
+        title: Future of Work
+        tagline: Turn field experience into ideas.
+        body: >-
+          Author, professor and speaker exploring AI, skills, potential, learning,
+          HR technology and the future of work.
+        cta: Explore my ideas
+        url: /en/ideas/
+
+  impact:
+    heading: Selected Impact
+    intro: >-
+      Three bodies of work rather than a chronology.
+    cases:
+      - title: Building an HR Transformation Business
+        body: >-
+          Built and scaled a regional HR Transformation Business Unit spanning offer
+          strategy, go-to-market, business development, advisory and delivery.
+        metrics:
+          - { value: Business Unit, label: Built from the ground up }
+          - { value: Double-digit, label: Annual growth }
+          - { value: "~25%", label: Operating performance }
+      - title: Transforming Talent Across 22 Countries
+        body: >-
+          Unified Talent Management transformation across more than 50 entities in
+          22 countries, navigating cultural and regulatory diversity.
+        metrics:
+          - { value: "22", label: Countries }
+          - { value: "50+", label: Entities }
+          - { value: Multi-country, label: Governance model }
+      - title: From HRIS Architecture to HR Leadership
+        body: >-
+          Started by leading HRIS implementation and architecture across a major airline
+          group and its subsidiaries, then moved into Talent leadership and ultimately
+          HR leadership for 6,000+ employees.
+        metrics:
+          - { value: "10", label: Subsidiaries }
+          - { value: 5 + 20, label: Developers and HR experts }
+          - { value: "6,000+", label: Employees }
+
+  method:
+    eyebrow: Intellectual property
+    heading: The Logician-Engineer Method
+    lead: >-
+      Complex transformation does not fail because organisations lack technology.
+      It fails when strategy, architecture, data, processes and adoption are treated
+      separately.
+    steps:
+      - num: "01"
+        title: Diagnose
+        question: What is really broken?
+        items: [Data, Processes, Organisation, Technology, Governance]
+      - num: "02"
+        title: Architect
+        question: What should the target model become?
+        items: [HR model, Systems, Data flows, AI, Operating model]
+      - num: "03"
+        title: Make it live
+        question: How will the organisation actually adopt it?
+        items: [Governance, Decision rights, Change, Capabilities, Measurement]
+    cta: { label: Discover the Method, url: /en/ideas/logician-engineer-method/ }
+
+  book:
+    label: New book · 2026
+    title: The Death of Skills
+    subtitle: What AI reveals about your talent — and what your skills are hiding from you.
+    body:
+      - >-
+        The argument is not that skills disappear. It is that organisations relying only
+        on visible, current skills fail to see potential, adaptability, trajectory and
+        learning velocity.
+      - >-
+        AI is putting pressure on talent models built around visible, current skills.
+        The book sets out what those models can rest on instead.
+    frameworks_label: Five frameworks from the book
+    frameworks: [Potential Stack, Time-to-Skill, "Fortress · Front Line · Laboratory", Trajectory Radar, Pay-for-Agility]
+    primary: { label: Discover the Book }
+    secondary: { label: Explore the frameworks, url: /en/ideas/frameworks/ }
+
+  insights:
+    heading: Ideas & Insights
+    intro: >-
+      Field experience, research and frameworks on HR transformation, AI and the
+      future of work.
+    cta: { label: View all insights, url: /en/insights/ }
+
+  speaking:
+    heading: I teach what I have practised.
+    sub: >-
+      A practical perspective drawn from real transformations rather than purely
+      theoretical commentary.
+    areas:
+      - title: Keynotes
+        body: AI · Future of Work · Skills · HR Transformation
+      - title: Executive education
+        body: Executive committees · CHRO teams · HR leadership
+      - title: University
+        body: HR Master's programmes · HR Tech · AI · Digital Transformation
+    primary: { label: Speaking & Teaching, url: /en/speaking/ }
+    secondary: { label: Invite Ahmed, url: /en/contact/ }
+
+  about:
+    eyebrow: About Ahmed
+    heading: Engineer. HR leader. Entrepreneur. Business Unit builder. Author.
+    body:
+      - >-
+        Trained as an engineer at ENSEEIHT in Toulouse, Ahmed began his career in 2001 at
+        Royal Air Maroc, deploying HR Access across the group and around ten subsidiaries
+        while leading a mixed team of developers and HR experts. He moved from systems to
+        people: Talent and Recruiting, then Head of HR for an airline group of more than
+        6,000 employees.
+      - >-
+        In 2013 he became an entrepreneur, founding Créative RH Consulting before joining
+        Advyteam Group as Partner and General Manager for Morocco, where he built the
+        consulting business and founded Advyteam Academy. Since 2017 he has led HR
+        Transformation for Sopra HR Software in the MEA region, launching and scaling a
+        Business Unit that runs from offer strategy to delivery.
+      - >-
+        Today he also teaches on HR Master's programmes, speaks internationally, and
+        writes. His 2026 book, The Death of Skills, argues that AI is exposing the limits
+        of skills-based talent models.
+    cta: { label: Read the full story, url: /en/about/ }
+
+  contact:
+    heading: Start a conversation
+    intro: >-
+      Open to selected executive opportunities, strategic assignments, speaking and
+      academic collaborations across EMEA.
+    intentions:
+      - Executive & leadership opportunities
+      - Strategic transformation & advisory
+      - Speaking & media
+      - Teaching & academic collaboration
+    cta: { label: Contact Ahmed, url: /en/contact/ }
+
+fr:
+  hero:
+    eyebrow: Ahmed Assalih
+    position: Dirigeant de la Transformation RH et de l’IA
+    title: Relier business, RH et technologie pour transformer la complexité en résultats.
+    lead: >-
+      25 ans d’expérience EMEA comme dirigeant régional, responsable RH, architecte
+      technologique, conseiller, auteur et professeur.
+    primary: { label: Explorer mon parcours, url: /fr/expertise/ }
+    secondary: { label: Découvrir La Mort des Skills, url: /fr/livre/ }
+    tertiary: { label: Conférences & Enseignement, url: /fr/conferences-enseignement/ }
+    image_alt: Ahmed Assalih
+
+  proof:
+    - stat: 25 ans
+      label: RH · Technologie · Business
+    - stat: MEA + Europe
+      label: Direction internationale
+    - stat: 22 pays · 50+ entités
+      label: Transformation multi-pays
+    - stat: Créateur de Business Unit
+      label: De la stratégie à la delivery
+    - stat: Auteur & Professeur
+      label: La Mort des Skills · 2026
+
+  lenses:
+    heading: Un parcours. Quatre regards.
+    intro: >-
+      Direction d’entreprise, RH, ingénierie et enseignement se rencontrent rarement dans un
+      même parcours. Ici, c’est le cas — et c’est précisément la différence. Chaque regard
+      change la lecture d’une transformation et les conditions de sa réussite.
+    items:
+      - num: "01"
+        title: Leadership exécutif
+        tagline: Construire. Développer. Livrer.
+        body: >-
+          Création de Business Unit, direction d’activité, go-to-market, relations
+          grands comptes, discipline P&L, équipes multiculturelles et delivery opérationnelle.
+        cta: Découvrir le leadership exécutif
+        url: /fr/expertise/leadership-executif/
+      - num: "02"
+        title: Transformation stratégique
+        tagline: Sécuriser les transformations complexes.
+        body: >-
+          Stratégie de transformation RH, gouvernance, redressement de programme, choix de
+          solution, déploiement multi-pays et alignement des dirigeants.
+        cta: Découvrir la transformation RH
+        url: /fr/expertise/transformation-rh/
+      - num: "03"
+        title: HR Tech & IA
+        tagline: Comprendre ce qui se joue sous la technologie.
+        body: >-
+          Architecture SIRH, données, IA, automatisation, intégration, processus,
+          gouvernance et adoption.
+        cta: Découvrir HR Tech & IA
+        url: /fr/expertise/hr-tech-ia/
+      - num: "04"
+        title: Futur du travail
+        tagline: Transformer le terrain en idées.
+        body: >-
+          Auteur, professeur et conférencier sur l’IA, les compétences, le potentiel,
+          l’apprentissage, la HR Tech et le futur du travail.
+        cta: Découvrir mes idées
+        url: /fr/idees/
+
+  impact:
+    heading: Réalisations choisies
+    intro: >-
+      Trois chantiers de fond, plutôt qu’une chronologie.
+    cases:
+      - title: Construire une activité de transformation RH
+        body: >-
+          Création et développement d’une Business Unit régionale de transformation RH,
+          couvrant la stratégie d’offre, le go-to-market, le développement commercial,
+          le conseil et la delivery.
+        metrics:
+          - { value: Business Unit, label: Créée de zéro }
+          - { value: Croissance, label: À deux chiffres par an }
+          - { value: "~25%", label: Performance opérationnelle (REX) }
+      - title: Transformer le Talent dans 22 pays
+        body: >-
+          Transformation unifiée du Talent Management sur plus de 50 entités dans
+          22 pays, avec la diversité culturelle et réglementaire que cela implique.
+        metrics:
+          - { value: "22", label: Pays }
+          - { value: "50+", label: Entités }
+          - { value: Multi-pays, label: Modèle de gouvernance }
+      - title: De l’architecture SIRH à la direction RH
+        body: >-
+          D’abord la conduite du déploiement et de l’architecture SIRH d’un grand groupe
+          aérien et de ses filiales, puis la direction du Talent, et enfin la direction RH
+          d’un groupe de plus de 6 000 collaborateurs.
+        metrics:
+          - { value: "10", label: Filiales }
+          - { value: 5 + 20, label: Développeurs et experts RH }
+          - { value: "6 000+", label: Collaborateurs }
+
+  method:
+    eyebrow: Propriété intellectuelle
+    heading: La Méthode Ingénieur-Logicien
+    lead: >-
+      Une transformation complexe n’échoue pas par manque de technologie. Elle échoue
+      quand la stratégie, l’architecture, les données, les processus et l’adoption sont
+      traités séparément.
+    steps:
+      - num: "01"
+        title: Diagnostiquer
+        question: Qu’est-ce qui est réellement cassé ?
+        items: [Données, Processus, Organisation, Technologie, Gouvernance]
+      - num: "02"
+        title: Architecturer
+        question: Quel modèle cible construire ?
+        items: [Modèle RH, Systèmes, Flux de données, IA, Modèle opérationnel]
+      - num: "03"
+        title: Faire vivre
+        question: Comment l’organisation va-t-elle réellement l’adopter ?
+        items: [Gouvernance, Droits de décision, Conduite du changement, Compétences, Mesure]
+    cta: { label: Découvrir la méthode, url: /fr/idees/methode-ingenieur-logicien/ }
+
+  book:
+    label: Nouveau livre · 2026
+    title: La Mort des Skills
+    subtitle: Ce que l’IA révèle de vos talents — et ce que vos compétences vous cachent.
+    body:
+      - >-
+        La thèse n’est pas que les compétences disparaissent. C’est qu’une organisation
+        qui ne regarde que les compétences visibles et actuelles ne voit ni le potentiel,
+        ni l’adaptabilité, ni la trajectoire, ni la vitesse d’apprentissage.
+      - >-
+        L’IA met sous tension les modèles de talent construits autour des compétences
+        visibles et actuelles. Le livre propose ce sur quoi ils peuvent s’appuyer
+        autrement.
+    frameworks_label: Les cinq frameworks du livre
+    frameworks: [Potential Stack, Time-to-Skill, "Fortress · Front Line · Laboratory", Trajectory Radar, Pay-for-Agility]
+    primary: { label: Découvrir le livre }
+    secondary: { label: Explorer les frameworks, url: /fr/idees/frameworks/ }
+
+  insights:
+    heading: Idées & Analyses
+    intro: >-
+      Expérience de terrain, recherche et cadres de réflexion sur la transformation RH,
+      l’IA et le futur du travail.
+    cta: { label: Voir toutes les analyses, url: /fr/analyses/ }
+
+  speaking:
+    heading: J’enseigne ce que j’ai pratiqué.
+    sub: >-
+      Un regard concret, nourri par des transformations réelles plutôt que par un
+      commentaire purement théorique.
+    areas:
+      - title: Keynotes
+        body: IA · Futur du travail · Skills · Transformation RH
+      - title: Executive education
+        body: Comités exécutifs · Équipes DRH · Leadership RH
+      - title: Université
+        body: Masters RH · HR Tech · IA · Transformation digitale
+    primary: { label: Conférences & Enseignement, url: /fr/conferences-enseignement/ }
+    secondary: { label: Inviter Ahmed, url: /fr/contact/ }
+
+  about:
+    eyebrow: À propos d’Ahmed
+    heading: Ingénieur. Dirigeant RH. Entrepreneur. Bâtisseur de Business Unit. Auteur.
+    body:
+      - >-
+        Ingénieur de l’ENSEEIHT à Toulouse, Ahmed débute sa carrière en 2001 à Royal Air
+        Maroc, où il déploie HR Access pour le groupe et une dizaine de filiales à la tête
+        d’une équipe mixte de développeurs et d’experts RH. Il passe ensuite des systèmes
+        aux personnes : Talent et recrutement, puis direction du département RH d’un groupe
+        aérien de plus de 6 000 collaborateurs.
+      - >-
+        En 2013, il devient entrepreneur en fondant Créative RH Consulting, avant de
+        rejoindre Advyteam Group comme Partner et Directeur Général Maroc, où il développe
+        l’activité conseil et fonde Advyteam Academy. Depuis 2017, il dirige la
+        transformation RH de Sopra HR Software sur la zone MEA et y a lancé une Business
+        Unit qui va de la stratégie d’offre jusqu’à la delivery.
+      - >-
+        Il enseigne aujourd’hui dans plusieurs Masters RH, intervient en conférence à
+        l’international et écrit. Son livre 2026, La Mort des Skills, montre comment l’IA
+        révèle les limites des modèles de talent fondés sur les compétences.
+    cta: { label: Lire le parcours complet, url: /fr/a-propos/ }
+
+  contact:
+    heading: Engager la conversation
+    intro: >-
+      Ouvert à des opportunités de direction sélectionnées, des missions stratégiques,
+      des conférences et des collaborations académiques sur la zone EMEA.
+    intentions:
+      - Opportunités de direction
+      - Conseil & transformation stratégique
+      - Conférences & médias
+      - Enseignement & collaboration académique
+    cta: { label: Contacter Ahmed, url: /fr/contact/ }

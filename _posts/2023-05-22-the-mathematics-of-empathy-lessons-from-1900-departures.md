@@ -2,13 +2,16 @@
 layout: post
 title: "The Mathematics of Empathy: Lessons from 1,900 Departures"
 date: 2023-05-22 09:00:00 +0100
-categories: crisis-management
 lang: en
-description: "Excel sheets don't cry. People do. Lessons from my time as Group CHRO managing a massive airline restructuring."
+author: "Ahmed Assalih"
+categories: ["crisis-management"]
+topic: leadership-change
+translation_key: mathematics-of-empathy
+description: "Excel sheets don't cry. People do. Lessons from leading HR for an airline group through a massive restructuring."
 image: /assets/images/the-mathematics-of-empathy-lessons-from-1900-departures.jpeg
 ---
 
-Years ago, as Group CHRO of Royal Air Maroc, I faced the hardest challenge of my career: managing a massive restructuring plan. 1,900 people had to leave the company to save it.
+Years ago, as Head of HR at Royal Air Maroc, I faced the hardest challenge of my career: managing a massive restructuring plan. 1,900 people had to leave the company to save it.
 
 In most consulting firms, this is treated as a linear equation: `Cost Reduction Target - Current Cost = Headcount Reduction`.
 They deliver a spreadsheet and leave.

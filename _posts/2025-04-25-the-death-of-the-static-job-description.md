@@ -1,12 +1,17 @@
 ---
-layout: "post"
+layout: post
 title: "The Death of the Static Job Description"
-date: "2025-04-25 00:00:00 +0100"
-categories: ['Skills Intelligence', 'Big Data']
-lang: "en"
-description: "I spent the early 2000s coding payroll modules where a job description was a hard-coded field in a database. It was static, monolithic, and safe...."
-image: "/assets/images/the-death-of-the-static-job-description.jpeg"
+date: 2025-04-25 00:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["Skills Intelligence", "Big Data"]
+topic: future-of-work-skills
+translation_key: static-job-description
+description: "I spent the early 2000s coding payroll modules where a job description was a hard-coded field in a database. It was static, monolithic, and safe...."
+image: /assets/images/the-death-of-the-static-job-description.jpeg
+permalink: "/skills-intelligence/big-data/2025/04/25/the-death-of-the-static-job-description.html"
+redirect_from:
+  - "/skills intelligence/big data/2025/04/25/the-death-of-the-static-job-description.html"
 ---
 
 I spent the early 2000s coding payroll modules where a job description was a hard-coded field in a database. It was static, monolithic, and safe. Those days are dead. With Cornerstone’s unveiling of Galaxy AI and the deep integration of SkyHive’s labor market data, we have officially entered the era of fluid workforce architecture. The announcement claiming 51,000 skills mapped to 250 million roles isn't marketing fluff; it's the new baseline for survival.

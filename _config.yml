@@ -1,21 +1,122 @@
-title: Ahmed Assalih
-email: contact@ahmedassalih.com
-description: >-
-  Strategic HR & AI Architect. Bridging Deep Tech, Business Reality & Human Capital in EMEA.
-baseurl: ""
-url: "https://ahmedassalih.com"
-twitter_username: aassalih
-github_username: aassalih
+# ==========================================================================
+#  ahmedassalih.com — site configuration
+# ==========================================================================
 
-# Build settings
-theme: minima
+title: Ahmed Assalih
+tagline: Executive HR Transformation & AI Strategist
+description: >-
+  Executive HR Transformation and AI strategist with 25 years across EMEA,
+  combining business leadership, HR Tech architecture, transformation,
+  authorship and teaching.
+email: contact@ahmedassalih.com
+
+url: "https://ahmedassalih.com"
+baseurl: ""
+lang: en
+
+# --------------------------------------------------------------------------
+#  Identity used by layouts, structured data and the media kit
+# --------------------------------------------------------------------------
+author:
+  name: Ahmed Assalih
+  email: contact@ahmedassalih.com
+  twitter: aassalih
+
+profile:
+  name: Ahmed Assalih
+  job_title_en: Executive HR Transformation & AI Strategist
+  job_title_fr: Dirigeant de la Transformation RH et de l'IA
+  location: Casablanca
+  region: EMEA
+  linkedin: "https://www.linkedin.com/in/aassalih/"
+  photo: /assets/images/profile.jpg
+  avatar: /assets/images/avatar.jpg
+
+book:
+  title_en: The Death of Skills
+  title_fr: La Mort des Skills
+  year: 2026
+  url: "https://thedeathofskills.com"
+  cover_en: /assets/images/cover-thedeathofskills-en.jpg
+  cover_fr: /assets/images/cover-thedeathofskills-fr.jpg
+
+forms:
+  contact_action: "https://formspree.io/f/mbdgwvnl"
+
+analytics:
+  ga_measurement_id: G-EYSSJGHC2F
+
+# jekyll-seo-tag social metadata
+twitter:
+  username: aassalih
+  card: summary_large_image
+social:
+  name: Ahmed Assalih
+  links:
+    - https://www.linkedin.com/in/aassalih/
+
+# --------------------------------------------------------------------------
+#  Build settings
+# --------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Fixed UTC+1 so post dates (all authored with a +0100 offset) always resolve
+# to the same calendar day, and therefore the same URL, on any build machine.
+timezone: "Etc/GMT-1"
+
+# Matches the URLs the site has been publishing since launch. Do not change.
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
-# Configuration simple
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
+  - prompt
+  - scripts
+  - generate-posts.py
+  - "generate-posts copy.py"
+  - .bundle
+
+# --------------------------------------------------------------------------
+#  Front matter defaults
+# --------------------------------------------------------------------------
 defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Ahmed Assalih
+  - scope:
+      path: ""
+      type: pages
+    values:
+      image: /assets/images/profile.jpg
+  - scope:
+      path: "en"
+    values:
+      lang: en
+      locale: en_US
+  - scope:
+      path: "fr"
+    values:
+      lang: fr
+      locale: fr_FR

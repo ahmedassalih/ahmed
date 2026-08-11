@@ -1,12 +1,16 @@
 ---
-layout: "post"
+layout: post
 title: "Security is Not a Feature, It is the Backbone"
-date: "2025-07-23 00:00:00 +0100"
-categories: ['Cybersecurity', 'Compliance']
-lang: "en"
-description: "I am often hired to "de-risk" high-stakes investments. Usually, this means I come in when a project is bleeding money. But increasingly, it means I..."
-image: "/assets/images/security-is-not-a-feature-it-is-the-backbone.jpeg"
+date: 2025-07-23 00:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["Cybersecurity", "Compliance"]
+topic: hr-tech-architecture
+translation_key: security-backbone
+description: "I am often hired to \"de-risk\" high-stakes investments. Usually, this means I come in when a project is bleeding money. But increasingly, it means I..."
+image: /assets/images/security-is-not-a-feature-it-is-the-backbone.jpeg
+redirect_from:
+  - "/2026/01/26/2025-07-23-security-is-not-a-feature-it-is-the-backbone.html"
 ---
 
 I am often hired to "de-risk" high-stakes investments. Usually, this means I come in when a project is bleeding money. But increasingly, it means I come in when a project is leaking data. The announcement that Cornerstone achieved FedRAMP authorization is significant, not because we all work for the US Federal government, but because it sets a standard. In the MEA region, data sovereignty and security are often treated as afterthoughts—items to be checked off on an RFP and forgotten.

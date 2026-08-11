@@ -1,12 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "Learning in the Flow of Work: Ending the ALT-TAB Era"
-date: "2025-10-23 00:00:00 +0100"
-categories: ['Sales Enablement', 'Learning in the Flow']
-lang: "en"
-description: "The greatest friction in corporate learning is the "Alt-Tab" tax. Every time a sales rep has to minimize Salesforce, open an LMS, log in, and find..."
-image: "/assets/images/learning-in-the-flow-of-work-ending-the-alt-tab-era.jpeg"
+date: 2025-10-23 00:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["Sales Enablement", "Learning in the Flow"]
+topic: future-of-work-skills
+translation_key: learning-in-the-flow
+description: "The greatest friction in corporate learning is the \"Alt-Tab\" tax. Every time a sales rep has to minimize Salesforce, open an LMS, log in, and find..."
+image: /assets/images/learning-in-the-flow-of-work-ending-the-alt-tab-era.jpeg
+permalink: "/sales-enablement/learning-in-the-flow/2025/10/23/learning-in-the-flow-of-work-ending-the-alt-tab-era.html"
+redirect_from:
+  - "/sales enablement/learning in the flow/2025/10/23/learning-in-the-flow-of-work-ending-the-alt-tab-era.html"
+  - "/2026/01/26/2025-10-23-learning-in-the-flow-of-work-ending-the-alt-tab-era.html"
 ---
 
 The greatest friction in corporate learning is the "Alt-Tab" tax. Every time a sales rep has to minimize Salesforce, open an LMS, log in, and find a course, you have lost them. Productivity dies in the browser tabs. The launch of the AI Learning Agent on Salesforce AppExchange is the technical solution to this behavioral problem.

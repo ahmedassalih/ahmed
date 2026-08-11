@@ -1,13 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "Au-delà de la Hype : Le pragmatisme est la seule stratégie"
-date: "2025-12-31 00:00:00 +0100"
-categories: ['Strategic Advisory', 'Leadership']
-lang: "fr"
-description: "Alors que nous clôturons 2025, le bruit autour de l'IA a été assourdissant. J'ai passé l'année à auditer des projets RH Tech en détresse et à..."
-image: "/assets/images/beyond-the-hype-pragmatism-is-the-only-strategy.jpeg"
+date: 2025-12-31 00:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["Strategic Advisory", "Leadership"]
+topic: leadership-change
+translation_key: beyond-the-hype
+description: "Alors que nous clôturons 2025, le bruit autour de l'IA a été assourdissant. J'ai passé l'année à auditer des projets RH Tech en détresse et à..."
+image: /assets/images/beyond-the-hype-pragmatism-is-the-only-strategy.jpeg
 highlight: true
+permalink: "/strategic-advisory/leadership/2025/12/31/au-del-de-la-hype-le-pragmatisme-est-la-seule-stratgie.html"
+redirect_from:
+  - "/strategic advisory/leadership/2025/12/31/au-del-de-la-hype-le-pragmatisme-est-la-seule-stratgie.html"
 ---
 
 Alors que nous clôturons 2025, le bruit autour de l'IA a été assourdissant. J'ai passé l'année à auditer des projets RH Tech en détresse et à sauver des implémentations bloquées. S'il y a une leçon à retenir pour 2026, c'est celle-ci : le pragmatisme gagne toujours. Le "cycle de la hype" est dangereux. Il convainc les dirigeants d'acheter des outils qu'ils ne comprennent pas pour résoudre des problèmes qu'ils n'ont pas définis.

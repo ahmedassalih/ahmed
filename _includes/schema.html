@@ -1,0 +1,60 @@
+{%- comment -%}
+Structured data that jekyll-seo-tag does not already emit.
+Only factual, verifiable properties are declared.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": "Ahmed Assalih",
+      "url": "{{ site.url }}/{{ t_lang }}/",
+      {% if page.lang == 'fr' %}"jobTitle": {{ site.profile.job_title_fr | jsonify }},{% else %}"jobTitle": {{ site.profile.job_title_en | jsonify }},{% endif %}
+      "image": "{{ site.url }}{{ site.profile.photo }}",
+      "sameAs": ["{{ site.profile.linkedin }}"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Casablanca",
+        "addressCountry": "MA"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "ENSEEIHT, Toulouse" },
+        { "@type": "CollegeOrUniversity", "name": "Aix-Marseille Université" }
+      ],
+      "knowsAbout": [
+        "HR transformation",
+        "HR technology",
+        "HRIS architecture",
+        "Artificial intelligence in HR",
+        "Talent management",
+        "Future of work",
+        "Executive leadership"
+      ],
+      "knowsLanguage": ["fr", "en", "ar"]
+    }{% if page.schema_book %},
+    {
+      "@type": "Book",
+      "@id": "{{ site.book.url }}#book",
+      "name": {% if page.lang == 'fr' %}{{ site.book.title_fr | jsonify }}{% else %}{{ site.book.title_en | jsonify }}{% endif %},
+      "author": { "@id": "{{ site.url }}/#person" },
+      "inLanguage": "{{ page.lang }}",
+      "url": "{{ site.book.url }}",
+      "datePublished": "{{ site.book.year }}",
+      "about": ["Skills", "Artificial intelligence", "Talent management", "Future of work"]
+    }{% endif %}{% if page.breadcrumbs %},
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for crumb in page.breadcrumbs %}{
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "name": {{ crumb.label | jsonify }},
+          "item": "{{ site.url }}{{ crumb.url }}"
+        }{% unless forloop.last %},{% endunless %}{% endfor %}
+      ]
+    }{% endif %}
+  ]
+}
+</script>

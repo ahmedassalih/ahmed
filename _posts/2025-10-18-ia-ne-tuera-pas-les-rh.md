@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "L'IA ne tuera pas les RH - Les mauvais RH le feront"
-date:   2025-10-18 09:00:00 +0100
-categories: strategy ai leadership
+title: "L'IA ne tuera pas les RH - Les mauvais RH le feront"
+date: 2025-10-18 09:00:00 +0100
 lang: fr
+author: "Ahmed Assalih"
+categories: ["strategy", "ai", "leadership"]
+topic: ai-hr
+translation_key: ai-wont-kill-hr
 description: "L'IA n'est pas le bourreau... C'est le miroir. Elle reflète si votre fonction RH est réellement stratégique ou simplement administrative."
 image: /assets/images/AI_Wont_Kill_HR_Bad_HR_Will.jpeg
 highlight: true

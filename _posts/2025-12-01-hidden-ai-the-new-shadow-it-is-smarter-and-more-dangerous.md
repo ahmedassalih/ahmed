@@ -1,12 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "Hidden AI: The New Shadow IT is Smarter and More Dangerous"
-date: "2025-12-01 00:00:00 +0100"
-categories: ['Shadow IT', 'Risk Management']
-lang: "en"
-description: "The statistics from the recent "Hidden AI" survey are alarming but not surprising. 80% of workers are using AI, and most are hiding it from their..."
-image: "/assets/images/hidden-ai-the-new-shadow-it-is-smarter-and-more-dangerous.jpeg"
+date: 2025-12-01 00:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["Shadow IT", "Risk Management"]
+topic: ai-hr
+translation_key: hidden-ai
+description: "The statistics from the recent \"Hidden AI\" survey are alarming but not surprising. 80% of workers are using AI, and most are hiding it from their..."
+image: /assets/images/hidden-ai-the-new-shadow-it-is-smarter-and-more-dangerous.jpeg
+permalink: "/shadow-it/risk-management/2025/12/01/hidden-ai-the-new-shadow-it-is-smarter-and-more-dangerous.html"
+redirect_from:
+  - "/shadow it/risk management/2025/12/01/hidden-ai-the-new-shadow-it-is-smarter-and-more-dangerous.html"
+  - "/2026/01/26/2025-12-01-hidden-ai-the-new-shadow-it-is-smarter-and-more-dangerous.html"
 ---
 
 The statistics from the recent "Hidden AI" survey are alarming but not surprising. 80% of workers are using AI, and most are hiding it from their bosses. We used to call this "Shadow IT"—employees installing unauthorized software to get the job done. But this is different. This is "Shadow Intelligence."

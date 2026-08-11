@@ -2,8 +2,11 @@
 layout: post
 title: "The Ontology of Talent: Why Your Skills Architecture is Failing"
 date: 2024-11-12 09:00:00 +0100
-categories: data
 lang: en
+author: "Ahmed Assalih"
+categories: ["data"]
+topic: hr-tech-architecture
+translation_key: ontology-of-talent
 description: "If you call it a 'Skill' and I call it a 'Competency', our systems are deaf. The boring work of Taxonomy."
 image: /assets/images/the-ontology-of-talent-why-your-skills-architecture-is-failing.jpeg
 ---

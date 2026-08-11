@@ -1,12 +1,17 @@
 ---
-layout: "post"
+layout: post
 title: "L'Illusion Galaxy : Pourquoi les prix ne corrigent pas une architecture défaillante"
-date: "2025-01-26 00:00:00 +0100"
-categories: ['Talent Strategy', 'Innovation']
-lang: "fr"
-description: "J'étais en réunion la semaine dernière avec un DRH rayonnant, fier de son dernier prix pour l'innovation en formation. En surface, le trophée était..."
-image: "/assets/images/the-galaxy-fallacy-why-awards-dont-fix-broken-architectures.jpeg"
+date: 2025-01-26 00:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["Talent Strategy", "Innovation"]
+topic: hr-transformation
+translation_key: galaxy-fallacy
+description: "J'étais en réunion la semaine dernière avec un DRH rayonnant, fier de son dernier prix pour l'innovation en formation. En surface, le trophée était..."
+image: /assets/images/the-galaxy-fallacy-why-awards-dont-fix-broken-architectures.jpeg
+permalink: "/talent-strategy/innovation/2025/01/26/lillusion-galaxy-pourquoi-les-prix-ne-corrigent-pas-une-architecture-dfaillante.html"
+redirect_from:
+  - "/talent strategy/innovation/2025/01/26/lillusion-galaxy-pourquoi-les-prix-ne-corrigent-pas-une-architecture-dfaillante.html"
 ---
 
 J'étais en réunion la semaine dernière avec un DRH rayonnant, fier de son dernier prix pour l'innovation en formation. En surface, le trophée était impressionnant. Mais en soulevant le capot de son architecture technique, la réalité était tout autre. Des silos de données partout. Une LXP (Learning Experience Platform) totalement déconnectée du Core HR. Des taxonomies de compétences figées dans le passé. C'est le paradoxe que je rencontre constamment dans la région MEA : des organisations qui célèbrent des succès de façade tout en opérant sur une infrastructure de l'âge de pierre.

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{%- assign l = page.lang | default: 'en' -%}
+{%- assign ui = site.data.i18n[l] -%}
+
+<div class="page-header">
+  <div class="shell">
+    {%- if page.breadcrumbs %}
+    <nav class="breadcrumbs" aria-label="{% if l == 'fr' %}Fil d’Ariane{% else %}Breadcrumb{% endif %}">
+      <ol>
+        {%- for crumb in page.breadcrumbs %}
+        <li><a href="{{ crumb.url }}">{{ crumb.label }}</a></li>
+        {%- endfor %}
+        <li aria-current="page">{{ page.heading | default: page.title }}</li>
+      </ol>
+    </nav>
+    {%- endif %}
+    <div class="page-header__inner">
+      {%- if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1 class="page-header__title">{{ page.heading | default: page.title }}</h1>
+      {%- if page.lead %}<p class="page-header__lead">{{ page.lead }}</p>{% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="page-body{% if page.wide %} page-body--wide{% endif %}">
+  <div class="shell">
+    <div class="prose{% if page.wide %} prose--wide{% endif %}">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+{%- if page.contact_cta %}
+{% include contact-cta.html lang=l %}
+{%- endif %}

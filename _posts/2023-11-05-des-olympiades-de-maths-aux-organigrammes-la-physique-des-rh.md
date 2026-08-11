@@ -2,8 +2,11 @@
 layout: post
 title: "Des Olympiades de Maths aux Organigrammes : La Physique des RH"
 date: 2023-11-05 09:00:00 +0100
-categories: hr-tech
 lang: fr
+author: "Ahmed Assalih"
+categories: ["hr-tech"]
+topic: leadership-change
+translation_key: math-olympiads
 description: "Comment la résolution de problèmes algorithmiques complexes en 1996 m'aide à résoudre le chaos organisationnel en 2023."
 image: /assets/images/from-math-olympiads-to-org-charts-the-physics-of-hr.jpeg
 ---

@@ -2,8 +2,11 @@
 layout: post
 title: "The Invisible Leak: The Rise of Shadow AI in EMEA"
 date: 2024-01-20 09:00:00 +0100
-categories: ai-governance
 lang: en
+author: "Ahmed Assalih"
+categories: ["ai-governance"]
+topic: ai-hr
+translation_key: shadow-ai-emea
 description: "Your employees are using ChatGPT. You just don't know it yet. And your IP is leaving the building."
 image: /assets/images/the-invisible-leak-the-rise-of-shadow-ai-in-emea.jpeg
 ---

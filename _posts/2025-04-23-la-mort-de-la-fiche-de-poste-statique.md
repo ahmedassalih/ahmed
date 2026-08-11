@@ -1,12 +1,17 @@
 ---
-layout: "post"
+layout: post
 title: "La mort de la fiche de poste statique"
-date: "2025-04-23 00:00:00 +0100"
-categories: ['Skills Intelligence', 'Big Data']
-lang: "fr"
-description: "J'ai passé le début des années 2000 à coder des modules de paie où la fiche de poste était un champ codé en dur dans une base de données. C'était..."
-image: "/assets/images/the-death-of-the-static-job-description.jpeg"
+date: 2025-04-23 00:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["Skills Intelligence", "Big Data"]
+topic: future-of-work-skills
+translation_key: static-job-description
+description: "J'ai passé le début des années 2000 à coder des modules de paie où la fiche de poste était un champ codé en dur dans une base de données. C'était..."
+image: /assets/images/the-death-of-the-static-job-description.jpeg
+permalink: "/skills-intelligence/big-data/2025/04/23/la-mort-de-la-fiche-de-poste-statique.html"
+redirect_from:
+  - "/skills intelligence/big data/2025/04/23/la-mort-de-la-fiche-de-poste-statique.html"
 ---
 
 J'ai passé le début des années 2000 à coder des modules de paie où la fiche de poste était un champ codé en dur dans une base de données. C'était statique, monolithique et rassurant. Cette époque est révolue. Avec le dévoilement par Cornerstone de Galaxy AI et l'intégration profonde des données de marché de SkyHive, nous sommes officiellement entrés dans l'ère de l'architecture fluide. L'annonce revendiquant 51 000 compétences cartographiées sur 250 millions de rôles n'est pas du marketing ; c'est le nouveau seuil de survie.

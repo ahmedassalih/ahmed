@@ -1,0 +1,40 @@
+{%- comment -%}
+Resolves the EN/FR counterpart of the current document.
+
+Sets, in the caller's scope:
+  other_lang       the language to switch to
+  translation_url  the counterpart URL, or the other language's homepage
+  has_translation  whether a real counterpart exists
+  url_en / url_fr  both language URLs, for hreflang
+{%- endcomment -%}
+{%- assign cur_lang = page.lang | default: site.lang | default: 'en' -%}
+{%- assign other_lang = 'fr' -%}
+{%- if cur_lang == 'fr' -%}{%- assign other_lang = 'en' -%}{%- endif -%}
+
+{%- assign translation_url = '' -%}
+{%- if page.translation_key -%}
+  {%- assign matches = site.pages | where: 'translation_key', page.translation_key -%}
+  {%- for p in matches -%}
+    {%- if p.lang == other_lang -%}{%- assign translation_url = p.url -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if translation_url == '' -%}
+    {%- assign matches = site.posts | where: 'translation_key', page.translation_key -%}
+    {%- for p in matches -%}
+      {%- if p.lang == other_lang -%}{%- assign translation_url = p.url -%}{%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign has_translation = true -%}
+{%- if translation_url == '' -%}
+  {%- assign has_translation = false -%}
+  {%- assign translation_url = '/' | append: other_lang | append: '/' -%}
+{%- endif -%}
+
+{%- if cur_lang == 'fr' -%}
+  {%- assign url_fr = page.url -%}
+  {%- assign url_en = translation_url -%}
+{%- else -%}
+  {%- assign url_en = page.url -%}
+  {%- assign url_fr = translation_url -%}
+{%- endif -%}

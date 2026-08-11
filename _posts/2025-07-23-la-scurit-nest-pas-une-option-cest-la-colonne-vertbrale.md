@@ -1,12 +1,16 @@
 ---
-layout: "post"
+layout: post
 title: "La sécurité n'est pas une option, c'est la colonne vertébrale"
-date: "2025-07-23 00:00:00 +0100"
-categories: ['Cybersecurity', 'Compliance']
-lang: "fr"
-description: "On m'engage souvent pour "dérisquer" des investissements majeurs. Habituellement, cela signifie que j'interviens quand un projet perd de l'argent...."
-image: "/assets/images/security-is-not-a-feature-it-is-the-backbone.jpeg"
+date: 2025-07-23 00:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["Cybersecurity", "Compliance"]
+topic: hr-tech-architecture
+translation_key: security-backbone
+description: "On m'engage souvent pour \"dérisquer\" des investissements majeurs. Habituellement, cela signifie que j'interviens quand un projet perd de l'argent...."
+image: /assets/images/security-is-not-a-feature-it-is-the-backbone.jpeg
+redirect_from:
+  - "/2026/01/26/2025-07-23-la-scurit-nest-pas-une-option-cest-la-colonne-vertbrale.html"
 ---
 
 On m'engage souvent pour "dérisquer" des investissements majeurs. Habituellement, cela signifie que j'interviens quand un projet perd de l'argent. Mais de plus en plus, j'interviens quand un projet perd des données. L'annonce de l'autorisation FedRAMP obtenue par Cornerstone est significative, non pas parce que nous travaillons tous pour le gouvernement fédéral américain, mais parce qu'elle fixe un standard. Dans la région MEA, la souveraineté des données et la sécurité sont souvent traitées comme des détails—des cases à cocher sur un appel d'offres et à oublier aussitôt.

@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "RH & IA 2025 : L'Année du Retour à la Réalité"
-date:   2026-01-15 09:00:00 +0100
-categories: strategy ai retrospectives
+title: "RH & IA 2025 : L'Année du Retour à la Réalité"
+date: 2026-01-15 09:00:00 +0100
 lang: fr
+author: "Ahmed Assalih"
+categories: ["strategy", "ai", "retrospectives"]
+topic: ai-hr
+translation_key: hr-ai-2025-reality-check
 description: "La fête de la hype de 2024 est finie. 2025 a été l'année où nous avons dû nettoyer le désordre. Voici la véritable histoire de notre industrie."
 image: /assets/images/hr-ai-2025-reality-check.jpeg
 highlight: true
@@ -15,7 +18,7 @@ Au cours des douze derniers mois, j'ai beaucoup voyagé à travers la région EM
 
 La fête de la "Hype" de 2024 est terminée. **2025 a été l'année où nous avons dû nettoyer le désordre.**
 
-En tant qu'Ingénieur et ex-DRH, je dis toujours à mes clients que les mathématiques se moquent du marketing. En 2025, les maths ont fini par rattraper le marché.
+En tant qu'ingénieur et ancien responsable RH, je dis toujours à mes clients que les mathématiques se moquent du marketing. En 2025, les maths ont fini par rattraper le marché.
 
 Voici la véritable histoire de notre industrie l'année dernière.
 

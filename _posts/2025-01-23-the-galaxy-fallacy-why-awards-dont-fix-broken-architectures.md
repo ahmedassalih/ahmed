@@ -1,12 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "The Galaxy Fallacy: Why Awards Don't Fix Broken Architectures"
-date: "2025-01-23 00:00:00 +0100"
-categories: ['Talent Strategy', 'Innovation']
-lang: "en"
-description: "I sat in a boardroom last week with a CHRO who was beaming about their latest industry award for "Innovation in L&D." On the surface, the trophy..."
-image: "/assets/images/the-galaxy-fallacy-why-awards-dont-fix-broken-architectures.jpeg"
+date: 2025-01-23 00:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["Talent Strategy", "Innovation"]
+topic: hr-transformation
+translation_key: galaxy-fallacy
+description: "I sat in a boardroom last week with a CHRO who was beaming about their latest industry award for \"Innovation in L&D.\" On the surface, the trophy..."
+image: /assets/images/the-galaxy-fallacy-why-awards-dont-fix-broken-architectures.jpeg
+permalink: "/talent-strategy/innovation/2025/01/23/the-galaxy-fallacy-why-awards-dont-fix-broken-architectures.html"
+redirect_from:
+  - "/talent strategy/innovation/2025/01/23/the-galaxy-fallacy-why-awards-dont-fix-broken-architectures.html"
+  - "/2026/01/26/2025-01-23-the-galaxy-fallacy-why-awards-dont-fix-broken-architectures.html"
 ---
 
 I sat in a boardroom last week with a CHRO who was beaming about their latest industry award for "Innovation in L&D." On the surface, the trophy looked impressive. But when I popped the hood of their HR tech stack, I saw a different reality. Data silos everywhere. A Learning Experience Platform (LXP) that didn't talk to the Core HR. Skills taxonomies that hadn't been updated since 2019. This is the paradox I see constantly in the MEA region: organizations celebrating "Galaxy" level awards while operating on Stone Age infrastructure.

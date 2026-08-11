@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ahmed Assalih">
+  <rect width="64" height="64" fill="#0a0a0b"/>
+  <rect x="4" y="4" width="56" height="56" fill="none" stroke="#c2b49a" stroke-width="2"/>
+  <text x="32" y="43" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="30" font-weight="700" letter-spacing="-1" fill="#f4f4f3">AA</text>
+</svg>

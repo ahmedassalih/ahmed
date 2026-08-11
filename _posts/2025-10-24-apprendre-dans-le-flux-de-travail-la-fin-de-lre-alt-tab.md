@@ -1,12 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "Apprendre dans le flux de travail : La fin de l'ère ALT-TAB"
-date: "2025-10-24 00:00:00 +0100"
-categories: ['Sales Enablement', 'Learning in the Flow']
-lang: "fr"
-description: "La plus grande friction dans la formation d'entreprise est la "taxe Alt-Tab". Chaque fois qu'un commercial doit réduire Salesforce, ouvrir un LMS,..."
-image: "/assets/images/learning-in-the-flow-of-work-ending-the-alt-tab-era.jpeg"
+date: 2025-10-24 00:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["Sales Enablement", "Learning in the Flow"]
+topic: future-of-work-skills
+translation_key: learning-in-the-flow
+description: "La plus grande friction dans la formation d'entreprise est la \"taxe Alt-Tab\". Chaque fois qu'un commercial doit réduire Salesforce, ouvrir un LMS,..."
+image: /assets/images/learning-in-the-flow-of-work-ending-the-alt-tab-era.jpeg
+permalink: "/sales-enablement/learning-in-the-flow/2025/10/24/apprendre-dans-le-flux-de-travail-la-fin-de-lre-alt-tab.html"
+redirect_from:
+  - "/sales enablement/learning in the flow/2025/10/24/apprendre-dans-le-flux-de-travail-la-fin-de-lre-alt-tab.html"
+  - "/2026/01/26/2025-10-24-apprendre-dans-le-flux-de-travail-la-fin-de-lre-alt-tab.html"
 ---
 
 La plus grande friction dans la formation d'entreprise est la "taxe Alt-Tab". Chaque fois qu'un commercial doit réduire Salesforce, ouvrir un LMS, se connecter et chercher un cours, vous l'avez perdu. La productivité meurt dans les onglets du navigateur. Le lancement de l'AI Learning Agent sur Salesforce AppExchange est la solution technique à ce problème comportemental.

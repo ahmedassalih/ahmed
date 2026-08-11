@@ -1,13 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "eNovDay 2025: Moving HR from Administrative Support to Business Architect"
-date: "2025-11-30 09:00:00 +0100"
-categories: ['Strategic Advisory', 'HR Transformation', 'Event Debrief']
-lang: "en"
-description: "A strategic debrief of eNovDay 2025. Analyzing the gap between HR strategy and operational reality with insights from industry leaders."
-image: "/assets/images/enovday-2025-moving-hr-from-administrative-support-to-business-architect.jpeg"
+date: 2025-11-30 09:00:00 +0100
+lang: en
 author: "Ahmed Assalih"
+categories: ["Strategic Advisory", "HR Transformation", "Event Debrief"]
+topic: hr-transformation
+translation_key: enovday-2025
+description: "A strategic debrief of eNovDay 2025. Analyzing the gap between HR strategy and operational reality with insights from industry leaders."
+image: /assets/images/enovday-2025-moving-hr-from-administrative-support-to-business-architect.jpeg
 highlight: true
+permalink: "/strategic-advisory/hr-transformation/event-debrief/2025/11/30/enovday-2025-moving-hr-from-administrative-support-to-business-architect.html"
+redirect_from:
+  - "/strategic advisory/hr transformation/event debrief/2025/11/30/enovday-2025-moving-hr-from-administrative-support-to-business-architect.html"
 ---
 
 The success of eNovDay 2025 signals a maturity shift in the Moroccan market. Seeing the HR community gathered in Casablanca, it became evident that we have moved past the phase of "digital awareness" into the phase of "strategic requirement." The energy in the room was not just enthusiasm; it was a demand for concrete solutions to complex structural problems.

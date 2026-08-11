@@ -1,13 +1,18 @@
 ---
-layout: "post"
+layout: post
 title: "eNovDay 2025 : Faire passer la RH de Support Administratif à Architecte Business"
-date: "2025-11-30 09:00:00 +0100"
-categories: ['Strategic Advisory', 'HR Transformation', 'Event Debrief']
-lang: "fr"
-description: "Debrief stratégique de l'eNovDay 2025. Analyse du fossé entre stratégie RH et réalité opérationnelle avec les insights des leaders du secteur."
-image: "/assets/images/enovday-2025-moving-hr-from-administrative-support-to-business-architect.jpeg"
+date: 2025-11-30 09:00:00 +0100
+lang: fr
 author: "Ahmed Assalih"
+categories: ["Strategic Advisory", "HR Transformation", "Event Debrief"]
+topic: hr-transformation
+translation_key: enovday-2025
+description: "Debrief stratégique de l'eNovDay 2025. Analyse du fossé entre stratégie RH et réalité opérationnelle avec les insights des leaders du secteur."
+image: /assets/images/enovday-2025-moving-hr-from-administrative-support-to-business-architect.jpeg
 highlight: true
+permalink: "/strategic-advisory/hr-transformation/event-debrief/2025/11/30/enovday-2025-faire-passer-la-rh-de-support-administratif-architecte-business.html"
+redirect_from:
+  - "/strategic advisory/hr transformation/event debrief/2025/11/30/enovday-2025-faire-passer-la-rh-de-support-administratif-architecte-business.html"
 ---
 
 Le succès de l'eNovDay 2025 marque un tournant de maturité pour le marché marocain. En voyant la communauté RH réunie à Casablanca, il est devenu évident que nous avons dépassé le stade de la "sensibilisation digitale" pour entrer dans celui de "l'exigence stratégique". L'énergie dans la salle n'était pas simplement de l'enthousiasme ; c'était une demande ferme pour des solutions concrètes face à des problèmes structurels complexes.

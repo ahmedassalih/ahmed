@@ -1,25 +1,31 @@
 ---
 permalink: /404.html
-layout: page
+layout: default
+lang: en
+title: Page not found
+seo_title: "Page not found | Ahmed Assalih"
+description: The page you were looking for could not be found.
+noindex: true
+sitemap: false
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<div class="error-page">
+  <div class="shell">
+    <p class="error-page__code">Error 404</p>
+    <h1>This page does not exist</h1>
+    <p class="page-header__lead">
+      The link may be out of date, or the address slightly wrong. Everything below still works.
+    </p>
+    <p class="page-header__lead" lang="fr">
+      Cette page n’existe pas. Le lien est peut-être obsolète ou l’adresse légèrement erronée.
+    </p>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+    <div class="error-page__links">
+      <a class="btn btn--primary" href="/en/" hreflang="en" lang="en">Home</a>
+      <a class="btn btn--ghost" href="/fr/" hreflang="fr" lang="fr">Accueil</a>
+      <a class="btn btn--ghost" href="/en/insights/" hreflang="en" lang="en">Insights</a>
+      <a class="btn btn--ghost" href="/fr/analyses/" hreflang="fr" lang="fr">Analyses</a>
+      <a class="btn btn--ghost" href="/en/contact/" hreflang="en" lang="en">Contact</a>
+    </div>
+  </div>
 </div>
