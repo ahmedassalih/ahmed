@@ -1,6 +1,6 @@
 # ahmedassalih.com
 
-Jekyll site for Ahmed Assalih — Executive HR Transformation & AI Strategist.
+Jekyll site for Ahmed Assalih: Executive HR Transformation & AI Strategist.
 Bilingual (EN / FR), static, no front-end framework.
 
 ## Run it
@@ -51,7 +51,7 @@ taxonomy shown on the site is the single `topic:` key, validated against
 `_data/topics.yml`.
 
 **Sources.** A post can declare references in front matter; the article layout
-renders them under "Sources & references". Nothing is auto-generated — add only
+renders them under "Sources & references". Nothing is auto-generated: add only
 sources that genuinely exist.
 
 ```yaml
@@ -61,7 +61,7 @@ sources:
 ```
 
 **Images.** Drop the original in `assets/images/`, then generate the WebP sibling
-before referencing it — `_includes/picture.html` always emits a `<source>` for
+before referencing it, because `_includes/picture.html` always emits a `<source>` for
 `.webp` and will 404 without one. Reference images through that include:
 
 ```liquid
