@@ -29,39 +29,41 @@ en:
   lenses:
     heading: One career. Four lenses.
     intro: >-
-      My career has moved between technology, HR, business leadership and teaching. I do not
-      see them as separate chapters. Each one changes how I read a transformation and what I
-      think it will take to make it work.
+      My career has taken me from technology to HR, then into entrepreneurship, business
+      leadership and teaching. I do not see those as separate careers. Each one changed the way
+      I approach transformation.
     items:
       - num: "01"
         title: Executive Leadership
         tagline: Build. Scale. Deliver.
         body: >-
-          I built and ran a regional Business Unit: the offer, the go-to-market, the client
-          relationships, the team and the P&L that came with it.
+          I have built and led a regional transformation business, from shaping the offer
+          and winning clients to building the team and delivering the work.
         cta: Explore Executive Leadership
         url: /en/expertise/executive-leadership/
       - num: "02"
         title: Strategic Transformation
         tagline: Make complex transformation safer.
         body: >-
-          Target model, business case, technology choice, governance, multi-country
-          deployment. Usually at the point where a decision becomes expensive to reverse.
+          I work with leaders when an HR transformation needs clearer choices, stronger
+          governance, or a practical way out of a difficult situation.
         cta: Explore Strategic Transformation
         url: /en/expertise/hr-transformation/
       - num: "03"
         title: HR Tech & AI
         tagline: Understand what sits beneath the technology.
         body: >-
-          HRIS architecture, data, integration, AI and automation. I started out building
-          these systems, which changes the questions I ask about them.
+          My relationship with HR technology started with implementation, interfaces and
+          data. That background helps me challenge architecture and AI decisions from a business
+          and HR point of view.
         cta: Explore HR Tech & AI
         url: /en/expertise/hr-tech-ai/
       - num: "04"
         title: Future of Work
-        tagline: What the field teaches, written down.
+        tagline: Teaching and writing as a way of thinking.
         body: >-
-          Writing, teaching and speaking on AI, skills, potential and how work is changing.
+          Teaching and writing give me another way to work with what I have learned in the
+          field. They also make me question some of the models HR has relied on for years.
         cta: Explore my ideas
         url: /en/ideas/
 
@@ -72,26 +74,28 @@ en:
     cases:
       - title: Building an HR Transformation Business
         body: >-
-          I launched a regional HR Transformation Business Unit at Sopra HR and grew it from
-          the first client conversation through to delivery, holding both the growth and the
-          margin.
+          At Sopra HR, I helped create a regional HR Transformation activity from the ground
+          up. That meant deciding what we wanted to sell, building the team, developing client
+          relationships, and making sure delivery followed through.
         metrics:
           - { value: Business Unit, label: Built from the ground up }
           - { value: Double-digit, label: Annual growth }
           - { value: "~25%", label: Operating performance }
       - title: Transforming Talent Across 22 Countries
         body: >-
-          A unified Talent Management transformation covering more than 50 entities in 22
-          countries, with all the cultural and regulatory diversity that implies.
+          One of the programmes I led brought more than 50 entities across 22 countries onto
+          a shared Talent Management approach. The technical solution mattered, but so did the
+          differences between organisations, cultures and local practice.
         metrics:
           - { value: "22", label: Countries }
           - { value: "50+", label: Entities }
           - { value: Multi-country, label: Governance model }
       - title: From HRIS Architecture to HR Leadership
         body: >-
-          I began by leading HRIS implementation and architecture for an airline group and
-          around ten subsidiaries, then moved into Talent, and finally into HR leadership for
-          more than 6,000 employees.
+          I began at Royal Air Maroc on the systems side, leading HRIS implementation with
+          developers and HR experts. Over time I moved into Talent, then into HR leadership for
+          an organisation of more than 6,000 employees. That path still shapes how I look at HR
+          technology.
         metrics:
           - { value: "10", label: Subsidiaries }
           - { value: 5 + 20, label: Developers and HR experts }
@@ -101,21 +105,22 @@ en:
     eyebrow: My approach
     heading: The Logician-Engineer Method
     lead: >-
-      I use this method to look at a transformation as a whole: strategy, systems, data,
-      processes, governance and adoption. Treating those separately is one of the fastest
-      ways to create complexity instead of progress.
+      When a transformation is struggling, my first instinct is to understand how the pieces
+      connect before recommending another tool or another programme. I look at the data, the
+      processes, the technology, the organisation and the people who will have to make it
+      work.
     steps:
       - num: "01"
         title: Diagnose
-        question: What is really broken?
+        question: Where does the problem actually sit?
         items: [Data, Processes, Organisation, Technology, Governance]
       - num: "02"
         title: Architect
-        question: What should the target model become?
+        question: How should the pieces fit together?
         items: [HR model, Systems, Data flows, AI, Operating model]
       - num: "03"
         title: Make it live
-        question: How will the organisation actually adopt it?
+        question: Who has to use it, and can they?
         items: [Governance, Decision rights, Change, Capabilities, Measurement]
     cta: { label: Discover the Method, url: /en/ideas/logician-engineer-method/ }
 
@@ -125,12 +130,12 @@ en:
     subtitle: What AI reveals about your talent, and what your skills are hiding from you.
     body:
       - >-
-        My argument is not that skills disappear. It is that an organisation reading only the
-        skills it can see today is reading the least durable part of its talent, and missing
-        potential, adaptability and trajectory.
+        For most of my career, HR systems have described people through jobs, competencies
+        and skills. Those models have been useful. AI is making me question where their limits
+        are.
       - >-
-        AI is putting real pressure on talent models built that way. The book sets out what
-        those models can rest on instead.
+        The Death of Skills grew out of that question, and out of what I saw building and
+        running talent systems in several countries.
     frameworks_label: Five frameworks from the book
     frameworks: [Potential Stack, Time-to-Skill, "Fortress, Front Line, Laboratory", Trajectory Radar, Pay-for-Agility]
     primary: { label: Discover the Book }
@@ -146,7 +151,8 @@ en:
   speaking:
     heading: I teach what I have practised.
     sub: >-
-      The material comes from programmes I have led rather than from commentary on trends.
+      I use the same material I work with during the week, drawn from programmes I have led
+      rather than from commentary on trends.
     areas:
       - title: Keynotes
         body: AI, the future of work, skills and HR transformation
@@ -171,15 +177,16 @@ en:
         joining Advyteam Group as Partner and General Manager for Morocco. Since 2017 I have
         led HR Transformation for Sopra HR Software across the MEA region.
       - >-
-        Today I also teach on HR Master's programmes, speak internationally, and write. My
-        2026 book, The Death of Skills, comes out of all of it.
+        I teach on HR Master's programmes now, speak internationally and write. My 2026
+        book, The Death of Skills, came out of questions I could not answer while running
+        programmes.
     cta: { label: Read the full story, url: /en/about/ }
 
   contact:
     heading: Start a conversation
     intro: >-
       I am open to selected executive opportunities, strategic assignments, speaking and
-      academic collaborations across EMEA.
+      academic collaborations across EMEA. If any of that fits, write to me.
     intentions:
       - Executive and leadership opportunities
       - Strategic transformation and advisory
@@ -193,9 +200,9 @@ fr:
     position: Dirigeant de la Transformation RH et de l’IA
     title: "Business, RH, technologie. Des transformations qui tiennent leurs promesses."
     lead: >-
-      Depuis 25 ans, je travaille à l’intersection de ces trois mondes en EMEA. Cette
-      expérience nourrit aujourd’hui mes activités de direction, de conseil, d’enseignement
-      et d’écriture.
+      Depuis 25 ans, je travaille entre ces trois univers, en Afrique, au Moyen-Orient et en
+      Europe. C’est cette expérience qui guide aujourd’hui ma façon de diriger, de conseiller,
+      d’enseigner et d’écrire.
     primary: { label: Explorer mon parcours, url: /fr/expertise/ }
     secondary: { label: Découvrir La Mort des Skills, url: /fr/livre/ }
     tertiary: { label: Conférences & Enseignement, url: /fr/conferences-enseignement/ }
@@ -216,40 +223,43 @@ fr:
   lenses:
     heading: Un parcours. Quatre regards.
     intro: >-
-      Mon parcours m’a conduit de la technologie aux RH, puis au business et à l’enseignement.
-      Je ne les vois pas comme des chapitres séparés. Chacun change ma façon de lire une
-      transformation et d’évaluer ce qu’elle exigera vraiment.
+      Mon parcours m’a conduit de la technologie aux RH, puis à l’entrepreneuriat, au business
+      et à l’enseignement. Je ne vois pas ces expériences comme des carrières séparées. Chacune
+      a changé ma façon d’aborder la transformation.
     items:
       - num: "01"
         title: Leadership exécutif
         tagline: Construire. Développer. Livrer.
         body: >-
-          J’ai créé et dirigé une Business Unit régionale: l’offre, le go-to-market, les
-          relations clients, l’équipe et le P&L qui va avec.
+          J’ai créé et dirigé une activité régionale de transformation: définir l’offre,
+          aller chercher les premiers clients, constituer l’équipe et livrer le travail.
         cta: Découvrir le leadership exécutif
         url: /fr/expertise/leadership-executif/
       - num: "02"
         title: Transformation stratégique
         tagline: Sécuriser les transformations complexes.
         body: >-
-          Modèle cible, business case, choix de solution, gouvernance, déploiement
-          multi-pays. Souvent au moment où une décision devient coûteuse à défaire.
+          J’interviens auprès de dirigeants quand une transformation RH a besoin de choix
+          plus clairs, d’une gouvernance plus solide, ou d’une porte de sortie concrète à une
+          situation difficile.
         cta: Découvrir la transformation RH
         url: /fr/expertise/transformation-rh/
       - num: "03"
         title: HR Tech & IA
         tagline: Comprendre ce qui se joue sous la technologie.
         body: >-
-          Architecture SIRH, données, intégration, IA et automatisation. J’ai commencé par
-          construire ces systèmes, ce qui change les questions que je leur pose.
+          Ma relation à la technologie RH a commencé par l’implémentation, les interfaces et
+          les données. Ce passé m’aide à challenger les choix d’architecture et d’IA avec un
+          regard business et RH.
         cta: Découvrir HR Tech & IA
         url: /fr/expertise/hr-tech-ia/
       - num: "04"
         title: Futur du travail
-        tagline: Ce que le terrain enseigne, mis par écrit.
+        tagline: Enseigner et écrire pour y voir clair.
         body: >-
-          Écrire, enseigner et intervenir sur l’IA, les compétences, le potentiel et
-          l’évolution du travail.
+          Enseigner et écrire me donnent une autre façon de travailler ce que j’apprends sur
+          le terrain. Cela m’oblige aussi à questionner des modèles que les RH utilisent depuis
+          longtemps.
         cta: Découvrir mes idées
         url: /fr/idees/
 
@@ -260,26 +270,28 @@ fr:
     cases:
       - title: Construire une activité de transformation RH
         body: >-
-          J’ai lancé la Business Unit Transformation RH de Sopra HR sur la région et l’ai fait
-          grandir, du premier rendez-vous client jusqu’à la delivery, en tenant à la fois la
-          croissance et la marge.
+          Chez Sopra HR, j’ai créé de zéro une activité régionale de transformation RH. Il a
+          fallu décider ce que nous voulions vendre, constituer l’équipe, développer les
+          relations clients et faire en sorte que la delivery suive.
         metrics:
           - { value: Business Unit, label: Créée de zéro }
           - { value: Croissance, label: À deux chiffres par an }
           - { value: "~25%", label: Performance opérationnelle (REX) }
       - title: Transformer le Talent dans 22 pays
         body: >-
-          Une transformation unifiée du Talent Management sur plus de 50 entités dans 22 pays,
-          avec toute la diversité culturelle et réglementaire que cela suppose.
+          L’un des programmes que j’ai menés a réuni plus de 50 entités dans 22 pays autour
+          d’une même approche du Talent Management. La solution technique comptait, mais les
+          différences d’organisation, de culture et de pratiques locales aussi.
         metrics:
           - { value: "22", label: Pays }
           - { value: "50+", label: Entités }
           - { value: Multi-pays, label: Modèle de gouvernance }
       - title: De l’architecture SIRH à la direction RH
         body: >-
-          J’ai d’abord conduit le déploiement et l’architecture SIRH d’un groupe aérien et
-          d’une dizaine de filiales, avant de prendre la direction du Talent, puis celle des
-          RH pour plus de 6 000 collaborateurs.
+          J’ai commencé à Royal Air Maroc du côté des systèmes, en pilotant le déploiement
+          SIRH avec des développeurs et des experts RH. Je suis ensuite passé au Talent, puis à
+          la direction RH d’une organisation de plus de 6 000 collaborateurs. Ce chemin
+          influence encore mon regard sur la technologie RH.
         metrics:
           - { value: "10", label: Filiales }
           - { value: 5 + 20, label: Développeurs et experts RH }
@@ -289,21 +301,22 @@ fr:
     eyebrow: Mon approche
     heading: La Méthode Ingénieur-Logicien
     lead: >-
-      J’utilise cette méthode pour regarder une transformation dans son ensemble: stratégie,
-      systèmes, données, processus, gouvernance et adoption. Les traiter séparément conduit
-      souvent à déplacer la complexité plutôt qu’à la résoudre.
+      Quand une transformation rencontre des difficultés, mon premier réflexe est de
+      comprendre comment les pièces s’articulent avant de recommander un outil ou un programme
+      de plus. Je regarde les données, les processus, la technologie, l’organisation et les
+      personnes qui devront faire fonctionner l’ensemble.
     steps:
       - num: "01"
         title: Diagnostiquer
-        question: Qu’est-ce qui est réellement cassé ?
+        question: Où se situe vraiment le problème ?
         items: [Données, Processus, Organisation, Technologie, Gouvernance]
       - num: "02"
         title: Architecturer
-        question: Quel modèle cible construire ?
+        question: Comment les pièces doivent-elles s’articuler ?
         items: [Modèle RH, Systèmes, Flux de données, IA, Modèle opérationnel]
       - num: "03"
         title: Faire vivre
-        question: Comment l’organisation va-t-elle réellement l’adopter ?
+        question: Qui devra s’en servir, et le pourra-t-il ?
         items: [Gouvernance, Droits de décision, Conduite du changement, Compétences, Mesure]
     cta: { label: Découvrir la méthode, url: /fr/idees/methode-ingenieur-logicien/ }
 
@@ -313,12 +326,12 @@ fr:
     subtitle: Ce que l’IA révèle de vos talents, et ce que vos compétences vous cachent.
     body:
       - >-
-        Ma thèse n’est pas que les compétences disparaissent. C’est qu’une organisation qui ne
-        lit que les compétences visibles aujourd’hui lit la partie la moins durable de ses
-        talents, et passe à côté du potentiel, de l’adaptabilité et de la trajectoire.
+        Pendant l’essentiel de ma carrière, les systèmes RH ont décrit les personnes par des
+        postes, des compétences et des référentiels. Ces modèles ont été utiles. L’IA me pousse
+        à en questionner les limites.
       - >-
-        L’IA met ces modèles sous tension. Le livre propose ce sur quoi ils peuvent s’appuyer
-        autrement.
+        La Mort des Skills est né de cette question, et de ce que j’ai observé en construisant
+        et en faisant vivre des systèmes de talent dans plusieurs pays.
     frameworks_label: Les cinq frameworks du livre
     frameworks: [Potential Stack, Time-to-Skill, "Fortress, Front Line, Laboratory", Trajectory Radar, Pay-for-Agility]
     primary: { label: Découvrir le livre }
@@ -334,7 +347,8 @@ fr:
   speaking:
     heading: J’enseigne ce que j’ai pratiqué.
     sub: >-
-      La matière vient de programmes que j’ai menés, pas d’un commentaire sur les tendances.
+      J’y utilise la même matière que dans mon travail de la semaine: des programmes que j’ai
+      menés, plutôt qu’un commentaire sur les tendances.
     areas:
       - title: Keynotes
         body: IA, futur du travail, compétences et transformation RH
@@ -361,14 +375,16 @@ fr:
         2017, je dirige la transformation RH de Sopra HR Software sur la région MEA.
       - >-
         J’enseigne aujourd’hui dans des Masters RH, j’interviens à l’international et j’écris.
-        Mon livre 2026, La Mort des Skills, vient de tout cela.
+        Mon livre 2026, La Mort des Skills, est né de questions que je n’arrivais pas à trancher
+        pendant les programmes.
     cta: { label: Lire le parcours complet, url: /fr/a-propos/ }
 
   contact:
     heading: Engager la conversation
     intro: >-
-      Je suis ouvert à des opportunités de direction sélectionnées, des missions stratégiques,
-      des conférences et des collaborations académiques sur la zone EMEA.
+      Je suis ouvert à des opportunités de direction, des missions stratégiques, des
+      conférences et des collaborations académiques sur la zone EMEA. Si l’un de ces sujets vous
+      concerne, écrivez-moi.
     intentions:
       - Opportunités de direction
       - Conseil et transformation stratégique

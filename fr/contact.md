@@ -22,8 +22,10 @@ breadcrumbs:
 <div class="stack stack--2">
   <div>
     <div class="measure">
-      <p>Plus le contexte est précis (organisation, situation, calendrier), plus la première
-      réponse sera utile. Les messages me parviennent directement.</p>
+      <p>Pour échanger sur une opportunité de direction, un projet de transformation, une
+      conférence ou une collaboration académique, vous pouvez m’écrire ici. Les messages me
+      parviennent directement, et un peu de contexte sur votre situation et votre calendrier
+      m’aide à vous répondre utilement.</p>
     </div>
 
     <form class="form" action="{{ site.forms.contact_action }}" method="POST">

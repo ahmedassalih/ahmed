@@ -10,8 +10,8 @@ heading: The Death of Skills
 lead: >-
   What AI reveals about your talent, and what your skills are hiding from you.
 description: >-
-  The Death of Skills (2026) by Ahmed Assalih. Why AI exposes the limits of skills-based talent
-  models, and what organisations should measure instead.
+  The Death of Skills (2026) by Ahmed Assalih. Why 25 years working with HR systems and talent
+  models led him to question what skills can and cannot tell an organisation.
 wide: true
 schema_book: true
 image: /assets/images/cover-thedeathofskills-en.jpg
@@ -26,16 +26,15 @@ breadcrumbs:
     {% include picture.html src=site.book.cover_en alt="Cover of The Death of Skills by Ahmed Assalih" width="720" height="1080" loading="eager" %}
   </div>
   <div class="book__text">
-    <h2 class="book__title">The thesis</h2>
+    <h2 class="book__title">Why I wrote it</h2>
     <div class="measure">
-      <p>The argument is not that skills disappear. It is that an organisation which reads only
-      visible, current skills is reading the least durable part of its talent.</p>
-      <p>Skills-based talent models were built when the half-life of a skill was long enough
-      for an inventory to stay useful. The book argues that AI is shortening that half-life and
-      changing the economics of acquiring capability, which turns the inventory into a
-      photograph of a moving object: accurate, and misleading.</p>
-      <p>What remains decision-useful is different: potential, adaptability, learning velocity
-      and trajectory. The book is an attempt to make those measurable enough to manage.</p>
+      <p>For much of my career I have worked with HR systems that describe people through jobs,
+      competencies and skills. Those models have been useful, and I have built plenty of them.
+      AI is making me question where their limits are.</p>
+      <p>A skill tells us something important about what a person can do today. It tells us
+      much less about how quickly that person can learn, how far they can move, or what they
+      may be capable of next.</p>
+      <p>The Death of Skills grew from that question.</p>
     </div>
     <p class="book__actions">
       <a class="btn btn--primary" href="{{ site.book.url }}" rel="noopener">Discover the book</a>
@@ -44,45 +43,62 @@ breadcrumbs:
   </div>
 </div>
 
-<h2>Why I wrote it</h2>
+<h2>How it connects to my career</h2>
 
 <div class="measure">
-  <p>Working across HR leadership, HR technology and multi-country transformation kept
-  returning me to the same structural question. A skills inventory describes what someone can
-  do today. It says much less about what that person can become, how quickly, and under what
-  conditions, and those are the questions that decide whether an organisation can move.</p>
-  <p>That gap is not a data quality problem. It is a modelling problem: the model answers a
-  question that matters less than it used to. Setting out why, and what a talent model can rest
-  on instead, needs more space than a keynote allows.</p>
+  <p>My interest in this comes from several sides of my work. I have implemented HR systems,
+  led Talent and then an HR department, worked on transformation programmes across more than 50
+  entities in 22 countries, and taught HR professionals. Each of those roles looks at people
+  through a slightly different lens.</p>
+  <p>From the systems side, a skill is a field with a definition and an owner. From the HR
+  side, it is a judgement about a person. From a multi-country programme, it is a vocabulary
+  several organisations have to agree on, and then keep agreeing on as the work changes. Seeing
+  the same object from those angles is what made me want to write the book rather than another
+  article.</p>
+</div>
+
+<h2>What the book explores</h2>
+
+<div class="measure">
+  <p>The question it works through is simple to ask and harder to answer: if current skills
+  are becoming a weaker guide to what people can do next, what should an organisation look at
+  instead?</p>
+  <p>It examines what happens to hiring, development, internal mobility and reward when the
+  half-life of what someone knows keeps getting shorter. It is written for practitioners rather
+  than for researchers.</p>
 </div>
 
 <h2>The five frameworks</h2>
 
+<div class="measure">
+  <p>The book develops five frameworks to make the discussion more practical.</p>
+</div>
+
 <div class="deflist">
   <div class="deflist__row">
     <p class="deflist__term">Potential Stack</p>
-    <div class="deflist__desc"><p>Reading a person in layers: demonstrated skills on top,
-    learning capability and adaptability underneath.</p></div>
+    <div class="deflist__desc"><p>A way of reading a person in layers, with demonstrated skills
+    on top and learning capability underneath.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Time-to-Skill</p>
-    <div class="deflist__desc"><p>Capability as a duration rather than a state, and what that
-    changes about build, buy and partner decisions.</p></div>
+    <div class="deflist__desc"><p>The question behind it: how long would it actually take us to
+    build the capability we need?</p></div>
   </div>
   <div class="deflist__row">
-    <p class="deflist__term">Fortress · Front Line · Laboratory</p>
-    <div class="deflist__desc"><p>Three different postures towards AI, applied deliberately to
-    different parts of the organisation.</p></div>
+    <p class="deflist__term">Fortress, Front Line, Laboratory</p>
+    <div class="deflist__desc"><p>Three different ways of meeting AI, applied deliberately to
+    different parts of an organisation.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Trajectory Radar</p>
-    <div class="deflist__desc"><p>Direction rather than position: who is compounding capability
-    and who is accumulating depreciation.</p></div>
+    <div class="deflist__desc"><p>In the book I use this one to look at direction rather than
+    position: where is this person or team heading?</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Pay-for-Agility</p>
-    <div class="deflist__desc"><p>What reward systems are actually buying when jobs change
-    faster than grades.</p></div>
+    <div class="deflist__desc"><p>What should we reward when roles and skills are changing
+    faster than job descriptions?</p></div>
   </div>
 </div>
 
@@ -95,13 +111,13 @@ breadcrumbs:
 <div class="stack stack--3">
   <div class="panel">
     <h3 class="panel__title">CHROs and HR leaders</h3>
-    <p>Anyone accountable for a talent model that has to hold up while automation reshapes
-    the work it describes.</p>
+    <p>People responsible for a talent model that has to keep working as the jobs it describes
+    change.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Executive teams</h3>
-    <p>CEOs, COOs and CIOs who need workforce decisions that hold up to the same scrutiny as
-    capital decisions.</p>
+    <p>CEOs, COOs and CIOs who want workforce decisions to stand up to the same questions as
+    any other investment.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Academics and students</h3>
@@ -110,20 +126,13 @@ breadcrumbs:
   </div>
 </div>
 
-<h2>Where it comes from</h2>
-
-<div class="measure">
-  <p>This is not a book written from the outside. It is informed by 25 years across HR systems,
-  HR leadership and multi-country transformation, including a unified Talent Management
-  programme spanning more than 50 entities in 22 countries. That experience shaped a long
-  interest in how organisations describe, develop and mobilise talent at scale.</p>
-  <p>The professional background behind it is described in <a href="/en/about/">About</a>, and
-  the working method in <a href="/en/ideas/logician-engineer-method/">the Logician-Engineer
-  Method</a>.</p>
-</div>
-
 <div class="callout">
   <p class="callout__label">The book website</p>
-  <p>Publication details, availability and updates live on the official site.</p>
+  <p>Publication details, availability and updates are on the official site.</p>
   <p><a class="link-arrow" href="{{ site.book.url }}" rel="noopener">{{ site.book.url | remove: "https://" }}<span aria-hidden="true"> &rarr;</span></a></p>
+</div>
+
+<div class="measure">
+  <p>My career is described in <a href="/en/about/">About</a>, and the way I work in
+  <a href="/en/ideas/logician-engineer-method/">the Logician-Engineer Method</a>.</p>
 </div>

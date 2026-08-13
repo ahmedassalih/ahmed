@@ -23,10 +23,10 @@ breadcrumbs:
 ---
 
 <div class="measure">
-  <p>Un référentiel de compétences décrit ce que les gens savent faire aujourd’hui. Il dit
-  beaucoup moins de choses sur la vitesse à laquelle ils pourraient faire autre chose, sur la
-  part de leurs compétences actuelles exposée à l’automatisation, ou sur ce vers quoi mène
-  réellement leur trajectoire.</p>
+  <p>Ces cadres viennent de la même question que le livre. Un référentiel décrit ce que les
+  gens savent faire aujourd’hui, mais dit beaucoup moins à quelle vitesse ils pourraient faire
+  autre chose, quelle part de leur travail est exposée à l’automatisation, ou vers quoi ils se
+  dirigent.</p>
   <p>Ces cinq cadres sont développés dans
   <a href="/fr/livre/"><em>La Mort des Skills</em></a>. Ce qui suit en est une présentation, pas
   le livre.</p>
@@ -44,10 +44,9 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Potential Stack</p>
     <div class="deflist__desc">
-      <p>Une lecture en couches : les compétences démontrées sont au sommet, mais en dessous se
-      trouvent la capacité d’apprentissage, l’adaptabilité et les conditions dans lesquelles la
-      personne performe. Ne lire que la couche supérieure laisse sans réponse les questions
-      les plus utiles.</p>
+      <p>Je m’en sers pour lire une personne en couches. Les compétences démontrées sont au
+      sommet, et en dessous se trouvent la capacité d’apprentissage, l’adaptabilité et les
+      conditions dans lesquelles cette personne travaille bien.</p>
       <span class="deflist__meta">Question de management : de quoi cette personne est-elle capable de devenir, et pas seulement que sait-elle faire ?</span>
     </div>
   </div>
@@ -55,10 +54,10 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Time-to-Skill</p>
     <div class="deflist__desc">
-      <p>Traite la compétence comme une durée plutôt que comme un état. Si une compétence
-      s’acquiert en six semaines, c’est une question de planification. Si elle demande trois ans,
-      c’est une question stratégique, et recruter, acheter ou s’associer deviennent des
-      décisions différentes.</p>
+      <p>Celui-ci traite la compétence comme une durée plutôt que comme un état. Si une
+      équipe l’acquiert en six semaines, c’est une question de planning. Si cela demande trois
+      ans, cela devient stratégique, et recruter, acheter ou s’associer ne se posent plus de la
+      même façon.</p>
       <span class="deflist__meta">Question de management : dans combien de temps, réellement, disposerons-nous de cette capacité ?</span>
     </div>
   </div>
@@ -105,12 +104,12 @@ breadcrumbs:
 <h2>Le lien avec l’IA</h2>
 
 <div class="measure">
-  <p>L’IA modifie la durée de vie d’une compétence et l’économie de son acquisition. Ce
-  déplacement met sous tension une hypothèse qui soutient beaucoup d’architectures de talent :
-  qu’un inventaire actuel des compétences constitue une approximation raisonnable de la capacité
-  future.</p>
-  <p>Ces cadres sont des tentatives de construire un modèle de talent sur ce qui reste utile
-  quand cette hypothèse s’affaiblit : potentiel, durée, posture, direction et adaptabilité.</p>
+  <p>L’IA change la durée pendant laquelle une compétence reste pertinente, et ce que coûte
+  l’acquisition d’une nouvelle. Cela met sous tension une hypothèse présente dans beaucoup de
+  travaux sur le talent : que ce que les gens savent faire aujourd’hui indique correctement ce
+  qu’ils sauront faire demain.</p>
+  <p>Dans le livre, je me sers de ces cinq cadres pour regarder ce qui résiste mieux quand cette
+  hypothèse s’affaiblit.</p>
 </div>
 
 <div class="stack stack--2">

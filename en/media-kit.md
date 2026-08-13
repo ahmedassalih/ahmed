@@ -94,9 +94,8 @@ breadcrumbs:
 <h2>Speaker positioning</h2>
 
 <div class="measure">
-  <p>Ahmed speaks from practice rather than commentary: the material comes from transformation
-  programmes he has led, systems he has architected and an HR function he has run. Sessions are
-  delivered in French or English.</p>
+  <p>Ahmed draws on programmes he has led, systems he has built and an HR function he has
+  run. Sessions are delivered in French or English.</p>
   <p>Core themes: AI and the future of work; <em>The Death of Skills</em>; Fortress, Front Line,
   Laboratory; Time-to-Skill; Pay-for-Agility; rethinking skills architectures; HR
   transformation; HRIS in the AI era; responsible AI for HR.</p>

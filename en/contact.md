@@ -22,8 +22,10 @@ breadcrumbs:
 <div class="stack stack--2">
   <div>
     <div class="measure">
-      <p>The more context you can give (organisation, situation, timing), the more useful the
-      first reply will be. Messages go directly to me.</p>
+      <p>If you would like to discuss an executive opportunity, a transformation challenge, a
+      speaking engagement or an academic collaboration, you can write to me here. Messages come
+      straight to me, and a little context about your situation and timing helps me give you a
+      useful answer.</p>
     </div>
 
     <form class="form" action="{{ site.forms.contact_action }}" method="POST">

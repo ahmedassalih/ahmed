@@ -8,8 +8,8 @@ seo_title: "Ideas | How Ahmed Assalih thinks about transformation, AI and skills
 eyebrow: Ideas
 heading: How I think about the problem
 lead: >-
-  Expertise is what I have done. This is how I think about it: the method I work with, the
-  frameworks behind the book, and the writing where I test both against what I see.
+  Expertise is what I have done. This is what I make of it: the way I work, the frameworks
+  in the book, and the writing where I test both against what I see.
 description: >-
   The Logician-Engineer Method, the frameworks from The Death of Skills, and current writing on
   HR transformation, AI and the future of work.

@@ -8,8 +8,8 @@ seo_title: "Conférences & Enseignement | Keynotes, masterclasses et université
 eyebrow: Conférences & Enseignement
 heading: J’enseigne ce que j’ai pratiqué
 lead: >-
-  Des interventions ancrées dans l’expérience opérationnelle plutôt que dans le commentaire de
-  tendances: sur l’IA, les compétences, la transformation RH et le futur du travail.
+  Mes interventions s’appuient sur le mélange qui a construit mon parcours : direction RH,
+  technologie, création d’activité et transformations dans plusieurs pays.
 description: >-
   Keynotes, masterclasses, ateliers et enseignement universitaire par Ahmed Assalih sur l’IA, le
   futur du travail, les compétences, la transformation RH et la technologie RH.
@@ -21,12 +21,13 @@ breadcrumbs:
 ---
 
 <div class="measure">
-  <p>Mes interventions s’appuient sur une expérience opérationnelle de la fonction RH, de la
-  technologie, du développement d’activité et des transformations multi-pays. L’objectif est
-  d’apporter des grilles de lecture directement utiles, au-delà du commentaire sur les
-  tendances.</p>
-  <p>Les sessions sont préparées pour un public précis. Un comité exécutif, une équipe DRH et
-  une promotion de Master méritent la même honnêteté et trois conversations différentes.</p>
+  <p>Mes conférences et mes cours s’appuient sur le même mélange qui a façonné mon parcours :
+  direction RH, technologie, développement d’activité et transformation dans différents pays.</p>
+  <p>Mon objectif est que les participants repartent avec des questions et des idées qu’ils
+  peuvent réellement utiliser dans leur organisation. Il ne s’agit pas d’ajouter une présentation
+  de plus sur l’IA ou le futur du travail.</p>
+  <p>Je prépare chaque intervention pour le public concerné. Un comité exécutif, une équipe DRH
+  et une promotion de Master n’attendent pas la même conversation.</p>
 </div>
 
 <h2>Publics</h2>
@@ -45,41 +46,44 @@ breadcrumbs:
 <div class="stack stack--2">
   <div class="panel">
     <h3 class="panel__title">L’IA et le futur du travail</h3>
-    <p>Ce qui change dans une organisation quand la durée de vie d’une compétence s’effondre,
-    et quelles pratiques talent cessent de fonctionner.</p>
+    <p>Ce qui change concrètement dans une organisation quand l’IA entre dans le travail
+    quotidien, et quelles pratiques RH doivent être repensées.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">La Mort des Skills</h3>
-    <p>La thèse du livre, pour un public dirigeant : potentiel, adaptabilité, trajectoire et
-    vitesse d’apprentissage comme objets de management.</p>
+    <p>Pourquoi les entreprises doivent regarder au-delà des compétences actuelles pour mieux
+    identifier le potentiel, l’adaptabilité et la capacité d’apprentissage.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Fortress, Front Line, Laboratory</h3>
-    <p>Trois postures délibérées face à l’IA, et comment décider laquelle s’applique à quelle
+    <p>Trois façons différentes d’aborder l’IA, et comment décider laquelle convient à quelle
     partie de l’organisation.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Time-to-Skill et Pay-for-Agility</h3>
-    <p>Traiter la compétence comme une durée, et interroger ce que la rémunération achète
-    réellement.</p>
+    <p>Combien de temps faut-il à une organisation pour développer les capacités dont elle a
+    besoin, qu’est-ce qui ralentit, et que faut-il valoriser quand les métiers évoluent plus
+    vite ?</p>
   </div>
   <div class="panel">
-    <h3 class="panel__title">Repenser les architectures de compétences</h3>
-    <p>Taxonomies, ontologies, et pourquoi deux systèmes bien conçus ne s’accordent toujours pas
-    sur ce qu’est une compétence.</p>
+    <h3 class="panel__title">Repenser les référentiels de compétences</h3>
+    <p>Pourquoi deux systèmes RH bien conçus ne s’accordent toujours pas sur ce qu’est une
+    compétence, et ce que l’on peut y faire.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Transformation RH</h3>
-    <p>Pourquoi les programmes complexes dérivent, quels sont les signaux précoces, et comment
-    la gouvernance les sauve ou les coule.</p>
+    <p>Pourquoi les grands programmes dévient, à quoi ressemblent les premiers signaux, et ce
+    que les dirigeants peuvent faire.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Le SIRH à l’ère de l’IA</h3>
-    <p>Architecture, données et intégration comme véritable contrainte de toute ambition IA.</p>
+    <p>Que faut-il repenser dans le SIRH lorsque l’IA entre dans les processus RH du
+    quotidien.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">IA responsable pour les RH</h3>
-    <p>Gouvernance, transparence, et la frontière entre aide à la décision et décision.</p>
+    <p>Quelles données sont utilisées, qui reste responsable de la décision, et à quoi ressemble
+    concrètement une supervision humaine.</p>
   </div>
 </div>
 
@@ -99,7 +103,8 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Atelier</p>
     <div class="deflist__desc"><p>Une demi-journée. Une équipe de direction travaille une
-    décision précise : modèle cible, choix technologique, architecture de talent.</p></div>
+    décision qu’elle doit réellement prendre : un choix technologique, ou la façon d’organiser
+    la fonction RH.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Table ronde</p>
@@ -112,8 +117,9 @@ breadcrumbs:
 
 <div class="measure">
   <p>J’interviens comme professeur invité dans plusieurs Masters RH, sur la technologie RH,
-  l’IA et la transformation digitale, et j’accompagne des étudiants et de jeunes professionnels
-  qui circulent entre les RH et la technologie.</p>
+  l’IA et la transformation digitale. J’accompagne aussi des étudiants et de jeunes
+  professionnels qui naviguent entre les RH et la technologie, un chemin que je connais un
+  peu.</p>
   <p>Les collaborations académiques (conception de cours, interventions, participation à des
   jurys) sont bienvenues et peuvent être discutées directement.</p>
 </div>
@@ -126,7 +132,7 @@ breadcrumbs:
 
 <div class="callout">
   <p class="callout__label">Inviter Ahmed</p>
-  <p>Indiquez le public, le format et la période envisagée. Si l’adéquation est bonne, je vous
-  le dirai rapidement ; si elle ne l’est pas, je vous le dirai aussi.</p>
+  <p>Dites-moi qui sera dans la salle, le format et la période envisagée. Je vous dirai
+  rapidement si je suis la bonne personne pour cette intervention.</p>
   <p><a class="link-arrow" href="/fr/contact/">Proposer une intervention<span aria-hidden="true"> &rarr;</span></a></p>
 </div>

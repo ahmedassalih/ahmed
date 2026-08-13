@@ -8,9 +8,9 @@ seo_title: "À propos d’Ahmed Assalih | Ingénieur, dirigeant RH, bâtisseur d
 eyebrow: À propos d’Ahmed
 heading: L’ingénieur dans le comité exécutif
 lead: >-
-  J’ai passé vingt-cinq ans à circuler entre trois mondes qui se croisent rarement : la
-  technologie, les ressources humaines et la direction d’entreprise. Ce que je fais de mieux
-  se joue dans la traduction entre les trois.
+  Mon parcours est passé par plusieurs univers que l’on tient généralement séparés :
+  l’ingénierie, les RH, l’entrepreneuriat et la direction d’entreprise. Voici comment cela
+  s’est enchaîné.
 description: >-
   Ahmed Assalih, dirigeant de la transformation RH et de l’IA. Ingénieur ENSEEIHT, ancien
   responsable RH d’un groupe aérien, entrepreneur, dirigeant régional chez Sopra HR, auteur
@@ -25,15 +25,14 @@ breadcrumbs:
 ---
 
 <div class="measure">
-  <p>Ingénieur de formation, j’ai commencé ma carrière en 2001 dans les technologies RH à
-  Royal Air Maroc, en déployant des systèmes RH et en pilotant une équipe mixte de développeurs
-  et d’experts RH, deux populations qui ne partagent pas spontanément le même vocabulaire.
-  Cette position entre les deux n’a jamais vraiment changé. Seule l’échelle a changé.</p>
-  <p>Depuis, j’ai déployé des systèmes RH pour un groupe et ses filiales, dirigé le Talent puis
-  la fonction RH d’un groupe aérien de plus de 6 000 collaborateurs, fondé et dirigé des
-  activités de conseil, et construit une Business Unit régionale de transformation RH depuis la
-  première présentation jusqu’au programme livré. J’enseigne, j’interviens en conférence et
-  j’écris.</p>
+  <p>J’ai été formé comme ingénieur à l’ENSEEIHT à Toulouse et je pensais travailler dans la
+  technologie. En 2001, je suis entré à Royal Air Maroc du côté des systèmes RH, et je suis
+  resté depuis quelque part entre la technologie et les personnes.</p>
+  <p>Depuis, j’ai implanté des systèmes RH dans un groupe et ses filiales, dirigé le recrutement
+  et le Talent, pris la tête d’un département RH de plus de 6 000 collaborateurs, monté mon
+  cabinet de conseil, participé à en construire un autre, puis créé une activité régionale de
+  transformation chez Sopra HR. J’enseigne et j’écris aussi désormais, ce qui est venu plus tard
+  et a changé ma façon de regarder tout le reste.</p>
 </div>
 
 <h2>Un parcours hybride</h2>
@@ -41,18 +40,18 @@ breadcrumbs:
 <div class="stack stack--3">
   <div class="panel">
     <h3 class="panel__title">La technologie d’abord</h3>
-    <p>Architecture SIRH, intégrations et modèles de données, appris en les construisant et
-    en les exploitant.</p>
+    <p>J’ai appris les systèmes RH en les construisant : modules, interfaces, données, et les
+    désaccords entre DSI et RH qui vont avec.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Puis les personnes</h3>
-    <p>Talent, recrutement, relations sociales et direction RH d’une organisation
-    opérationnelle exigeante.</p>
+    <p>Recrutement, Talent, relations sociales, puis la direction RH d’un groupe aérien, avec
+    tout ce que cela implique dans une activité qui ne s’arrête jamais.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Puis le business</h3>
-    <p>Entrepreneuriat, direction d’activité conseil, responsabilité P&amp;L et création d’une
-    Business Unit régionale de transformation.</p>
+    <p>Deux activités de conseil et une activité régionale de transformation, où il fallait
+    vendre le travail, le livrer et répondre des chiffres.</p>
   </div>
 </div>
 
@@ -132,9 +131,11 @@ breadcrumbs:
 <h2>Qu’est-ce qui relie tout cela ?</h2>
 
 <div class="measure">
-  <p>Chaque étape a été un problème de traduction. De la technologie vers les personnes. Des
-  personnes vers le business. Du business vers la transformation. Et aujourd’hui de la
-  transformation vers la transmission: enseigner et écrire ce que le terrain m’a appris.</p>
+  <p>Avec le recul, chaque étape posait le même problème sous une forme nouvelle : amener
+  deux groupes qui ne voient pas la situation de la même façon à se mettre d’accord sur ce
+  qu’il faut faire. Les ingénieurs et les RH. Les RH et le business. Le business et ceux qui
+  devront vivre avec la décision. Enseigner et écrire sont venus en dernier, et m’obligent à
+  être plus clair que ne l’a jamais fait un projet.</p>
 </div>
 
 <ul class="chain">
@@ -146,9 +147,9 @@ breadcrumbs:
 </ul>
 
 <div class="measure">
-  <p>C’est ce qui permet à un directeur général, à un DRH et à un DSI de reconnaître chacun une
-  part de son propre problème dans la même conversation. Une transformation complexe vit dans
-  l’espace entre leurs trois agendas, et c’est là que les programmes sont les plus exposés.</p>
+  <p>C’est sans doute pour cela qu’un directeur général, un DRH et un DSI retrouvent chacun
+  une part de leur propre problème dans la même conversation avec moi. L’essentiel de la
+  difficulté se joue entre leurs trois agendas plutôt qu’à l’intérieur de l’un d’eux.</p>
 </div>
 
 <h2>Formation &amp; parcours singulier</h2>
@@ -181,21 +182,22 @@ breadcrumbs:
 </div>
 
 <div class="measure">
-  <p>Les mathématiques ne sont pas un détail décoratif. C’est de là que vient la méthode de
-  travail : poser le problème avec précision, séparer ce que l’on sait de ce que l’on suppose,
-  et refuser une solution qui ne tient que si l’on ne regarde pas de trop près.</p>
+  <p>Les mathématiques ne sont pas une ligne décorative sur un CV. C’est de là que viennent
+  mes habitudes de travail : poser le problème avec précision, séparer ce que l’on sait de ce
+  que l’on suppose, et se méfier d’une solution qui ne tient que si personne ne regarde de trop
+  près.</p>
 </div>
 
 <h2>Auteur &amp; professeur</h2>
 
 <div class="measure">
-  <p><em>La Mort des Skills</em> (2026) défend une idée simple : l’IA révèle les limites des
-  modèles de talent fondés sur les compétences, et une organisation qui ne lit que les
-  compétences visibles et actuelles ne voit ni le potentiel, ni l’adaptabilité, ni la
-  trajectoire, ni la vitesse d’apprentissage.</p>
-  <p>J’enseigne dans des Masters RH et en executive education, et j’interviens en conférence sur
-  l’IA, la transformation RH et le futur du travail. La matière vient des systèmes et des
-  programmes sur lesquels j’ai travaillé.</p>
+  <p>Pendant l’essentiel de ma carrière, les systèmes RH ont décrit les personnes par des
+  postes, des compétences et des référentiels. Ces modèles ont rendu service. L’IA me pousse à
+  en questionner les limites, et <em>La Mort des Skills</em> (2026) est né de cette
+  question.</p>
+  <p>J’enseigne aussi dans des Masters RH et en executive education, et j’interviens en
+  conférence sur l’IA, la transformation RH et l’évolution du travail. J’y utilise la matière
+  sur laquelle je travaille dans la semaine.</p>
 </div>
 
 <div class="stack stack--3">

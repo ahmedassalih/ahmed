@@ -8,8 +8,8 @@ seo_title: "Idées | Méthode, frameworks et analyses d’Ahmed Assalih"
 eyebrow: Idées
 heading: Ma façon de poser le problème
 lead: >-
-  L’expertise, c’est ce que j’ai fait. Voici comment je le pense : la méthode avec laquelle
-  je travaille, les frameworks du livre, et les analyses où je confronte les deux au terrain.
+  L’expertise, c’est ce que j’ai fait. Voici ce que j’en tire : ma façon de travailler, les
+  frameworks du livre, et les analyses où je confronte les deux au terrain.
 description: >-
   La Méthode Ingénieur-Logicien, les frameworks de La Mort des Skills et les analyses en cours
   sur la transformation RH, l’IA et le futur du travail.
@@ -25,9 +25,9 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">La Méthode Ingénieur-Logicien</p>
     <div class="deflist__desc">
-      <p>Pourquoi une transformation complexe échoue lorsque stratégie, architecture, données,
-      processus et adoption sont traités comme des projets séparés, et la séquence en trois
-      temps que j’utilise : diagnostiquer, architecturer, faire vivre.</p>
+      <p>Ma façon d’aborder une transformation quand elle rencontre des difficultés :
+      comprendre où se situe le problème, définir comment les pièces s’articulent, puis faire
+      vivre le résultat.</p>
       <p><a class="link-arrow" href="/fr/idees/methode-ingenieur-logicien/">Lire la méthode<span aria-hidden="true"> &rarr;</span></a></p>
     </div>
   </div>

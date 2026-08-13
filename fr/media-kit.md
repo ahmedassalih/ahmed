@@ -96,8 +96,7 @@ breadcrumbs:
 <h2>Positionnement conférencier</h2>
 
 <div class="measure">
-  <p>Ahmed parle depuis la pratique et non depuis le commentaire : la matière vient de
-  programmes de transformation qu’il a dirigés, de systèmes qu’il a architecturés et d’une
+  <p>Ahmed s’appuie sur des programmes qu’il a dirigés, des systèmes qu’il a construits et une
   fonction RH qu’il a dirigée. Les interventions sont assurées en français ou en anglais.</p>
   <p>Thèmes principaux : l’IA et le futur du travail ; <em>La Mort des Skills</em> ; Fortress,
   Front Line, Laboratory ; Time-to-Skill ; Pay-for-Agility ; repenser les architectures de

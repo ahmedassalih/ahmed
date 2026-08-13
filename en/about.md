@@ -8,9 +8,9 @@ seo_title: "About Ahmed Assalih | Engineer, HR leader, Business Unit builder"
 eyebrow: About Ahmed
 heading: The engineer in the boardroom
 lead: >-
-  I have spent twenty-five years moving between three worlds that rarely meet: technology,
-  human resources and business leadership. What I do best sits in the translation between
-  them.
+  My career has moved through several worlds that are usually kept apart: engineering, HR,
+  entrepreneurship and business leadership. This is how that happened, more or less in
+  order.
 description: >-
   Ahmed Assalih is an Executive HR Transformation & AI Strategist. Engineer from ENSEEIHT,
   former Head of HR of an airline group, entrepreneur, regional business leader at Sopra HR,
@@ -25,14 +25,14 @@ breadcrumbs:
 ---
 
 <div class="measure">
-  <p>I trained as an engineer and started my career in 2001 in HR technology at Royal Air
-  Maroc, deploying HR systems and leading a mixed team of developers and HR experts, two groups
-  that do not naturally share a vocabulary. That position between them never really changed.
-  Only the scale did.</p>
-  <p>Since then I have deployed HR systems across a group and its subsidiaries, led talent and
-  then the HR function of an airline group of more than 6,000 employees, founded and run
-  consulting businesses, and built a regional HR Transformation Business Unit from the first
-  slide to the delivered programme. Today I also teach, speak and write.</p>
+  <p>I trained as an engineer at ENSEEIHT in Toulouse and expected to work in technology. In
+  2001 I joined Royal Air Maroc on the HR systems side, and I have been somewhere between
+  technology and people ever since.</p>
+  <p>Since then I have implemented HR systems across a group and its subsidiaries, run
+  recruitment and talent, led an HR department of more than 6,000 employees, started my own
+  consulting business, helped build another, and created a regional transformation activity at
+  Sopra HR. I teach and write as well now, which came later and changed how I think about all
+  of it.</p>
 </div>
 
 <h2>The hybrid journey</h2>
@@ -40,18 +40,18 @@ breadcrumbs:
 <div class="stack stack--3">
   <div class="panel">
     <h3 class="panel__title">Technology first</h3>
-    <p>HRIS architecture, integrations and data models, learned by building and running
-    them.</p>
+    <p>I learned HR systems by building them: modules, interfaces, data, and the arguments
+    between IT and HR that come with all three.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Then the people</h3>
-    <p>Talent, recruitment, social relations and HR leadership for a large operational
-    organisation under real constraints.</p>
+    <p>Recruitment, talent, social relations and finally the HR department of an airline group,
+    with everything that implies in a 24/7 business.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Then the business</h3>
-    <p>Entrepreneurship, consulting leadership, P&amp;L ownership and the creation of a regional
-    transformation Business Unit.</p>
+    <p>Two consulting businesses and a regional transformation activity, where I had to sell
+    the work, deliver it and answer for the numbers.</p>
   </div>
 </div>
 
@@ -130,9 +130,10 @@ breadcrumbs:
 <h2>What connects the dots?</h2>
 
 <div class="measure">
-  <p>Each move was a translation problem. From technology to people. From people to business.
-  From business to transformation. And now from transformation to transmission: teaching and
-  writing what the field has taught me.</p>
+  <p>Looking back, each move was really the same problem in a new form: getting two groups
+  who see a situation differently to agree on what to do. Engineers and HR people. HR and the
+  business. The business and the people who will have to live with the decision. Teaching and
+  writing came last, and they force me to be clearer than any project ever did.</p>
 </div>
 
 <ul class="chain">
@@ -144,9 +145,9 @@ breadcrumbs:
 </ul>
 
 <div class="measure">
-  <p>It is why a CEO, a CHRO and a CIO can each recognise something of their own problem in the
-  same conversation. Complex transformation lives in the space between their three agendas,
-  and that space is where programmes are most exposed.</p>
+  <p>It is probably why a CEO, a CHRO and a CIO can each find something of their own problem
+  in the same conversation with me. Most of the difficulty in a large transformation sits
+  between their three agendas rather than inside any one of them.</p>
 </div>
 
 <h2>Education &amp; background</h2>
@@ -179,20 +180,20 @@ breadcrumbs:
 </div>
 
 <div class="measure">
-  <p>The mathematics is not a decorative detail. It is where the working method comes from:
-  state the problem precisely, separate what is known from what is assumed, and refuse a
-  solution that only works if you do not look closely.</p>
+  <p>The mathematics is not decoration on a CV. It is where my working habits come from:
+  state the problem precisely, separate what you know from what you are assuming, and distrust
+  a solution that only holds if nobody looks too closely.</p>
 </div>
 
 <h2>Author &amp; professor</h2>
 
 <div class="measure">
-  <p><em>The Death of Skills</em> (2026) argues that AI is exposing the limits of skills-based
-  talent models, and that organisations relying only on visible, current skills cannot see
-  potential, adaptability, trajectory or learning velocity.</p>
-  <p>I teach on HR Master's programmes and in executive settings, and speak at conferences on
-  AI, HR transformation and the future of work. The material is grounded in the systems and
-  programmes I have worked on.</p>
+  <p>For most of my career, HR systems have described people through jobs, competencies and
+  skills. Those models have been useful. AI is making me question where their limits are, and
+  <em>The Death of Skills</em> (2026) came out of that question.</p>
+  <p>I also teach on HR Master's programmes and in executive settings, and speak at conferences
+  on AI, HR transformation and how work is changing. I use the same material I work with during
+  the week.</p>
 </div>
 
 <div class="stack stack--3">

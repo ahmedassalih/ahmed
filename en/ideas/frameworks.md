@@ -23,9 +23,9 @@ breadcrumbs:
 ---
 
 <div class="measure">
-  <p>A skills inventory describes what people can do today. It says much less about how
-  quickly they could do something else, how much of their current capability is exposed to
-  automation, or where the trajectory they are on actually leads.</p>
+  <p>These came out of the same question the book asks. A skills inventory describes what
+  people can do today, but says much less about how quickly they could do something else, how
+  much of what they do is exposed to automation, or where they are heading.</p>
   <p>These five frameworks are developed in <a href="/en/book/"><em>The Death of Skills</em></a>.
   What follows is an overview, not the book.</p>
 
@@ -42,9 +42,9 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Potential Stack</p>
     <div class="deflist__desc">
-      <p>A layered way of reading a person: demonstrated skills sit on top, but underneath sit
-      learning capability, adaptability and the conditions under which that person performs.
-      Reading only the top layer leaves the more useful questions unanswered.</p>
+      <p>I use this one to read a person in layers. Demonstrated skills sit on top, and
+      underneath them sit learning capability, adaptability and the conditions in which that
+      person actually performs well.</p>
       <span class="deflist__meta">Management question: what is this person capable of becoming, not only what can they do now?</span>
     </div>
   </div>
@@ -52,9 +52,9 @@ breadcrumbs:
   <div class="deflist__row">
     <p class="deflist__term">Time-to-Skill</p>
     <div class="deflist__desc">
-      <p>Treats capability as a duration rather than a state. If a needed skill can be acquired
-      in six weeks, it is a scheduling question. If it takes three years, it is a strategic
-      one, and hiring, buying or partnering become different decisions.</p>
+      <p>This one treats capability as a duration rather than a state. If a team can pick
+      something up in six weeks, it is a planning question. If it takes three years, it becomes
+      a strategic one, and hiring, buying or partnering start to look different.</p>
       <span class="deflist__meta">Management question: how long, realistically, until we have this capability?</span>
     </div>
   </div>
@@ -98,11 +98,11 @@ breadcrumbs:
 <h2>How they connect to AI</h2>
 
 <div class="measure">
-  <p>AI is changing the half-life of a skill and the economics of acquiring one. That shift
-  puts pressure on an assumption sitting underneath many talent architectures: that a current
-  inventory of skills is a reasonable proxy for future capability.</p>
-  <p>The frameworks are attempts to build a talent model on things that stay useful when that
-  assumption weakens: potential, duration, posture, direction and adaptability.</p>
+  <p>AI is changing how long a skill stays relevant and what it costs to acquire a new one.
+  That puts pressure on an assumption sitting underneath a lot of talent work: that what people
+  can do today is a fair guide to what they will be able to do next.</p>
+  <p>In the book I use these five to look at what holds up better when that assumption
+  weakens.</p>
 </div>
 
 <div class="stack stack--2">

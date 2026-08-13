@@ -8,8 +8,8 @@ seo_title: "Speaking & Teaching | Keynotes, masterclasses and university program
 eyebrow: Speaking & Teaching
 heading: I teach what I have practised
 lead: >-
-  Speaking grounded in operating experience rather than trend commentary: on AI, skills,
-  HR transformation and the future of work.
+  My talks and classes draw on the same mix that shaped my career: HR leadership, technology,
+  building a business, and transformation work across several countries.
 description: >-
   Keynotes, masterclasses, workshops and university teaching by Ahmed Assalih on AI, the future
   of work, skills, HR transformation and HR technology.
@@ -21,11 +21,13 @@ breadcrumbs:
 ---
 
 <div class="measure">
-  <p>My speaking is grounded in operating experience: HR leadership, technology architecture,
-  business building and multi-country transformation. The objective is practical insight rather
-  than trend commentary.</p>
-  <p>Sessions are prepared for the specific audience. An executive committee, a CHRO team and a
-  Master's cohort need the same honesty and three different conversations.</p>
+  <p>My talks and classes draw on the same mix that shaped my career: HR leadership,
+  technology, building a business and transformation work across different countries.</p>
+  <p>I try to make the discussion useful for the people in the room. The aim is not to add
+  another presentation about AI or the future of work. It is to leave leaders with practical
+  questions they can take back to their own organisation.</p>
+  <p>I prepare each session for the audience. An executive committee, a CHRO team and a
+  Master's cohort need three quite different conversations.</p>
 </div>
 
 <h2>Audiences</h2>
@@ -44,40 +46,42 @@ breadcrumbs:
 <div class="stack stack--2">
   <div class="panel">
     <h3 class="panel__title">AI and the future of work</h3>
-    <p>What changes in an organisation when the half-life of a skill collapses, and which of
-    today's talent practices stop working.</p>
+    <p>What actually changes in an organisation when AI enters everyday work, and which HR
+    practices need rethinking.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">The Death of Skills</h3>
-    <p>The book's argument, delivered for an executive audience: potential, adaptability,
-    trajectory and learning velocity as management objects.</p>
+    <p>Why organisations need to look beyond current skills to understand potential,
+    adaptability and the ability to learn.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Fortress, Front Line, Laboratory</h3>
-    <p>Three deliberate postures towards AI, and how to decide which part of the organisation
-    gets which.</p>
+    <p>Three different ways of approaching AI, and how to decide which one suits which part of
+    the organisation.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Time-to-Skill and Pay-for-Agility</h3>
-    <p>Treating capability as a duration, and asking what reward systems are actually buying.</p>
+    <p>How quickly can an organisation build the capabilities it needs, what gets in the way,
+    and what should it reward when roles change faster?</p>
   </div>
   <div class="panel">
-    <h3 class="panel__title">Rethinking skills architectures</h3>
-    <p>Taxonomies, ontologies and why two well-built systems still disagree about what a skill
-    is.</p>
+    <h3 class="panel__title">Rethinking skills frameworks</h3>
+    <p>Why two well-built HR systems still disagree about what a skill is, and what to do about
+    it.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">HR transformation</h3>
-    <p>Why complex programmes drift, what the early signals are, and how governance either
-    saves or sinks them.</p>
+    <p>Why large programmes drift, what the early signals look like, and what leaders can do
+    about it.</p>
   </div>
   <div class="panel">
-    <h3 class="panel__title">HRIS in the AI era</h3>
-    <p>Architecture, data and integration as the real constraint on any AI ambition.</p>
+    <h3 class="panel__title">HR systems in the AI era</h3>
+    <p>What changes in HR technology when AI becomes part of everyday HR processes.</p>
   </div>
   <div class="panel">
     <h3 class="panel__title">Responsible AI for HR</h3>
-    <p>Governance, transparency and the boundary between decision support and decision making.</p>
+    <p>Which data is used, who stays responsible for the decision, and what human oversight
+    looks like in practice.</p>
   </div>
 </div>
 
@@ -96,8 +100,8 @@ breadcrumbs:
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Workshop</p>
-    <div class="deflist__desc"><p>Half day. A leadership team working through a specific
-    decision: a target model, a technology choice, a talent architecture.</p></div>
+    <div class="deflist__desc"><p>Half day. A leadership team working through a decision
+    they actually have to make, such as a technology choice or how HR should be organised.</p></div>
   </div>
   <div class="deflist__row">
     <p class="deflist__term">Round table</p>
@@ -109,9 +113,9 @@ breadcrumbs:
 <h2>Teaching</h2>
 
 <div class="measure">
-  <p>I teach as a guest professor on several HR Master's programmes, on HR technology, AI and
-  digital transformation, and mentor students and younger professionals moving between HR and
-  technology.</p>
+  <p>I teach as a guest professor on several HR Master's programmes, on HR technology, AI
+  and digital transformation. I also mentor students and younger professionals who are moving
+  between HR and technology, which is a path I know something about.</p>
   <p>Academic collaborations (course design, guest lectures, jury participation) are welcome
   and can be discussed directly.</p>
 </div>
@@ -124,7 +128,7 @@ breadcrumbs:
 
 <div class="callout">
   <p class="callout__label">Invite Ahmed</p>
-  <p>Tell me the audience, the format and roughly when. If the fit is right I will say so
-  quickly; if it is not, I will say that too.</p>
+  <p>Tell me who will be in the room, the format and roughly when. I will tell you quickly
+  whether I am the right person for it.</p>
   <p><a class="link-arrow" href="/en/contact/">Request a speaking conversation<span aria-hidden="true"> &rarr;</span></a></p>
 </div>
