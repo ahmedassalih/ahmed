@@ -4,15 +4,15 @@ permalink: /fr/contact/
 lang: fr
 translation_key: contact
 title: Contact
-seo_title: "Contacter Ahmed Assalih | Direction, conseil, conférences, enseignement"
+seo_title: "Contacter Ahmed Assalih | Conseil, conférences, enseignement"
 eyebrow: Contact
 heading: Engager la conversation
 lead: >-
-  Ouvert à des opportunités de direction sélectionnées, des missions stratégiques, des
-  conférences et des collaborations académiques sur la zone EMEA.
+  Ouvert à des missions stratégiques sélectionnées, des conférences et des collaborations
+  académiques sur la zone EMEA.
 description: >-
-  Contacter Ahmed Assalih pour une opportunité de direction, une mission de conseil ou de
-  transformation, une conférence ou une collaboration académique.
+  Contacter Ahmed Assalih pour une mission de conseil ou de transformation, une conférence ou
+  une collaboration académique.
 wide: true
 breadcrumbs:
   - label: Accueil
@@ -22,10 +22,9 @@ breadcrumbs:
 <div class="stack stack--2">
   <div>
     <div class="measure">
-      <p>Pour échanger sur une opportunité de direction, un projet de transformation, une
-      conférence ou une collaboration académique, vous pouvez m’écrire ici. Les messages me
-      parviennent directement, et un peu de contexte sur votre situation et votre calendrier
-      m’aide à vous répondre utilement.</p>
+      <p>Pour échanger sur un projet de transformation, une conférence ou une collaboration
+      académique, vous pouvez m’écrire ici. Les messages me parviennent directement, et un peu
+      de contexte sur votre situation et votre calendrier m’aide à vous répondre utilement.</p>
     </div>
 
     <form class="form" action="{{ site.forms.contact_action }}" method="POST">
@@ -51,7 +50,6 @@ breadcrumbs:
       <div class="field">
         <label class="field__label" for="reason">Motif du contact <span class="field__req" aria-hidden="true">*</span></label>
         <select id="reason" name="reason" required>
-          <option value="Opportunité de direction">Opportunité de direction</option>
           <option value="Conseil / transformation stratégique">Conseil / transformation stratégique</option>
           <option value="Conférence / média">Conférence / média</option>
           <option value="Enseignement / collaboration académique">Enseignement / collaboration académique</option>
@@ -72,11 +70,6 @@ breadcrumbs:
   <div>
     <h2>Les sujets qui reviennent</h2>
     <div class="deflist">
-      <div class="deflist__row">
-        <p class="deflist__term">Direction &amp; leadership</p>
-        <div class="deflist__desc"><p>Postes de direction régionaux et internationaux en
-        transformation RH, technologie RH et direction d’activité.</p></div>
-      </div>
       <div class="deflist__row">
         <p class="deflist__term">Conseil</p>
         <div class="deflist__desc"><p>Modèle opérationnel cible, choix de solution, diagnostic

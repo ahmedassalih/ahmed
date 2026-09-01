@@ -4,15 +4,14 @@ permalink: /en/contact/
 lang: en
 translation_key: contact
 title: Contact
-seo_title: "Contact Ahmed Assalih | Executive, advisory, speaking and teaching"
+seo_title: "Contact Ahmed Assalih | Advisory, speaking and teaching"
 eyebrow: Contact
 heading: Start a conversation
 lead: >-
-  Open to selected executive opportunities, strategic assignments, speaking and academic
-  collaborations across EMEA.
+  Open to selected strategic assignments, speaking and academic collaborations across EMEA.
 description: >-
-  Contact Ahmed Assalih about executive opportunities, strategic transformation and advisory,
-  speaking and media, or teaching and academic collaboration.
+  Contact Ahmed Assalih about strategic transformation and advisory, speaking and media, or
+  teaching and academic collaboration.
 wide: true
 breadcrumbs:
   - label: Home
@@ -22,10 +21,9 @@ breadcrumbs:
 <div class="stack stack--2">
   <div>
     <div class="measure">
-      <p>If you would like to discuss an executive opportunity, a transformation challenge, a
-      speaking engagement or an academic collaboration, you can write to me here. Messages come
-      straight to me, and a little context about your situation and timing helps me give you a
-      useful answer.</p>
+      <p>If you would like to discuss a transformation challenge, a speaking engagement or an
+      academic collaboration, you can write to me here. Messages come straight to me, and a
+      little context about your situation and timing helps me give you a useful answer.</p>
     </div>
 
     <form class="form" action="{{ site.forms.contact_action }}" method="POST">
@@ -51,7 +49,6 @@ breadcrumbs:
       <div class="field">
         <label class="field__label" for="reason">Reason for contact <span class="field__req" aria-hidden="true">*</span></label>
         <select id="reason" name="reason" required>
-          <option value="Executive opportunity">Executive opportunity</option>
           <option value="Strategic advisory / transformation">Strategic advisory / transformation</option>
           <option value="Speaking / media">Speaking / media</option>
           <option value="Teaching / academic collaboration">Teaching / academic collaboration</option>
@@ -72,11 +69,6 @@ breadcrumbs:
   <div>
     <h2>What people write about</h2>
     <div class="deflist">
-      <div class="deflist__row">
-        <p class="deflist__term">Executive &amp; leadership</p>
-        <div class="deflist__desc"><p>Regional and international executive roles in HR
-        transformation, HR technology and business leadership.</p></div>
-      </div>
       <div class="deflist__row">
         <p class="deflist__term">Advisory</p>
         <div class="deflist__desc"><p>Target operating model, technology selection, programme

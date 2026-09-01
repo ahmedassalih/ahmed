@@ -185,10 +185,9 @@ en:
   contact:
     heading: Start a conversation
     intro: >-
-      I am open to selected executive opportunities, strategic assignments, speaking and
-      academic collaborations across EMEA. If any of that fits, write to me.
+      I am open to selected strategic assignments, speaking and academic collaborations
+      across EMEA. If any of that fits, write to me.
     intentions:
-      - Executive and leadership opportunities
       - Strategic transformation and advisory
       - Speaking and media
       - Teaching and academic collaboration
@@ -382,11 +381,9 @@ fr:
   contact:
     heading: Engager la conversation
     intro: >-
-      Je suis ouvert à des opportunités de direction, des missions stratégiques, des
-      conférences et des collaborations académiques sur la zone EMEA. Si l’un de ces sujets vous
-      concerne, écrivez-moi.
+      Je suis ouvert à des missions stratégiques, des conférences et des collaborations
+      académiques sur la zone EMEA. Si l’un de ces sujets vous concerne, écrivez-moi.
     intentions:
-      - Opportunités de direction
       - Conseil et transformation stratégique
       - Conférences et médias
       - Enseignement et collaboration académique
